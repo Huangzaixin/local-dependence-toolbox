@@ -3,7 +3,7 @@ This Matlab toolbox helps readers to reproduce sections 3,4,5 in the paper "Gene
 
 # Description
 1. Folder<br/>
-   "Data": data. <br/>
+   "Data": data used in the real example. <br/>
    "Estimation of mixture copulas" : codes for estimating Archimedean mixture copula models and Patton's SJC copula. <br/>
    "Simulation study" : codes for reproducing the simulation results. <br/>
 
@@ -15,8 +15,8 @@ This Matlab toolbox helps readers to reproduce sections 3,4,5 in the paper "Gene
    type_II_local_tau_surface.m : Type II local Kendall's tau surface.<br/>
    fun_ldcopula_general.m : function for calculating Type I local Kendall's tau of the copula model.<br/>
    fun_ldcopula_type_II : function for calculating Type II local Kendall's tau of the copula model.<br/>
-   fun_ldcopulasurf_general.m : function for drawing Type I local Kendall's tau surface of a copula.<br/>
-   fun_ldcopulasurf_type_II.m : function for drawing Type II local Kendall's tau surface of a copula.<br/>
+   fun_ldcopulasurf_general.m : function for drawing Type I local Kendall's tau surface of a copula model.<br/>
+   fun_ldcopulasurf_type_II.m : function for drawing Type II local Kendall's tau surface of a copula model.<br/>
    fun_sampleld_general.m : function for calculating Type I local Kendall's tau in certain local region for sample data.<br/>
    fun_sampleld_type_II.m : function for calculating Type II local Kendall's tau in certain local region for sample data.<br/>
    fun_sampleldsurf_general.m : function for drawing Type I local Kendall's tau surface for sample data.<br/>
