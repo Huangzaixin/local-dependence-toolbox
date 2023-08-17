@@ -4,7 +4,7 @@ This Matlab toolbox helps readers to reproduce sections 3,4,5 in the paper "Gene
 # Description
 1. Folder<br/>
    "Data": data used in the real example. <br/>
-   "Estimation of mixture copulas" : codes for estimating Archimedean mixture copula models and Patton's SJC copula. <br/>
+   "Estimation of mixture copulas" : codes for estimating Archimedean mixture copula models. <br/>
    "Simulation study" : codes for reproducing the simulation results. <br/>
 
 2. File description<br/>
