@@ -1,7 +1,8 @@
 # local-dependence-toolbox
 This Matlab toolbox helps readers to reproduce sections 3,4,5 in the paper "Generalized Local Kendall’s Tau: A Nonlinear Local Dependence Framework".
 
-1. Folder description
+# Description
+1. Folder
    "Data": data.
    "Estimation of mixture copulas" : codes for estimating Archimedean mixture copula models and Patton's SJC copula.
    "Simulation study" : codes for reproducing the simulation results. 
@@ -23,7 +24,7 @@ This Matlab toolbox helps readers to reproduce sections 3,4,5 in the paper "Gene
    fun_u_statistic_based_ld_general.m : function for calculating Type I local Kendall's tau based on U-statistic.
    fun_u_statistic_based_ld_type_II.m : function for calculating Type II local Kendall's tau based on U-statistic.
    
-4. Author: Zaixin Huang
+3. Author: Zaixin Huang
    Email: eric.huangzaixin@gmail.com
    This version: 2023.01.01
    Notes: This toolbox is only free for scholars and students who use it for research purposes and cannot be used for commercial purposes.
