@@ -27,7 +27,6 @@ This Matlab toolbox helps readers to reproduce sections 3,4,5 in the paper "Gene
 # Author Information
    Author: Zaixin Huang<br/>
    Email: eric.huangzaixin@gmail.com<br/>
-   This version: 2023.01.01<br/>
    Notes: This toolbox is only free for scholars and students who use it for research purposes and cannot be used for commercial purposes.
 
 
