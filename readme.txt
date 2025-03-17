@@ -18,5 +18,5 @@ This Matlab toolbox helps readers to reproduce Sections 5,6,7,and 8 in the paper
 
 4. Update History
    this version: 2025.03.16
-   main updated versions: 2018.01.04, 2023.01.01
+   updated versions: 2018.01.04, 2023.01.01
    first version: 2015.06.07
