@@ -123,6 +123,9 @@ gamma_FAM171A2$loglik   # 107.35
 # lognormal
 lognormal_FAM171A2 <- fitdist(FAM171A2_data, "lnorm", "mle")
 lognormal_FAM171A2$loglik   # 111.59
+# weibull
+weibull_FAM171A2 <- fitdist(FAM171A2_data, "weibull", "mle")  
+weibull_FAM171A2$loglik   # -122.70
 # inverse gaussian
 invgauss_FAM171A2 <- mlinvgauss(FAM171A2_data)
 logLik(invgauss_FAM171A2)   # 111.42
@@ -131,6 +134,9 @@ logis_FAM171A2 <- fitdist(FAM171A2_data, "logis", "mle")
 logis_FAM171A2$loglik   # 157.93
 
 # total α-syn
+# student's t
+t_alpha_syn <- fitdistr(alpha_syn_data, "t")
+t_alpha_syn$loglik   # -3367.75
 # gamma
 gamma_alpha_syn <- fitdist(alpha_syn_data, "gamma", "mle")  
 gamma_alpha_syn$loglik   # -3339.53
@@ -149,20 +155,28 @@ logis_alpha_syn$loglik  # -3374.47
 
 
 ####################### histogram and probability density curve ###################### 
-# FAM171A2 level
-hist_FAM171A2 <- hist(FAM171A2_data, breaks = 40, freq = FALSE, xlim = c(7,9.6), ylim = c(0,4),
-                      main = "Histogram of FAM171A2 level", xlab = "FAM171A2", ylab = "density", col = "lightblue", border = "black")
+# FAM171A2 level  
+par(cex.axis = 0.7, cex.lab = 0.7, cex.main = 1)
+hist_FAM171A2 <- hist(FAM171A2_data, breaks = 40, freq = FALSE, xlim = c(7,9.6), ylim = c(0,3.2),
+                      main = "Histogram of CSF FAM171A2 level", xlab = "FAM171A2 level", 
+                      ylab = "density", col = "lightblue", border = "black") 
 x <- seq(7,9.6, by = 0.01)
 lines(x,dgamma(x,shape = gamma_FAM171A2$estimate[1],rate = gamma_FAM171A2$estimate[2]), 
       type = "l", lty = 2, col = "black", lwd = 2)
-lines(x,dlogis(x, location = logis_FAM171A2$estimate[1], scale = logis_FAM171A2$estimate[2]), 
-      type = "l", lty = 3, col = "purple", lwd = 2)
 lines(x,dlnorm(x,meanlog = lognormal_FAM171A2$estimate[1],sdlog = lognormal_FAM171A2$estimate[2]), 
-      type = "l", lty = 4, col = "orange", lwd = 2)
+      type = "l", lty = 3, col = "orange", lwd = 2)
+lines(x,dweibull(x,shape = weibull_FAM171A2$estimate[1],scale = weibull_FAM171A2$estimate[2]), 
+      type = "l", lty = 4, col = "#9ACD32", lwd = 2)
 lines(x,dinv.gaussian(x, mu = coefficients(invgauss_FAM171A2)[1], lambda = coefficients(invgauss_FAM171A2)[2]), 
       type = "l", lty = 5, col = "blue", lwd = 2)
+lines(x,dlogis(x, location = logis_FAM171A2$estimate[1], scale = logis_FAM171A2$estimate[2]), 
+      type = "l", lty = 6, col = "purple", lwd = 2)
 t_density <- dt((x - t_FAM171A2$estimate[1]) / t_FAM171A2$estimate[2], t_FAM171A2$estimate[3]) / t_FAM171A2$estimate[2]
 lines(x, t_density, type = "l", lty = 1, col = "red", lwd = 3)
+legend("topright", legend = c("t", "gamma", "lognormal", "weibull", "inverse gaussian", "logistic"),
+       x.intersp = 0.2, y.intersp = 0.09, inset = c(-0.65, -0.35),
+       col = c("red", "black", "orange", "#9ACD32","blue", "purple"),
+       lty = c(1, 2, 3, 4, 5, 6), lwd = c(3, 2, 2, 2, 2, 2), bty = "n", cex = 0.57)
 
 quantile_reg1_FAM171A2_min <- 0
 quantile_reg1_FAM171A2_max <- pt((reg1_FAM171A2_max - t_FAM171A2$estimate[1])/t_FAM171A2$estimate[2], df = t_FAM171A2$estimate[3])
@@ -178,20 +192,28 @@ quantile_reg6_FAM171A2_min <- pt((reg6_FAM171A2_min - t_FAM171A2$estimate[1])/t_
 quantile_reg6_FAM171A2_max <- 1
 
 
-# total α-syn
-hist_alpha_syn <- hist(alpha_syn_data, breaks = 30, freq = FALSE, xlim = c(0,5500), ylim = c(0,0.001), 
-                       main = "Histogram of total α-syn", xlab = "total α-syn", ylab = "density", col = "lightblue", border = "black")
+# total α-syn 
+par(cex.axis = 0.7, cex.lab = 0.7, cex.main = 1)
+hist_alpha_syn <- hist(alpha_syn_data, breaks = 40, freq = FALSE, xlim = c(0,5500), ylim = c(0,0.0009), 
+                       main = TeX("Histogram of CSF total $\\alpha$-syn"), xlab = TeX("total $\\alpha$-syn level"), 
+                       ylab = "density", col = "lightblue", border = "black")
 x <- seq(0, 5500, by = 1)
 lines(x,dgamma(x,shape = gamma_alpha_syn$estimate[1],rate = gamma_alpha_syn$estimate[2]), 
       type = "l", lty = 2, col = "black", lwd = 2)
 lines(x,dweibull(x,shape = weibull_alpha_syn$estimate[1],scale = weibull_alpha_syn$estimate[2]), 
-      type = "l", lty = 3, col = "orange", lwd = 2)
-lines(x,dlogis(x, location = logis_alpha_syn$estimate[1], scale = logis_alpha_syn$estimate[2]), 
-      type = "l", lty = 4, col = "purple", lwd = 2)
+      type = "l", lty = 4, col = "#9ACD32", lwd = 2)
 lines(x,dinv.gaussian(x, mu = coefficients(invgauss_alpha_syn)[1], lambda = coefficients(invgauss_alpha_syn)[2]), 
       type = "l", lty = 5, col = "blue", lwd = 2)
-lines(x,dlnorm(x, meanlog = lognormal_alpha_syn$estimate[1], sdlog = lognormal_alpha_syn$estimate[2]), 
+lines(x,dlogis(x, location = logis_alpha_syn$estimate[1], scale = logis_alpha_syn$estimate[2]), 
+      type = "l", lty = 6, col = "purple", lwd = 2)
+t_density <- dt((x - t_alpha_syn$estimate[1]) / t_alpha_syn$estimate[2], t_alpha_syn$estimate[3]) / t_alpha_syn$estimate[2]
+lines(x, t_density, type = "l", lty = 3, col = "orange", lwd = 2)
+lines(x,dlnorm(x,meanlog = lognormal_alpha_syn$estimate[1],sdlog = lognormal_alpha_syn$estimate[2]), 
       type = "l", lty = 1, col = "red", lwd = 3)
+legend("topright", legend = c("lognormal", "gamma", "weibull", "inverse gaussian", "logistic", "t"),
+       x.intersp = 0.2, y.intersp = 0.09, inset = c(-0.65, -0.35),
+       col = c("red", "black", "#9ACD32", "blue", "purple", "orange"),
+       lty = c(1, 2, 4, 5, 6, 3), lwd = c(3, 2, 2, 2, 2, 2), bty = "n", cex = 0.57)
 
 quantile_reg1_alpha_syn_min <- plnorm(reg1_alpha_syn_min, meanlog = lognormal_alpha_syn$estimate[1], sdlog = lognormal_alpha_syn$estimate[2])
 quantile_reg1_alpha_syn_max <- 1
