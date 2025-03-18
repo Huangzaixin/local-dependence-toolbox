@@ -125,29 +125,30 @@ est_lnor_pareto_deaths <- rightparetolognormal.mle(deaths_data)
 
 #######################  histogram and probability density curve ###################### 
 # cases
-display_upper_bound <- 80000
-hist_cases <- hist(cases_data, breaks = 4000, probability = TRUE, 
-                   xlim = c(0,display_upper_bound), ylim = c(0,0.0003),
+par(cex.axis = 0.7, cex.lab = 0.7, cex.main = 1)
+display_upper_bound <- 30000
+hist_cases <- hist(cases_data, breaks = 2000, probability = TRUE, 
+                   xlim = c(0,display_upper_bound), ylim = c(0,0.0004),
                    xlab = "cumulative cases", ylab = "density", 
-                   col = "lightblue", border = "black", main = "Histogram of cases")
-
+                   col = "lightblue", border = "black", main = "")
 x <- seq(0, display_upper_bound, by = 1)
 lines(x,drightparetolognormal(x, shape2 = est_lnor_pareto_cases$coefficients[3], 
                                  meanlog = est_lnor_pareto_cases$coefficients[1], 
                                  sdlog = est_lnor_pareto_cases$coefficients[2]), 
-                                 type = "l", col = "red", lwd = 2) 
+                                 type = "l", col = "red", lwd = 3) 
 
 # deaths
-display_upper_bound <- 1400
-hist_deaths <- hist(deaths_data, breaks = 5000, probability = TRUE, 
-                   xlim = c(0,display_upper_bound), ylim = c(0,0.02),
+par(cex.axis = 0.7, cex.lab = 0.7, cex.main = 1)
+display_upper_bound <- 600
+hist_deaths <- hist(deaths_data, breaks = 3000, probability = TRUE, 
+                   xlim = c(0,display_upper_bound), ylim = c(0,0.0195),
                    xlab = "cumulative deaths", ylab = "density", 
                    col = "lightblue", border = "black", main = "Histogram of deaths")
 x <- seq(0, display_upper_bound, by = 1)
 lines(x,drightparetolognormal(x, shape2 = est_lnor_pareto_deaths$coefficients[3], 
                               meanlog = est_lnor_pareto_deaths$coefficients[1], 
                               sdlog = est_lnor_pareto_deaths$coefficients[2]), 
-                              type = "l", col = "red", lwd = 2) 
+                              type = "l", col = "red", lwd = 3) 
 
 #######################  probability integral transformation  ###################### 
 # cases
