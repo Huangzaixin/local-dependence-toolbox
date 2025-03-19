@@ -10,11 +10,11 @@ This Matlab toolbox helps readers to reproduce Sections 5,6,7,and 8 in the paper
 
 2. File Description
    see filelist.xlsx
-
+   
 3. Author: Zaixin Huang
    Email: eric.huangzaixin@gmail.com
    Latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
-   If you find any bugs or have suggestions, please contact me at eric.huangzaixin@gmail.com. I will update them on GitHub and acknowledge your contribution. Thank you!
+   If you find any bugs or have suggestions, please contact me. I will update them on GitHub and acknowledge your contribution. Thank you!
 
 4. Update History
    this version: 2025.03.16
