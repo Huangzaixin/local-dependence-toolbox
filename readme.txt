@@ -1,6 +1,6 @@
-# This Matlab toolbox helps readers to reproduce Sections 5,6,7,and 8 in the paper "Generalized local Kendall’s τ: a framework for uncovering nonlinear local dependence".
+## This Matlab toolbox helps readers to reproduce Sections 5,6,7,and 8 in the paper "Generalized local Kendall’s τ: a framework for uncovering nonlinear local dependence".
 
-# 1. Operation Steps: Illustrated with Example 1
+1. Operation Steps: Illustrated with Example 1
    Step 1: run “configuration.m” to add the necessary paths to MATLAB.
    Step 2: run "data examples/example_1/marginal distribution.R" to characterize the distributional features of two variables.
    Step 3: run "copula estimation/main_example_1.m" to estimate the copula model.
