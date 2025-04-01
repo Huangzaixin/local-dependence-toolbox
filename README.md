@@ -20,7 +20,7 @@ This Matlab toolbox helps readers to reproduce all results in Sections 5, 6, 7, 
    Author: Zaixin Huang  
    Email: eric.huangzaixin@gmail.com  
    Latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox  
-   If you find any bugs or have suggestions, please contact me. I will update them on GitHub and # acknowledge your contribution. Thank you!
+   If you find any bugs or have suggestions, please contact me. I will update them on GitHub and acknowledge your contribution. Thank you!
 
 ## 4. Update History  
 
