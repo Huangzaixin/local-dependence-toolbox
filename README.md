@@ -1,6 +1,6 @@
 # local dependence toolbox
 
-This Matlab toolbox helps readers to reproduce all results in the paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence".
+This toolbox helps readers to reproduce all results in the paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence".
 
 ## 1. Operation Steps: Illustrated with Example 1
 
