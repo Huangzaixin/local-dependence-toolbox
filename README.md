@@ -30,4 +30,4 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    
 ## 5. Programming language 
 
-   Matlab and R
+   Matlab, R
