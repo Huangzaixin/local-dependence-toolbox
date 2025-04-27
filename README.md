@@ -22,12 +22,12 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    Latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox  
    If you find any bugs or have suggestions, please contact me. I will update them on GitHub and acknowledge your contribution. Thank you!
 
-## 4. Update History  
+## 4. Programming language 
+
+   Matlab, R
+   
+## 5. Update History  
 
    this version: 2025.03.16  
    updated versions: 2018.01.04, 2023.01.01  
    first version: 2015.06.07
-   
-## 5. Programming language 
-
-   Matlab, R
