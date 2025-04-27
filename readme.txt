@@ -1,4 +1,4 @@
-This Matlab toolbox helps readers to reproduce Sections 5,6,7,and 8 in the paper "Generalized local Kendall’s τ: a framework for uncovering nonlinear local dependence".
+This Matlab toolbox helps readers to reproduce Sections 5,6,7,and 8 in the paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence".
 
 1. Operation Steps: Illustrated with Example 1
    Step 1: run “configuration.m” to add the necessary paths to MATLAB.
