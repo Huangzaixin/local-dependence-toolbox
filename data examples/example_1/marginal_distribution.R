@@ -72,7 +72,7 @@ line_6_3 <- data.frame( x = c(reg6_FAM171A2_max, reg6_FAM171A2_max), y = c(reg6_
 line_6_4 <- data.frame( x = c(reg6_FAM171A2_min, reg6_FAM171A2_max), y = c(reg6_alpha_syn_min, reg6_alpha_syn_min))
 
 p <- ggplot(pd_dataset, aes(x = FAM171A2_data, y = alpha_syn_data)) + 
-    geom_point(color = "white", fill = "#1EC3B6", size = 2.1, shape = 21, stroke = 0.5) +
+    geom_point(color = "white", fill = "#1eb3b9", size = 2.1, shape = 21, stroke = 0.5) +
     # region 1
     geom_segment(data = line_1_1, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#ea6458", size = 0.5) +
     geom_segment(data = line_1_2, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#ea6458", size = 0.5) +
@@ -100,12 +100,12 @@ p <- ggplot(pd_dataset, aes(x = FAM171A2_data, y = alpha_syn_data)) +
     scale_x_continuous(breaks = seq(7.15, 9.55, by = 0.6)) +
     scale_y_continuous(breaks = seq(200, 5500, by = 1325)) + 
     theme(plot.title = element_text(hjust = 0.5)) + theme(plot.margin = margin(t = 0, r = 0, b = 0, l = 0, unit = "mm")) +
-    theme(axis.text.x = element_text(size = 7.4), axis.text.y = element_text(size = 7.4)) +
-    theme(axis.title = element_text(size = 7.6))
+    theme(axis.text.x = element_text(size = 7.2), axis.text.y = element_text(size = 7.2)) +
+    theme(axis.title = element_text(size = 7.4))
 
 # densigram
-p <- ggMarginal(p, type = "densigram", xparams = list(color = "white", fill = "#1EC3B6", size = 0.35, bins = 40), 
-                yparams = list(color = "white", fill = "#1EC3B6", size = 0.35, bins = 40)) 
+p <- ggMarginal(p, type = "densigram", xparams = list(color = "white", fill = "#1eb3b9", size = 0.35, bins = 40), 
+                yparams = list(color = "white", fill = "#1eb3b9", size = 0.35, bins = 40)) 
 
 print(p)
 
@@ -237,7 +237,7 @@ uv_FAM171A2_alpha_syn <- data.frame(x = cdf_FAM171A2, y = cdf_alpha_syn)
 
 ################## scatter plot of cdf_FAM171A2 and cdf_α-syn ##################
 p <- ggplot(uv_FAM171A2_alpha_syn, aes(x = x, y = y)) + 
-     geom_point(color = "white", fill = "#1EC3B6", size = 2.4, shape = 21, stroke = 0.5) + 
+     geom_point(color = "white", fill = "#1eb3b9", size = 2.4, shape = 21, stroke = 0.5) + 
      # region 1
      geom_rect(aes(xmin = 0, xmax = quantile_reg1_FAM171A2_max, ymin = quantile_reg1_alpha_syn_min, ymax = 1),
                color = "#ea6458", size = 0.5, fill = "NA", alpha = .02) +
@@ -259,8 +259,8 @@ p <- ggplot(uv_FAM171A2_alpha_syn, aes(x = x, y = y)) +
      labs(title = "", x = expression(u^FAM171A2), y = expression(v^{alpha-syn})) + 
      xlim(c(0, 1)) + ylim(c(0, 1)) + theme(aspect.ratio = 1) +
      theme(plot.title = element_text(hjust = 0.5)) + theme(plot.margin = unit(c(0, 0, 0, 0), "mm")) +
-     theme(axis.text.x = element_text(size = 8), axis.text.y = element_text(size = 8)) +
-     theme(axis.title = element_text(size = 9.4))
+     theme(axis.text.x = element_text(size = 8.49), axis.text.y = element_text(size = 8.49)) +
+     theme(axis.title = element_text(size = 9.6))
 print(p)
 
 ggsave("scatter_uv_example_1.eps", plot=p, device="eps", width = 3.2, height = 3.2, units = "in")
