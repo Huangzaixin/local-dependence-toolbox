@@ -72,44 +72,44 @@ line_6_3 <- data.frame( x = c(reg6_FAM171A2_max, reg6_FAM171A2_max), y = c(reg6_
 line_6_4 <- data.frame( x = c(reg6_FAM171A2_min, reg6_FAM171A2_max), y = c(reg6_alpha_syn_min, reg6_alpha_syn_min))
 
 p <- ggplot(pd_dataset, aes(x = FAM171A2_data, y = alpha_syn_data)) + 
-    geom_point(color = "black", fill = "lightblue", size = 2, shape = 21, stroke = 0.5) +
+    geom_point(color = "white", fill = "#1EC3B6", size = 2.1, shape = 21, stroke = 0.5) +
     # region 1
-    geom_segment(data = line_1_1, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#ff5722", size = 0.5) +
-    geom_segment(data = line_1_2, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#ff5722", size = 0.5) +
-    geom_segment(data = line_1_3, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#ff5722", size = 0.5) +
-    geom_segment(data = line_1_4, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#ff5722", size = 0.5) +
+    geom_segment(data = line_1_1, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#ea6458", size = 0.5) +
+    geom_segment(data = line_1_2, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#ea6458", size = 0.5) +
+    geom_segment(data = line_1_3, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#ea6458", size = 0.5) +
+    geom_segment(data = line_1_4, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#ea6458", size = 0.5) +
     # region 2
     geom_rect(aes(xmin = reg2_FAM171A2_min, xmax = reg2_FAM171A2_max, ymin = reg2_alpha_syn_min, ymax = reg2_alpha_syn_max),
-              color = "#00adb5", size = 0.5, fill = "NA", alpha = .02) +
+              color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) +
     # region 3
     geom_rect(aes(xmin = reg3_FAM171A2_min, xmax = reg3_FAM171A2_max, ymin = reg3_alpha_syn_min, ymax = reg3_alpha_syn_max),
-              color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) +
+              color = "#ea6458", size = 0.5, fill = "NA", alpha = .02) +
     # region 4
     geom_rect(aes(xmin = reg4_FAM171A2_min, xmax = reg4_FAM171A2_max, ymin = reg4_alpha_syn_min, ymax = reg4_alpha_syn_max),
-              color = "#00adb5", size = 0.5, fill = "NA", alpha = .02) +
+              color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) +
     # region 5
     geom_rect(aes(xmin = reg5_FAM171A2_min, xmax = reg5_FAM171A2_max, ymin = reg5_alpha_syn_min, ymax = reg5_alpha_syn_max),
-              color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) +
+              color = "#ea6458", size = 0.5, fill = "NA", alpha = .02) +
     # region 6
-    geom_segment(data = line_6_1, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#00adb5", size = 0.5) +
-    geom_segment(data = line_6_2, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#00adb5", size = 0.5) +
-    geom_segment(data = line_6_3, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#00adb5", size = 0.5) +
-    geom_segment(data = line_6_4, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#00adb5", size = 0.5) +
+    geom_segment(data = line_6_1, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#f4ad60", size = 0.5) +
+    geom_segment(data = line_6_2, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#f4ad60", size = 0.5) +
+    geom_segment(data = line_6_3, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#f4ad60", size = 0.5) +
+    geom_segment(data = line_6_4, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), linetype = "longdash", color = "#f4ad60", size = 0.5) +
     labs(title = "", x = "CSF measured FAM171A2 level (RFU)", y = TeX("CSF measured total $\\alpha$-syn (pg/ml)")) +
     xlim(c(7.15, 9.55)) + ylim(c(200, 5500)) + theme(aspect.ratio = 1) + 
     scale_x_continuous(breaks = seq(7.15, 9.55, by = 0.6)) +
     scale_y_continuous(breaks = seq(200, 5500, by = 1325)) + 
     theme(plot.title = element_text(hjust = 0.5)) + theme(plot.margin = margin(t = 0, r = 0, b = 0, l = 0, unit = "mm")) +
     theme(axis.text.x = element_text(size = 7.4), axis.text.y = element_text(size = 7.4)) +
-    theme(axis.title=element_text(size = 8.5))
+    theme(axis.title = element_text(size = 7.6))
 
 # densigram
-p <- ggMarginal(p, type = "densigram", xparams = list(color = "#222", fill = "lightblue", size = 0.35, bins = 40), 
-                                       yparams = list(color = "#222", fill = "lightblue", size = 0.35, bins = 40)) 
+p <- ggMarginal(p, type = "densigram", xparams = list(color = "white", fill = "#1EC3B6", size = 0.35, bins = 40), 
+                yparams = list(color = "white", fill = "#1EC3B6", size = 0.35, bins = 40)) 
 
 print(p)
 
-ggsave("scatter_1.eps", plot=p, device="eps", width = 2.8, height = 2.8, units = "in")
+ggsave("scatter_example_1.eps", plot=p, device="eps", width = 3.2, height = 3.2, units = "in")
 
 
 ###################### different distribution functions ###################### 
@@ -237,65 +237,33 @@ uv_FAM171A2_alpha_syn <- data.frame(x = cdf_FAM171A2, y = cdf_alpha_syn)
 
 ################## scatter plot of cdf_FAM171A2 and cdf_α-syn ##################
 p <- ggplot(uv_FAM171A2_alpha_syn, aes(x = x, y = y)) + 
-     geom_point(color = "black", fill = "lightblue", size = 2, shape = 21, stroke = 0.5) + 
+     geom_point(color = "white", fill = "#1EC3B6", size = 2.4, shape = 21, stroke = 0.5) + 
      # region 1
      geom_rect(aes(xmin = 0, xmax = quantile_reg1_FAM171A2_max, ymin = quantile_reg1_alpha_syn_min, ymax = 1),
-               color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) +
+               color = "#ea6458", size = 0.5, fill = "NA", alpha = .02) +
      # region 2
      geom_rect(aes(xmin = quantile_reg2_FAM171A2_min, xmax = quantile_reg2_FAM171A2_max, ymin = quantile_reg2_alpha_syn_min, ymax = quantile_reg2_alpha_syn_max),
-               color = "#00adb5", size = 0.5, fill = "NA", alpha = .02) + 
+               color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) + 
      # region 3
      geom_rect(aes(xmin = quantile_reg3_FAM171A2_min, xmax = quantile_reg3_FAM171A2_max, ymin = quantile_reg3_alpha_syn_min, ymax = quantile_reg3_alpha_syn_max),
-               color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) + 
+               color = "#ea6458", size = 0.5, fill = "NA", alpha = .02) + 
      # region 4
      geom_rect(aes(xmin = quantile_reg4_FAM171A2_min, xmax = quantile_reg4_FAM171A2_max, ymin = quantile_reg4_alpha_syn_min, ymax = quantile_reg4_alpha_syn_max),
-               color = "#00adb5", size = 0.5, fill = "NA", alpha = .02) +
+               color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) +
      # region 5
      geom_rect(aes(xmin = quantile_reg5_FAM171A2_min, xmax = quantile_reg5_FAM171A2_max, ymin = quantile_reg5_alpha_syn_min, ymax = quantile_reg5_alpha_syn_max),
-               color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) +
+               color = "#ea6458", size = 0.5, fill = "NA", alpha = .02) +
      # region 6
      geom_rect(aes(xmin = quantile_reg6_FAM171A2_min, xmax = 1, ymin = 0, ymax = quantile_reg6_alpha_syn_max),
-               color = "#00adb5", size = 0.5, fill = "NA", alpha = .02) +
+               color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) +
      labs(title = "", x = expression(u^FAM171A2), y = expression(v^{alpha-syn})) + 
      xlim(c(0, 1)) + ylim(c(0, 1)) + theme(aspect.ratio = 1) +
      theme(plot.title = element_text(hjust = 0.5)) + theme(plot.margin = unit(c(0, 0, 0, 0), "mm")) +
-     theme(axis.text.x = element_text(size = 7.5), axis.text.y = element_text(size = 7.5)) +
+     theme(axis.text.x = element_text(size = 8), axis.text.y = element_text(size = 8)) +
      theme(axis.title = element_text(size = 9.4))
 print(p)
 
 ggsave("scatter_uv_example_1.eps", plot=p, device="eps", width = 3.2, height = 3.2, units = "in")
-
-
-############### scatter plot of 1-cdf_FAM171A2 and cdf_α-syn ###############
-inv_u_v_FAM171A2_alpha_syn <- data.frame(x = 1-cdf_FAM171A2, y = cdf_alpha_syn)
-p <- ggplot(inv_u_v_FAM171A2_alpha_syn, aes(x = x, y = y)) + 
-  geom_point(color = "black", fill = "lightblue", size = 2, shape = 21, stroke = 0.5) + 
-  # region 1
-  geom_rect(aes(xmin = 1-quantile_reg1_FAM171A2_max, xmax = 1, ymin = quantile_reg1_alpha_syn_min, ymax = 1),
-            color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) +
-  # region 2
-  geom_rect(aes(xmin = 1-quantile_reg2_FAM171A2_max, xmax = 1-quantile_reg2_FAM171A2_min, ymin = quantile_reg2_alpha_syn_min, ymax = quantile_reg2_alpha_syn_max),
-            color = "#00adb5", size = 0.5, fill = "NA", alpha = .02) + 
-  # region 3
-  geom_rect(aes(xmin = 1-quantile_reg3_FAM171A2_max, xmax = 1-quantile_reg3_FAM171A2_min, ymin = quantile_reg3_alpha_syn_min, ymax = quantile_reg3_alpha_syn_max),
-            color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) + 
-  # region 4
-  geom_rect(aes(xmin = 1-quantile_reg4_FAM171A2_max, xmax = 1-quantile_reg4_FAM171A2_min, ymin = quantile_reg4_alpha_syn_min, ymax = quantile_reg4_alpha_syn_max),
-            color = "#00adb5", size = 0.5, fill = "NA", alpha = .02) +
-  # region 5
-  geom_rect(aes(xmin = 1-quantile_reg5_FAM171A2_max, xmax = 1-quantile_reg5_FAM171A2_min, ymin = quantile_reg5_alpha_syn_min, ymax = quantile_reg5_alpha_syn_max),
-            color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) +
-  # region 6
-  geom_rect(aes(xmin = 0, xmax = 1-quantile_reg6_FAM171A2_min, ymin = 0, ymax = quantile_reg6_alpha_syn_max),
-            color = "#00adb5", size = 0.5, fill = "NA", alpha = .02) +
-  labs(title = "", x = expression(1-u^FAM171A2), y = expression(v^{alpha-syn})) + 
-  xlim(c(0, 1)) + ylim(c(0, 1)) + theme(aspect.ratio = 1) +
-  theme(plot.title = element_text(hjust = 0.5)) + theme(plot.margin = unit(c(0, 0, 0, 0), "mm")) +
-  theme(axis.text.x = element_text(size = 7.5), axis.text.y = element_text(size = 7.5)) +
-  theme(axis.title = element_text(size = 9.4))
-print(p)
-
-ggsave("scatter_inv_uv_example_1.eps", plot=p, device="eps", width = 3.2, height = 3.2, units = "in")
 
 
 ####################### save to csv file #######################
