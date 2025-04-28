@@ -33,7 +33,7 @@ label_scientific <- function(l) {
 
 # scatter plot 1: whole dataset
 p <- ggplot(cases_deaths_data, aes(x = x, y = y)) + 
-        geom_point(color = "white", fill = "#1EC3B6", size = 1.7, shape = 21, stroke = 0.5) + 
+        geom_point(color = "white", fill = "#1eb3b9", size = 1.7, shape = 21, stroke = 0.5) + 
         xlim(c(0, 600000)) + scale_x_continuous(limits = c(0, 600000),breaks = seq(from = 0, to = 600000, by = 200000),labels=label_scientific) +
         ylim(c(0, 12000)) + scale_y_continuous(limits = c(0, 12000),breaks = seq(from = 0, to = 12000, by = 3000),labels=label_scientific) +
         labs(title = "", x = "cases", y = "deaths") +
@@ -81,7 +81,7 @@ line_7 <- data.frame( x = c(region6_xmin, 80000), y = c(1400, 1400))
 line_8 <- data.frame( x = c(80000, 80000), y = c(region6_ymin, 1400))
 
 p <- ggplot(cases_deaths_data, aes(x = x, y = y)) + 
-        geom_point(color = "white", fill = "#1EC3B6", size = 2.1, shape = 21, stroke = 0.5) + 
+        geom_point(color = "white", fill = "#1eb3b9", size = 2.1, shape = 21, stroke = 0.5) + 
         # region 1
         geom_rect(aes(xmin = 0, xmax = region1_xmax, ymin = 0, ymax = region1_ymax), color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) +
         # region 2
@@ -91,7 +91,7 @@ p <- ggplot(cases_deaths_data, aes(x = x, y = y)) +
         # region 4
         geom_rect(aes(xmin = 0, xmax = region4_xmax, ymin = 0, ymax = region4_ymax), color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) + 
         # region 5
-        geom_rect(aes(xmin = region5_xmin, xmax = region5_xmax, ymin = region5_ymin, ymax = region5_ymax), color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) +
+        geom_rect(aes(xmin = region5_xmin, xmax = region5_xmax, ymin = region5_ymin, ymax = region5_ymax), color = "#ea6458", size = 0.5, fill = "NA", alpha = .02) +
         # region 6、7、8
         geom_segment(data = line_1, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#f4ad60", size = 0.5) +
         geom_segment(data = line_2, aes(x = x[1], y = y[1], xend = x[2], yend = y[2]), color = "#f4ad60", size = 0.5) +
@@ -107,12 +107,12 @@ p <- ggplot(cases_deaths_data, aes(x = x, y = y)) +
         
         labs(title = "", x = "cases", y = "deaths") +
         theme(aspect.ratio = 1) + theme(plot.title = element_text(hjust = 0.5)) + theme(plot.margin = unit(c(0, 3, 0, 0), "mm")) +
-        theme(axis.text.x = element_text(size = 7), axis.text.y = element_text(size = 7)) +
-        theme(axis.title=element_text(size=8.5)) 
+        theme(axis.text.x = element_text(size = 7.45), axis.text.y = element_text(size = 7.45)) +
+        theme(axis.title=element_text(size = 8.7)) 
 
 # densigram
-p <- ggMarginal(p, type = "densigram", xparams = list(color = "white", fill = "#1EC3B6", size = 0.35, bins = 40), 
-                yparams = list(color = "white", fill = "#1EC3B6", size = 0.35, bins = 40)) 
+p <- ggMarginal(p, type = "densigram", xparams = list(color = "white", fill = "#1eb3b9", size = 0.35, bins = 40), 
+                yparams = list(color = "white", fill = "#1eb3b9", size = 0.35, bins = 40)) 
 
 print(p)
 
@@ -229,14 +229,14 @@ cdf_deaths_region8_ymin <- prightparetolognormal(region8_ymin,shape2 = est_lnor_
 #######################  scatter plot for cdf_cases and cdf_deaths  ######################
 uv_cases_deaths <- data.frame(x = cdf_cases, y = cdf_deaths)
 p <- ggplot(uv_cases_deaths, aes(x = x, y = y)) + 
-     geom_point(color = "white", fill = "#1EC3B6", size = 2.1, shape = 21, stroke = 0.5) + 
+     geom_point(color = "white", fill = "#1eb3b9", size = 2.1, shape = 21, stroke = 0.5) + 
      
      geom_rect(aes(xmin = 0, xmax = cdf_cases_region1_xmax, ymin = 0, ymax = cdf_deaths_region1_ymax), color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) +
      geom_rect(aes(xmin = 0, xmax = cdf_cases_region2_xmax, ymin = 0, ymax = cdf_deaths_region2_ymax), color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) +
      geom_rect(aes(xmin = 0, xmax = cdf_cases_region3_xmax, ymin = 0, ymax = cdf_deaths_region3_ymax), color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) + 
      geom_rect(aes(xmin = 0, xmax = cdf_cases_region4_xmax, ymin = 0, ymax = cdf_deaths_region4_ymax), color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) + 
         
-     geom_rect(aes(xmin = cdf_cases_region5_xmin, xmax = cdf_cases_region5_xmax, ymin = cdf_deaths_region5_ymin, ymax = cdf_deaths_region5_ymax), color = "#ff5722", size = 0.5, fill = "NA", alpha = .02) +         
+     geom_rect(aes(xmin = cdf_cases_region5_xmin, xmax = cdf_cases_region5_xmax, ymin = cdf_deaths_region5_ymin, ymax = cdf_deaths_region5_ymax), color = "#ea6458", size = 0.5, fill = "NA", alpha = .02) +         
      
      geom_rect(aes(xmin = cdf_cases_region6_xmin, xmax = 1, ymin = cdf_deaths_region6_ymin, ymax = 1), color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) + # #FED770
      geom_rect(aes(xmin = cdf_cases_region7_xmin, xmax = 1, ymin = cdf_deaths_region7_ymin, ymax = 1), color = "#f4ad60", size = 0.5, fill = "NA", alpha = .02) +
@@ -245,8 +245,8 @@ p <- ggplot(uv_cases_deaths, aes(x = x, y = y)) +
      labs(title = "", x = expression(u^cases), y = expression(v^deaths)) +
      xlim(c(0, 1)) + ylim(c(0, 1)) + theme(aspect.ratio = 1) +
      theme(plot.title = element_text(hjust = 0.5)) + theme(plot.margin = unit(c(0, 3, 0, 0), "mm")) +
-     theme(axis.text.x = element_text(size = 7.49), axis.text.y = element_text(size = 7.49)) +
-     theme(axis.title=element_text(size=10))       
+     theme(axis.text.x = element_text(size = 7.44), axis.text.y = element_text(size = 7.44)) +
+     theme(axis.title=element_text(size = 10.6))       
 print(p)
 
 ggsave("scatter_uv_example_2.eps", plot=p, device="eps", width = 3, height = 3, units = "in")
