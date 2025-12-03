@@ -17,9 +17,9 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    
 ## 3. Contact Information  
 
-   Author: Zaixin Huang
-   Email: eric.huangzaixin@gmail.com
-   Repository: https://github.com/huangzaixin/local-dependence-toolbox
+   Author: Zaixin Huang</br>
+   Email: eric.huangzaixin@gmail.com</br>
+   Repository: https://github.com/huangzaixin/local-dependence-toolbox</br>
    Latest version can be downloaded from the GitHub repository. If you encounter any bugs or have suggestions, please contact me. We will update them on GitHub and acknowledge your contribution. Thank you! 
 
 ## 4. Programming language 
@@ -28,8 +28,8 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    
 ## 5. Update History  
 
-   this version: 2025.03.16  
-   updated versions: 2018.01.04, 2023.01.01  
+   this version: 2025.03.16  </br>
+   updated versions: 2018.01.04, 2023.01.01  </br>
    first version: 2015.06.07
    
 ## 6. License 
