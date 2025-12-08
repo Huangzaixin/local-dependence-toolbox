@@ -1,32 +1,32 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%        draw figures for simulation results           %%%
+%%%        Draw Figures for Simulation Results           %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%       Example 1: taking region 1 as example          %%%
+%%%       Example 1: taking region 1 as an example       %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% region 1: standard errors
-% read SE data from "simulation results.xlsx"
-region1_SE_u_statistic_par1 = xlsread('simulation results.xlsx','Sheet1','E1:E7');
-region1_SE_copula_model_par1 = xlsread('simulation results.xlsx','Sheet1','G1:G7');
+%% Region 1: Empirical Standard Errors (SE_e)
+% Read SE data from "simulation_results.xlsx"
+region1_SE_u_statistic_par1 = xlsread('simulation_results.xlsx','Sheet1','E1:E7');
+region1_SE_copula_model_par1 = xlsread('simulation_results.xlsx','Sheet1','G1:G7');
 
-region1_SE_u_statistic_par2 = xlsread('simulation results.xlsx','Sheet1','E8:E12');
-region1_SE_copula_model_par2 = xlsread('simulation results.xlsx','Sheet1','G8:G12');
+region1_SE_u_statistic_par2 = xlsread('simulation_results.xlsx','Sheet1','E8:E12');
+region1_SE_copula_model_par2 = xlsread('simulation_results.xlsx','Sheet1','G8:G12');
 
-region1_SE_u_statistic_par3 = xlsread('simulation results.xlsx','Sheet1','E13:E17');
-region1_SE_copula_model_par3 = xlsread('simulation results.xlsx','Sheet1','G13:G17');
+region1_SE_u_statistic_par3 = xlsread('simulation_results.xlsx','Sheet1','E13:E17');
+region1_SE_copula_model_par3 = xlsread('simulation_results.xlsx','Sheet1','G13:G17');
 
-% clayton copula: theta = 1; U-statistic-based estimator
+% Clayton copula: theta = 1; U-statistic-based estimator
 plot(region1_SE_u_statistic_par1,'--o','Color',[0.00,0.45,0.74],'LineWidth',1,'MarkerSize',7.2); hold on; % [0.05,0.40,0.63]
-% clayton copula: theta = 1; Copula model-based estimator
+% Clayton copula: theta = 1; Copula model-based estimator
 plot(region1_SE_copula_model_par1,'-o','Color',[0.85,0.40,0.29],'LineWidth',2.5,'MarkerSize',7.2); hold on; % [0.78,0.31,0.19]
 
-% clayton copula: theta = 2; U-statistic-based estimator
+% Clayton copula: theta = 2; U-statistic-based estimator
 plot(region1_SE_u_statistic_par2,'--x','Color',[0.00,0.45,0.74],'LineWidth',1,'MarkerSize',7.5); hold on;
-% clayton copula: theta = 2; Copula model-based estimator
+% Clayton copula: theta = 2; Copula model-based estimator
 plot(region1_SE_copula_model_par2,'-x','Color',[0.85,0.40,0.29],'LineWidth',2.5,'MarkerSize',7.5); hold on;
 
-% clayton copula: theta = 4; U-statistic-based estimator
+% Clayton copula: theta = 4; U-statistic-based estimator
 plot(region1_SE_u_statistic_par3,'--^','Color',[0.00,0.45,0.74],'LineWidth',1,'MarkerSize',6.7); hold on;
-% clayton copula: theta = 4; Copula model-based estimator
+% Clayton copula: theta = 4; Copula model-based estimator
 plot(region1_SE_copula_model_par3,'-^','Color',[0.85,0.40,0.29],'LineWidth',2.5,'MarkerSize',6.7); hold on;
 
 plot([1 5],[95 95],'-.','Color',[0,0,0],'LineWidth',1.5);
@@ -44,16 +44,16 @@ set(gca,'FontSize',13.5);
 set(gcf, 'color', [1 1 1]);
 
 
-%% region 1: coverage probabilities (CP)
-% read CP data from "simulation results.xlsx"
-region1_CP_u_statistic_par1 = xlsread('simulation results.xlsx','Sheet1','F1:F7');
-region1_CP_copula_model_par1 = xlsread('simulation results.xlsx','Sheet1','H1:H7');
+%% Region 1: 95% Coverage Probabilities (CP%)
+% read CP data from "simulation_results.xlsx"
+region1_CP_u_statistic_par1 = xlsread('simulation_results.xlsx','Sheet1','F1:F7');
+region1_CP_copula_model_par1 = xlsread('simulation_results.xlsx','Sheet1','H1:H7');
 
-region1_CP_u_statistic_par2 = xlsread('simulation results.xlsx','Sheet1','F8:F12');
-region1_CP_copula_model_par2 = xlsread('simulation results.xlsx','Sheet1','H8:H12');
+region1_CP_u_statistic_par2 = xlsread('simulation_results.xlsx','Sheet1','F8:F12');
+region1_CP_copula_model_par2 = xlsread('simulation_results.xlsx','Sheet1','H8:H12');
 
-region1_CP_u_statistic_par3 = xlsread('simulation results.xlsx','Sheet1','F13:F17');
-region1_CP_copula_model_par3 = xlsread('simulation results.xlsx','Sheet1','H13:H17');
+region1_CP_u_statistic_par3 = xlsread('simulation_results.xlsx','Sheet1','F13:F17');
+region1_CP_copula_model_par3 = xlsread('simulation_results.xlsx','Sheet1','H13:H17');
 
 plot(region1_CP_u_statistic_par1,'--o','Color',[0.00,0.45,0.74],'LineWidth',1,'MarkerSize',7.2); hold on;
 plot(region1_CP_copula_model_par1,'-o','Color',[0.85,0.40,0.29],'LineWidth',2.5,'MarkerSize',7.2); hold on;
