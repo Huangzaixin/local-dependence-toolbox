@@ -1,6 +1,6 @@
 # local dependence toolbox
 
-This toolbox helps readers to reproduce all results in the paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence".
+This toolbox helps readers to reproduce all results in the paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang, 2026).
 
 ## 1. Operation Steps: Illustrated with Example 1
 
@@ -13,7 +13,7 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    
 ## 2. File Description
 
-   For a complete directory tree and detailed file descriptions, please refer to filelist.xlsx.
+   For a complete directory tree and detailed file descriptions, please refer to ‘filelist.xlsx’.
    
 ## 3. Contact Information  
 
@@ -28,9 +28,9 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    
 ## 5. Update History  
 
-   this version: 2025.03.16  </br>
-   updated versions: 2018.01.04, 2023.01.01  </br>
-   first version: 2015.06.07
+   this version: 2025/12/08 </br>
+   updated versions: 2018/01/04, 2023/01/01, 2025/03/16, 2025/12/08  </br>
+   first version: 2015/06/07
    
 ## 6. License 
    This software package is only free for scholars and students, and cannot be used for commercial purposes.
