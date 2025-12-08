@@ -1,11 +1,11 @@
-% add the necessary paths to MATLAB
+% Description: Add all necessary directories to MATLAB
 addpath('functions/');  
-addpath('local dependence surfaces/');  
-addpath('simulation study/');
-addpath('copula estimation/');
-addpath('data examples/');
-addpath('data examples/example_1/');
-addpath('data examples/example_2/');
-addpath('data examples/example_3/');
-addpath('quantile dependence/');
+addpath('ld_surfaces/');  
+addpath('simulation_study/');
+addpath('copula_estimation/');
+addpath('data_examples/');
+addpath('data_examples/example_1/');
+addpath('data_examples/example_2/');
+addpath('quantile_dependence/');
 rehash;
+disp("Load directory complete.");
