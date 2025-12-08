@@ -1,27 +1,29 @@
-This toolbox helps readers to reproduce Sections 3.3,4,5,and 6 in the paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence".
+This toolbox helps readers to reproduce all results in the paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang, 2026).
 
 1. Operation Steps: Illustrated with Example 1
    Step 1: run “configuration.m” to add the necessary paths to MATLAB.
-   Step 2: run "data examples/example_1/marginal distribution.R" to characterize the distributional features of two variables.
-   Step 3: run "copula estimation/main_example_1.m" to estimate the copula model.
-   Step 4: run "data examples/example_1/main.m" to estimate global and local Kendall's tau between CSF FAM171A2 and total α-syn.
-   Step 5: run "local dependence surfaces/type_I_surface.m" and "local dependence surfaces/type_II_surface.m" to draw two types of local dependence surfaces, respectively.
-   Step 6: run "quantile dependence/main_diagonal.m" and "quantile dependence/minor_diagonal.m" to draw quantile Kendall's tau curves along the main and minor diagonals.
+   Step 2: run "data_examples/example_1/marginal distribution.R" to characterize the distributional features of two variables.
+   Step 3: run "copula_estimation/main_example_1.m" to estimate the copula model.
+   Step 4: run "data_examples/example_1/main.m" to estimate global and local Kendall's tau between CSF FAM171A2 and total α-syn.
+   Step 5: run "ld_surfaces/type_I_surface.m" and "ld_surfaces/type_II_surface.m" to draw two types of local dependence surfaces, respectively.
+   Step 6: run "quantile_dependence/main_diagonal.m" and "quantile_dependence/minor_diagonal.m" to draw quantile Kendall's tau curves along the main and minor diagonals.
 
 2. File Description
-   see filelist.xlsx
+   For a complete directory tree and detailed file descriptions, please refer to ‘filelist.xlsx’.
    
-3. Author: Zaixin Huang
+3. Contact Information
+   Author: Zaixin Huang
    Email: eric.huangzaixin@gmail.com
-   Latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
-   If you find any bugs or have suggestions, please contact me. I will update them on GitHub and acknowledge your contribution. Thank you!
+   Repository: https://github.com/huangzaixin/local-dependence-toolbox
+   Latest version can be downloaded from the GitHub repository. If you encounter any bugs or have suggestions, please contact me. We will update them on GitHub and acknowledge your contribution. Thank you!
 
-4. Programming language
-   Matlab, R
+4. Languages
+   MATLAB + R (tested under Matlab R2020a and R 4.4.1).
 
 5. Update History
-   this version: 2025.03.16
-   updated versions: 2018.01.04, 2023.01.01
-   first version: 2015.06.07
+   current version: 2025/12/08
+   updated versions: 2018/01/04, 2023/01/01, 2025/03/16, 2025/12/08
+   first version: 2015/06/07
 
-
+6. License
+   This software package is only free for scholars and students, and cannot be used for commercial purposes.
