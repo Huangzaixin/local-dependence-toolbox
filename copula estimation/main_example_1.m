@@ -1,16 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  Example 1: Estimation of some single and Archimedean mixture copula models  %
+%  Example 1: Estimation of Some Single and Archimedean Mixture Copula Models  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-%% basic setups
-break;
+%% Basic Settings
 format long g;
 options = optimset('Display','iter','TolCon',10^-9,'TolFun',10^-8,'TolX',10^-8);
 
-%% read data
-u = csvread('data examples/example_1/data/inv_u_FAM171A2.csv',1,0);  
-v = csvread('data examples/example_1/data/v_alpha_syn.csv',1,0); 
+%% Read Data
+u = csvread('data_examples/example_1/data/inv_u_FAM171A2.csv',1,0);  
+v = csvread('data_examples/example_1/data/v_alpha_syn.csv',1,0); 
 
-%% Gaussion copula
+%% Gaussian copula
 par_gauss = corrcoef12(norminv(u),norminv(v));
 LL_gauss = NormalCopula_CL(par_gauss,[u,v]);
 AIC_gauss = -2*(-LL_gauss) + 2;
@@ -33,7 +32,7 @@ AIC = -2*(-LL) + 2;
 AIC    % -72.90
 par_clayton
 
-%% Rotated Clayton copula (180-degrees)
+%% rotated Clayton copula (180-degrees)
 lower = 0.001;
 par_0 = 1.001;
 [par_rotclayton LL] = fmincon('claytonCL',par_0,[],[],[],[],lower,[],[],options,1-[u,v]);
@@ -49,7 +48,7 @@ AIC = -2*(-LL) + 2;
 AIC    % -124.91
 par_gumbel
 
-%% Rotated Gumbel copula (180-degrees)
+%% rotated Gumbel copula (180-degrees)
 lower = 1.001;
 par_0 = 2;
 [par_rotgumbel LL] = fmincon('gumbelCL',par_0,[],[],[],[],lower,[],[],options,1-[u,v]);
@@ -108,7 +107,7 @@ upper = [0.999 +Inf +Inf];
 par_0 = [0.5 3 2];
 [pars_frc LL] = fmincon('mixFrCCL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*3;
-AIC   % -145.84, the smalles AIC
+AIC   % -145.84, the smallest AIC
 pars_frc
 
 %% MixFG copula : Frank copula + Gumbel copula
@@ -130,7 +129,7 @@ AIC   % -141.79
 pars_frg
 
 
-%% %%%%%%%%%%%%%%%%%%%%%  other copula models  %%%%%%%%%%%%%%%%%%%%%%%
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Other Copula Models  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % MixFGrG180 copula : Frank copula + Gumbel copula + rotated Gumbel copula (180-degrees)
 lower = [0.01 0.01 -Inf 1.01 1.01];
 upper = [0.99 0.99 +Inf +Inf +Inf];

@@ -1,16 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%  Example 2: Estimation of some single and Archimedean mixture copula models  %
+%  Example 2: Estimation of Some Single and Archimedean Mixture Copula Models  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% basic setups
-break;
+%% Basic Settings
 format long g;
 options = optimset('Display','iter','TolCon',10^-9,'TolFun',10^-8,'TolX',10^-8);
 
-%% read data
-u = csvread('data examples/example_2/data/u_cases.csv',1,0);  
-v = csvread('data examples/example_2/data/v_deaths.csv',1,0); 
+%% Read Data
+u = csvread('data_examples/example_2/data/u_cases.csv',1,0);  
+v = csvread('data_examples/example_2/data/v_deaths.csv',1,0); 
 
-%% Gaussion copula
+%% Gaussian copula
 par_gauss = corrcoef12(norminv(u),norminv(v));
 LL_gauss = NormalCopula_CL(par_gauss,[u,v]);
 AIC_gauss = -2*(-LL_gauss) + 2;
@@ -33,7 +32,7 @@ AIC = -2*(-LL) + 2;
 AIC    %  -3857.36
 par_clayton
 
-%% Rotated Clayton copula (180-degrees)
+%% rotated Clayton copula (180-degrees)
 lower = 0.001;
 par_0 = 1.001;
 [par_rotclayton LL] = fmincon('claytonCL',par_0,[],[],[],[],lower,[],[],options,1-[u,v]);
@@ -49,7 +48,7 @@ AIC = -2*(-LL) + 2;
 AIC    % -6832.49, the smallest AIC
 par_gumbel
 
-%% Rotated Gumbel copula (180-degrees)
+%% rotated Gumbel copula (180-degrees)
 lower = 1.001;
 par_0 = 2;
 [par_rotgumbel LL] = fmincon('gumbelCL',par_0,[],[],[],[],lower,[],[],options,1-[u,v]);
@@ -63,8 +62,8 @@ upper = [0.999 +Inf +Inf];      % upper bound
 par_0 = [0.5 2 1];              % starting values
 [pars_gc LL] = fmincon('mixGCCL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*3;
-% NOTE: Although the AIC value of MixGC copula is smaller than that of the Gumbel copula, the weight parameter of Clayton copula is very small. 
-%       Therefore, we select Gumbel copula as the best model.
+% NOTE: Although the AIC value of MixGC copula is smaller than that of the Gumbel copula, the weight of the Clayton component is negligible. 
+%       Hence, we select Gumbel copula as the best model.
 AIC   % -6850.52
 pars_gc
 
@@ -137,7 +136,7 @@ pars_frg
 
 
 
-%% %%%%%%%%%%%%%%%%%%%%%  other copula models  %%%%%%%%%%%%%%%%%%%%%%%
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Other Copula Models  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % MixFGrG180 copula : Frank copula + Gumbel copula + rotated Gumbel copula (180-degrees)
 lower = [0.01 0.01 -Inf 1.01 1.01];
 upper = [0.99 0.99 +Inf +Inf +Inf];
@@ -147,7 +146,7 @@ AIC = -2*(-LL) + 2*5;
 AIC  % -6846.89
 pars_fgrg
 
-%% Patton's SJC copula
+% Patton's SJC copula
 lower = 1e-44*ones(2,1);	
 upper = 1-1e-4*ones(2,1);  
 tauU = 0.3;   % upper
@@ -158,7 +157,7 @@ AIC = -2 * -LL + 2*2;
 AIC   %  -6466.96
 pars_sjc;
 
-% generating data
+% Generate random samples from the symmetric Joe-Clayton copula
 T = 10000;
 data = sym_jc_rnd(tauU,tauL,T);	
 

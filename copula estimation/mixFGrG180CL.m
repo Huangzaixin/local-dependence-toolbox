@@ -1,20 +1,24 @@
 function CL = mixFGrG180CL(theta,data)
 % Description: The negative log-likelihood of MixFGrG180 copula model
+%
+% Written for paper "Generalized local Kendall’s τ: a novel framework 
+%                    for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+%
 % Author: Zaixin Huang
 % Date: 2025.03.16
-% Bug reports and suggestions: if you find any bugs or have suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%                              I will update them on GitHub and acknowledge your contribution. Thank you!
+% Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
+%          I will update them on GitHub and acknowledge your contribution. Thank you!
 % The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
 %%
 u = data(:,1);
 v = data(:,2);
 
-w1 = theta(1);      % weight of frank copula 
-w2 = theta(2);      % weight of gumbel copula 
+w1 = theta(1);      % weight of Frank copula 
+w2 = theta(2);      % weight of Gumbel copula 
 
-alpha1 = theta(3);  % frank copula parameter
-alpha2 = theta(4);  % gumbel copula parameter
-alpha3 = theta(5);  % rotated gumbel copula parameter (180-degrees)
+alpha1 = theta(3);  % Frank copula parameter
+alpha2 = theta(4);  % Gumbel copula parameter
+alpha3 = theta(5);  % rotated Gumbel copula parameter (180-degrees)
 
 CL = -sum(log((w2.*exp(-((-log(u)).^alpha2 + (-log(v)).^alpha2).^(1./alpha2)).*(-log(u)).^(alpha2 ...
      - 1).*(-log(v)).^(alpha2 - 1).*((-log(u)).^alpha2 + (-log(v)).^alpha2).^(2./alpha2 - 2))./(u.*v) ...
