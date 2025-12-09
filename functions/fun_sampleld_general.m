@@ -8,13 +8,16 @@ function [ld] = fun_sampleld_general(X,Y,type,pl,pu,ql,qu)
 %          pu: the upper bound quantile of variable X  
 %          ql: the lower bound quantile of variable Y
 %          qu: the upper bound quantile of variable Y
-% Output: ld
+%
+% Outputs: ld
 %       1. ld: Type I local Kendall's tau of sample in the selected region
+%
+% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+%
 % Author: Zaixin Huang
-% Date: finished at 2023.01.01; this version: 2025.03.16
-% Bug reports and suggestions: 
-%       if you find any bugs or have suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%       I will update them on GitHub and acknowledge your contribution. Thank you!
+% Date: finished at 2023.01.01; current version: 2025.03.16
+% Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
+%          I will update them on GitHub and acknowledge your contribution. Thank you!
 % The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
 %%
 Z(:,1) = X;
@@ -33,7 +36,14 @@ end
         
 switch lower(type)
     case 'kendall' 
-        ld = corr(Xtemp,Ytemp,'type','Kendall'); 
+        try
+            ld = corr(Xtemp, Ytemp, 'type', 'Kendall');
+            if isnan(ld)
+                ld = 0;
+            end
+        catch
+            ld = 0;
+        end
     otherwise
         error('Error: unknown measure type.');
 end

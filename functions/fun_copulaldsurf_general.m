@@ -4,20 +4,22 @@ function [ldM] = fun_copulaldsurf_general(copulatype,weight1,weight2,copulaparam
 %      1. copulatype: see functions/fun_copulald_general.m
 %      2. weight1: the weight of the first copula function in the mixture copula model
 %         weight2: the weight of the second copula function in the mixture copula model
-%      3. copulaparameter1: parameter of the first copula function
-%         copulaparameter2: parameter of the second copula function
-%         copulaparameter3: parameter of the third copula function
+%      3. copulaparameter1: first copula parameter
+%         copulaparameter2: second copula parameter  
+%         copulaparameter3: third copula parameter
 %      4. measuretype: 
 %         'kendall' : local Kendall's tau surface
 %      5. quantile_interval: 
 %         the width (or height) of the square region
-% Output: ldM
+% Outputs: ldM
 %      1. ldM: Type I local Kendall's tau matrix
+%
+% Written for paper "Generalized local Kendall¡¯s ¦Ó: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+%
 % Author: Zaixin Huang
-% Date: finished at 2023.01.01; this version: 2025.03.16
-% Bug reports and suggestions: 
-%       if you find any bugs or have suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%       I will update them on GitHub and acknowledge your contribution. Thank you!
+% Date: finished at 2023.01.01; current version: 2025.03.16
+% Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
+%          I will update them on GitHub and acknowledge your contribution. Thank you!
 % The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
 %%
 % the square region interval
@@ -36,14 +38,17 @@ end
 
 quantile_X = 0:quantile_interval:quantile_upper;
 quantile_Y = 0:quantile_interval:quantile_upper;
-        
-for i=1:1:length(quantile_X) 
-    for j=1:1:length(quantile_Y)
+localdependence = zeros(length(quantile_X), length(quantile_Y));
+
+for i=1:length(quantile_X) 
+    for j=1:length(quantile_Y)
         if quantile_X(i) < 1 || quantile_Y(j) < 1
              temp_ld = fun_copulald_general(copulatype,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measuretype,...,
                                            quantile_X(i),quantile_X(i) + quantile_interval,...,
                                            quantile_Y(j),quantile_Y(j) + quantile_interval);
              localdependence(i,j) = temp_ld;
+        else
+             localdependence(i,j) = NaN;
         end
     end
 end
@@ -64,7 +69,7 @@ switch lower(measuretype)
     case 'kendall'
          zlabel('theoretical local Kendall''s ¦Ó','FontSize',12);        
     otherwise
-       error(message('Unknown measure type.'));
+       error('Unknown measure type.');
 end 
 
 switch quantile_interval
@@ -92,7 +97,9 @@ switch quantile_interval
         set(gca,'XTick',[1 2 3]);
         set(gca,'YTick',[1 2 3]);
         set(gca,'XTickLabel',{'0','0.5','1'});
-        set(gca,'YTickLabel',{'0','0.5','1'});    
+        set(gca,'YTickLabel',{'0','0.5','1'});  
+    otherwise
+        error('Unsupported width (or height) of the square region. Supported values: 0.05, 0.1, 0.2, 0.25, 0.5');    
 end
 
 ldM = localdependence;

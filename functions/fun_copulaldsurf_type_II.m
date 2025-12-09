@@ -12,25 +12,29 @@ function [ldM] = fun_copulaldsurf_type_II(copulatype,weight1,weight2,copulaparam
 %      5. region:
 %         'UU': upper-upper region; 'UL': upper-lower region;
 %         'LU': lower-upper region; 'LL': lower-lower region;
-% Output: ldM
+%
+% Outputs: ldM
 %      1. ldM: local Kendall's tau matrix in the selected region
+%
+% Written for paper "Generalized local Kendall¡¯s ¦Ó: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+%
 % Author: Zaixin Huang
-% Date: finished at 2015.06.07; updated at 2018.01.04; this version: 2025.03.16
-% Bug reports and suggestions: 
-%       if you find any bugs or have suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%       I will update them on GitHub and acknowledge your contribution. Thank you!
+% Date: finished at 2015.06.07; updated at 2018.01.04; current version: 2025.03.16
+% Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
+%          I will update them on GitHub and acknowledge your contribution. Thank you!
 % The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
 %%
 quantile_X = 0.05:0.05:0.95;
 quantile_Y = 0.05:0.05:0.95;
-      
+ldM = zeros(length(quantile_X), length(quantile_Y));
+
 for i=1:1:length(quantile_X)
     for j=1:1:length(quantile_Y)
-        localdependence(i,j) = fun_copulald_type_II(copulatype,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measuretype,region,quantile_X(i),quantile_Y(j));            
+        ldM(i,j) = fun_copulald_type_II(copulatype,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measuretype,region,quantile_X(i),quantile_Y(j));            
     end
 end
 
-surf(localdependence, 'FaceColor',[0.7100, 0.2549, 0.0588]); % [0.87,0.53,0.39]
+surf(ldM, 'FaceColor',[0.7100, 0.2549, 0.0588]); % [0.87,0.53,0.39]
 xlabel('u','FontSize',13);
 ylabel('v','FontSize',13);
 set(gcf,'color','w');
@@ -89,7 +93,7 @@ switch lower(region)
             case 'kendall'
                  zlabel('lower-lower local Kendall''s ¦Ó surface','FontSize',13);        
             otherwise
-               error(message('unknown measure type.'));
+               error('unknown measure type.');
         end 
     
     otherwise
@@ -97,8 +101,6 @@ switch lower(region)
 end 
 
 disp('The program is running...');
-
-ldM = localdependence;
 
 
 
