@@ -1,10 +1,8 @@
 ###################################################################################################
 # Example 1: Parkinson's disease data
 ###################################################################################################
-#
 # Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear 
 #                    local dependence" (Huang & Zhang,2026)
-#
 # Author: Zaixin Huang
 # Email: eric.huangzaixin@gmail.com
 # Version 2025-03-07 
