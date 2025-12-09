@@ -1,9 +1,13 @@
 ###################################################################################################
 # Example 1: Parkinson's disease data
 ###################################################################################################
+#
+# Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear 
+#                    local dependence" (Huang & Zhang,2026)
+#
 # Author: Zaixin Huang
 # Email: eric.huangzaixin@gmail.com
-# This version 2025.03.07 
+# Version 2025-03-07 
 # The latest version can be downloaded from https://github.com/Huangzaixin/local-dependence-toolbox
 ###################################################################################################
 install.packages("fitdistrplus") 
@@ -114,42 +118,42 @@ ggsave("scatter_example_1.eps", plot=p, device="eps", width = 3.2, height = 3.2,
 
 ###################### different distribution functions ###################### 
 # FAM171A2 level
-# student's t
+# Student's t distribution
 t_FAM171A2 <- fitdistr(FAM171A2_data, "t")
 t_FAM171A2$loglik   # 174.93, the largest log-likelihood value
-# gamma
+# Gamma distribution
 gamma_FAM171A2 <- fitdist(FAM171A2_data, "gamma", "mle")  
 gamma_FAM171A2$loglik   # 107.35
-# lognormal
+# Lognormal distribution
 lognormal_FAM171A2 <- fitdist(FAM171A2_data, "lnorm", "mle")
 lognormal_FAM171A2$loglik   # 111.59
-# weibull
+# Weibull distribution
 weibull_FAM171A2 <- fitdist(FAM171A2_data, "weibull", "mle")  
 weibull_FAM171A2$loglik   # -122.70
-# inverse gaussian
+# Inverse gaussian distribution
 invgauss_FAM171A2 <- mlinvgauss(FAM171A2_data)
 logLik(invgauss_FAM171A2)   # 111.42
-# logisitic
+# Logistic distribution
 logis_FAM171A2 <- fitdist(FAM171A2_data, "logis", "mle")  
 logis_FAM171A2$loglik   # 157.93
 
-# total α-syn
-# student's t
+# Total α-syn
+# Student's t distribution
 t_alpha_syn <- fitdistr(alpha_syn_data, "t")
 t_alpha_syn$loglik   # -3367.75
-# gamma
+# Gamma distribution
 gamma_alpha_syn <- fitdist(alpha_syn_data, "gamma", "mle")  
 gamma_alpha_syn$loglik   # -3339.53
-# weibull
+# Weibull distribution
 weibull_alpha_syn <- fitdist(alpha_syn_data, "weibull", "mle")  
 weibull_alpha_syn$loglik   # -3373.58
-# lognormal
+# Lognormal distribution
 lognormal_alpha_syn <- fitdist(alpha_syn_data, "lnorm", "mle")  
 lognormal_alpha_syn$loglik  # -3328.97, the largest log-likelihood value
-# inverse gaussian
+# Inverse Gaussian distribution
 invgauss_alpha_syn <- mlinvgauss(alpha_syn_data)
 logLik(invgauss_alpha_syn)  # -3329
-# logisitic
+# Logistic distribution
 logis_alpha_syn <- fitdist(alpha_syn_data, "logis", "mle")  
 logis_alpha_syn$loglik  # -3374.47
 

@@ -1,9 +1,13 @@
 ###################################################################################################
 # Example 2: COVID-19 data
 ###################################################################################################
+#
+# Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear 
+#                    local dependence" (Huang & Zhang,2026)
+#
 # Author: Zaixin Huang
 # Email: eric.huangzaixin@gmail.com
-# This version 2024.11.05 
+# Version 2024-11-05 
 # The latest version can be downloaded from https://github.com/Huangzaixin/local-dependence-toolbox
 ###################################################################################################
 install.packages("ggplot2")
@@ -14,13 +18,13 @@ library(ggplot2)
 library(distributionsrd)    # rightparetolognormal.mle
 library(ggExtra)
 
-#######################  read data  ######################## 
+#######################  Read data  ######################## 
 all_deaths_counts <- read.csv("data/us-counties_20210501.csv",header = T)
 cases_data <- all_deaths_counts$cases
 deaths_data <- all_deaths_counts$deaths
 cases_deaths_data <- data.frame(x = cases_data, y = deaths_data)
 
-#######################  scatter plot ######################
+#######################  Scatter plot  ######################
 label_scientific <- function(l) { 
         l <- format(l, scientific = TRUE)
         l <- gsub("0e\\+00","0",l)
@@ -31,19 +35,21 @@ label_scientific <- function(l) {
         parse(text=l)
 }
 
-# scatter plot 1: whole dataset
+# Scatter plot 1: the whole dataset
 p <- ggplot(cases_deaths_data, aes(x = x, y = y)) + 
         geom_point(color = "white", fill = "#1eb3b9", size = 1.7, shape = 21, stroke = 0.5) + 
         xlim(c(0, 600000)) + scale_x_continuous(limits = c(0, 600000),breaks = seq(from = 0, to = 600000, by = 200000),labels=label_scientific) +
         ylim(c(0, 12000)) + scale_y_continuous(limits = c(0, 12000),breaks = seq(from = 0, to = 12000, by = 3000),labels=label_scientific) +
         labs(title = "", x = "cases", y = "deaths") +
-        theme(aspect.ratio = 1) + theme(plot.title = element_text(hjust = 0.5)) +
-        theme(plot.title = element_text(hjust = 0.5)) + theme(plot.margin = unit(c(0, 3, 0, 0), "mm")) +
-        theme(axis.text.x = element_text(size = 9), axis.text.y = element_text(size = 9))
+        theme(aspect.ratio = 1,
+              plot.title = element_text(hjust = 0.5),
+              plot.margin = unit(c(0, 3, 0, 0), "mm"),
+              axis.text.x = element_text(size = 9),
+              axis.text.y = element_text(size = 9))
 print(p)
 
 
-# scatter plot 2: points with particularly large values are not shown 
+# Scatter plot 2: points with particularly large values are not shown 
 region1_xmax <- 1000
 region1_ymax <- 18
 
@@ -110,7 +116,7 @@ p <- ggplot(cases_deaths_data, aes(x = x, y = y)) +
         theme(axis.text.x = element_text(size = 7.45), axis.text.y = element_text(size = 7.45)) +
         theme(axis.title=element_text(size = 8.7)) 
 
-# densigram
+# Densigram
 p <- ggMarginal(p, type = "densigram", xparams = list(color = "white", fill = "#1eb3b9", size = 0.35, bins = 40), 
                 yparams = list(color = "white", fill = "#1eb3b9", size = 0.35, bins = 40)) 
 
@@ -119,12 +125,12 @@ print(p)
 ggsave("scatter_example_2.eps", plot=p, device="eps", width = 3.55, height = 3.55, units = "in")
 
 
-#######################  fit lognormal-Pareto distribution ###################### 
+#######################  Fit lognormal-Pareto distribution ###################### 
 est_lnor_pareto_cases <- rightparetolognormal.mle(cases_data)
 est_lnor_pareto_deaths <- rightparetolognormal.mle(deaths_data)
 
-#######################  histogram and probability density curve ###################### 
-# cases
+#######################  Histogram and probability density curve ###################### 
+# Cases
 par(cex.axis = 0.7, cex.lab = 0.7, cex.main = 1)
 display_upper_bound <- 30000
 hist_cases <- hist(cases_data, breaks = 2000, probability = TRUE, 
@@ -137,7 +143,7 @@ lines(x,drightparetolognormal(x, shape2 = est_lnor_pareto_cases$coefficients[3],
                                  sdlog = est_lnor_pareto_cases$coefficients[2]), 
                                  type = "l", col = "red", lwd = 3) 
 
-# deaths
+# Deaths
 par(cex.axis = 0.7, cex.lab = 0.7, cex.main = 1)
 display_upper_bound <- 600
 hist_deaths <- hist(deaths_data, breaks = 3000, probability = TRUE, 
@@ -150,8 +156,8 @@ lines(x,drightparetolognormal(x, shape2 = est_lnor_pareto_deaths$coefficients[3]
                               sdlog = est_lnor_pareto_deaths$coefficients[2]), 
                               type = "l", col = "red", lwd = 3) 
 
-#######################  probability integral transformation  ###################### 
-# cases
+#######################  Probability integral transformation  ###################### 
+# Cases
 cdf_cases <- prightparetolognormal(cases_data,shape2 = est_lnor_pareto_cases$coefficients[3],
                                    meanlog = est_lnor_pareto_cases$coefficients[1],
                                    sdlog = est_lnor_pareto_cases$coefficients[2])
@@ -188,7 +194,7 @@ cdf_cases_region8_xmin <- prightparetolognormal(region8_xmin,shape2 = est_lnor_p
                                        meanlog = est_lnor_pareto_cases$coefficients[1],
                                        sdlog = est_lnor_pareto_cases$coefficients[2])
 
-# deaths
+# Deaths
 cdf_deaths <- prightparetolognormal(deaths_data,shape2 = est_lnor_pareto_deaths$coefficients[3],
                                     meanlog = est_lnor_pareto_deaths$coefficients[1],
                                     sdlog = est_lnor_pareto_deaths$coefficients[2])
@@ -226,7 +232,7 @@ cdf_deaths_region8_ymin <- prightparetolognormal(region8_ymin,shape2 = est_lnor_
                                        sdlog = est_lnor_pareto_deaths$coefficients[2])
 
 
-#######################  scatter plot for cdf_cases and cdf_deaths  ######################
+#######################  Scatter plot for cdf_cases and cdf_deaths  ######################
 uv_cases_deaths <- data.frame(x = cdf_cases, y = cdf_deaths)
 p <- ggplot(uv_cases_deaths, aes(x = x, y = y)) + 
      geom_point(color = "white", fill = "#1eb3b9", size = 2.1, shape = 21, stroke = 0.5) + 
@@ -252,7 +258,7 @@ print(p)
 ggsave("scatter_uv_example_2.eps", plot=p, device="eps", width = 3, height = 3, units = "in")
 
 
-####################### save to csv file #######################
+####################### Save to csv file #######################
 write.csv(cdf_cases, file = "data/u_cases.csv", row.names = FALSE)
 write.csv(cdf_deaths, file = "data/v_deaths.csv", row.names = FALSE)
 
