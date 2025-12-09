@@ -1,29 +1,32 @@
-%% Comparison of global Kendall’s tau and generalized local Kendall’s tau for Gumbel, Clayton, Frank and FGM copula models
-%% basic setup
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%            Comparison of Global and Generalized Local Kendall’s Tau for                %
+%                    Gumbel, Clayton, Frank and FGM Copula Models                        %                         
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Basic Settings
 clear;
-measuretype = "kendall"; 
-copulatype = 'fgm';          % "gumbel", "clayton", "frank", "fgm"
+measure_type = "kendall"; 
+copula_type = 'fgm';         % "gumbel", "clayton", "frank", "fgm"
 quantile_interval = 0.5;     % the square region interval
-% copula parameter
-% for Gumbel copula, theta = 1.1, 1.25, 1.5, 3
-% for Clayton copula, theta = 0.1, 0.2, 0.5, 2
-% for Frank copula, theta = 0.3, 3, 8, 15
-% for FGM copula, theta = 0.1, 0.3, 0.5, 0.7
-theta = 0.7;
 
-%% theoretical global Kendall's tau
-switch lower(copulatype)
-case "gumbel"    % gumbel copula
-    copula_globalKendalltau = 1 - 1/theta;    
-case "clayton"   % clayton copula
-    copula_globalKendalltau = theta/(theta+2);   
-case "frank"     % frank copula
-    copula_globalKendalltau = fun_copulald_general('frank',0,0,theta,0,0,measuretype,0,1,0,1);   
-case "fgm"       % FGM copula
-    copula_globalKendalltau = 2/9*theta;   
+% Copula parameter
+theta = 0.7;    % for Gumbel copula, theta = 1.1, 1.25, 1.5, 3
+                % for Clayton copula, theta = 0.1, 0.2, 0.5, 2
+                % for Frank copula, theta = 0.3, 3, 8, 15
+                % for FGM copula, theta = 0.1, 0.3, 0.5, 0.7
+
+%% Calculate theoretical global Kendall's tau
+switch lower(copula_type)
+    case "gumbel"    % gumbel copula
+        copula_globalKendalltau = 1 - 1/theta;    
+    case "clayton"   % clayton copula
+        copula_globalKendalltau = theta/(theta+2);   
+    case "frank"     % frank copula
+        copula_globalKendalltau = fun_copulald_general('frank',0,0,theta,0,0,measure_type,0,1,0,1);   
+    case "fgm"       % FGM copula
+        copula_globalKendalltau = 2/9*theta;   
 end
 
-%% calculate generalized local Kendall’s tau in each region
+%% Calculate generalized local Kendall’s tau in each region
 switch quantile_interval
     case 0.05
         quantile_upper = 0.95;
@@ -40,19 +43,19 @@ end
 quantile_X = 0:quantile_interval:quantile_upper;
 quantile_Y = 0:quantile_interval:quantile_upper;
         
-for i=1:1:length(quantile_X) 
-    for j=1:1:length(quantile_Y)
+for i=1:length(quantile_X) 
+    for j=1:length(quantile_Y)
         if quantile_X(i) < 1 || quantile_Y(j) < 1
-             temp_ld = fun_copulald_general(copulatype,0,0,theta,0,0,measuretype,...,
+             temp_ld = fun_copulald_general(copula_type,0,0,theta,0,0,measure_type,...,
                                            quantile_X(i),quantile_X(i) + quantile_interval,...,
                                            quantile_Y(j),quantile_Y(j) + quantile_interval);
-             ldMaxtrix(i,j) = temp_ld;
+             ldMatrix(i,j) = temp_ld;
         end
     end
 end
 
 %% 3d bar chart
-b = bar3(ldMaxtrix,1);
+b = bar3(ldMatrix,1);
 view(-135,35);
 
 for k = 1:length(b)
