@@ -26,6 +26,6 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    first version: 2015/06/07
 
 6. License
-   This software package is only free for scholars and students, and cannot be used for commercial purposes.
+   This toolbox is free for academic, research, and non-commercial use. For commercial use, please contact the author for licensing terms.
 
 
