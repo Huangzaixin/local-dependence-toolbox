@@ -1,0 +1,3107 @@
+date,county,state,fips,cases,deaths
+2021/5/1,Abbeville,South Carolina,45001,2559,41
+2021/5/1,Acadia,Louisiana,22001,6481,192
+2021/5/1,Accomack,Virginia,51001,2811,41
+2021/5/1,Ada,Idaho,16001,51610,462
+2021/5/1,Adair,Missouri,29001,2453,20
+2021/5/1,Adair,Iowa,19001,860,32
+2021/5/1,Adair,Oklahoma,40001,3170,41
+2021/5/1,Adair,Kentucky,21001,1847,53
+2021/5/1,Adams,North Dakota,38001,269,3
+2021/5/1,Adams,Iowa,19003,337,4
+2021/5/1,Adams,Idaho,16003,339,4
+2021/5/1,Adams,Wisconsin,55001,1891,17
+2021/5/1,Adams,Washington,53001,2092,22
+2021/5/1,Adams,Nebraska,31001,2905,43
+2021/5/1,Adams,Ohio,39001,2343,52
+2021/5/1,Adams,Indiana,18001,3463,55
+2021/5/1,Adams,Mississippi,28001,2567,82
+2021/5/1,Adams,Illinois,17001,8325,148
+2021/5/1,Adams,Pennsylvania,42001,9138,171
+2021/5/1,Adams,Colorado,8001,57233,701
+2021/5/1,Addison,Vermont,50001,1025,8
+2021/5/1,Aiken,South Carolina,45003,17130,220
+2021/5/1,Aitkin,Minnesota,27001,1321,36
+2021/5/1,Alachua,Florida,12001,24678,275
+2021/5/1,Alamance,North Carolina,37001,17794,264
+2021/5/1,Alameda,California,6001,86623,1508
+2021/5/1,Alamosa,Colorado,8003,1459,30
+2021/5/1,Albany,Wyoming,56001,4242,11
+2021/5/1,Albany,New York,36001,24159,347
+2021/5/1,Albemarle,Virginia,51003,5705,83
+2021/5/1,Alcona,Michigan,26001,704,28
+2021/5/1,Alcorn,Mississippi,28003,3097,68
+2021/5/1,Aleutians East Borough,Alaska,2013,364,3
+2021/5/1,Alexander,Illinois,17003,464,11
+2021/5/1,Alexander,North Carolina,37003,4351,83
+2021/5/1,Alexandria city,Virginia,51510,11657,133
+2021/5/1,Alfalfa,Oklahoma,40003,1156,7
+2021/5/1,Alger,Michigan,26003,647,6
+2021/5/1,Allamakee,Iowa,19005,1499,51
+2021/5/1,Allegan,Michigan,26005,10353,131
+2021/5/1,Allegany,New York,36003,3299,84
+2021/5/1,Allegany,Maryland,24001,6842,207
+2021/5/1,Alleghany,North Carolina,37005,1011,5
+2021/5/1,Alleghany,Virginia,51005,1326,48
+2021/5/1,Allegheny,Pennsylvania,42003,97521,1899
+2021/5/1,Allen,Kansas,20001,1239,18
+2021/5/1,Allen,Kentucky,21003,2054,40
+2021/5/1,Allen,Louisiana,22003,3168,91
+2021/5/1,Allen,Ohio,39003,11536,229
+2021/5/1,Allen,Indiana,18003,40066,696
+2021/5/1,Allendale,South Carolina,45005,915,15
+2021/5/1,Alpena,Michigan,26007,2075,59
+2021/5/1,Amador,California,6005,3649,47
+2021/5/1,Amelia,Virginia,51007,879,31
+2021/5/1,Amherst,Virginia,51009,2904,35
+2021/5/1,Amite,Mississippi,28005,1227,41
+2021/5/1,Anchorage,Alaska,2020,29964,171
+2021/5/1,Anderson,Kansas,20003,836,18
+2021/5/1,Anderson,Kentucky,21005,1728,21
+2021/5/1,Anderson,Texas,48001,6108,120
+2021/5/1,Anderson,Tennessee,47001,8729,172
+2021/5/1,Anderson,South Carolina,45007,22650,517
+2021/5/1,Andrew,Missouri,29003,1852,20
+2021/5/1,Andrews,Texas,48003,1816,47
+2021/5/1,Androscoggin,Maine,23001,7208,70
+2021/5/1,Angelina,Texas,48005,8494,279
+2021/5/1,Anne Arundel,Maryland,24003,42612,595
+2021/5/1,Anoka,Minnesota,27003,40393,429
+2021/5/1,Anson,North Carolina,37007,2527,55
+2021/5/1,Antelope,Nebraska,31003,525,6
+2021/5/1,Antrim,Michigan,26009,1531,27
+2021/5/1,Apache,Arizona,4001,11317,428
+2021/5/1,Appanoose,Iowa,19007,1276,47
+2021/5/1,Appling,Georgia,13001,2309,71
+2021/5/1,Appomattox,Virginia,51011,1583,24
+2021/5/1,Aransas,Texas,48007,1247,39
+2021/5/1,Arapahoe,Colorado,8005,58753,771
+2021/5/1,Archer,Texas,48009,800,12
+2021/5/1,Archuleta,Colorado,8007,900,1
+2021/5/1,Arenac,Michigan,26011,1084,29
+2021/5/1,Arkansas,Arkansas,5001,2095,36
+2021/5/1,Arlington,Virginia,51013,15111,252
+2021/5/1,Armstrong,Texas,48011,183,6
+2021/5/1,Armstrong,Pennsylvania,42005,5741,131
+2021/5/1,Aroostook,Maine,23003,1681,45
+2021/5/1,Arthur,Nebraska,31005,22,1
+2021/5/1,Ascension,Louisiana,22005,12080,164
+2021/5/1,Ashe,North Carolina,37009,2081,41
+2021/5/1,Ashland,Wisconsin,55003,1333,15
+2021/5/1,Ashland,Ohio,39005,4197,89
+2021/5/1,Ashley,Arkansas,5003,1996,34
+2021/5/1,Ashtabula,Ohio,39007,6725,168
+2021/5/1,Asotin,Washington,53003,1407,29
+2021/5/1,Assumption,Louisiana,22007,2173,36
+2021/5/1,Atascosa,Texas,48013,5747,150
+2021/5/1,Atchison,Missouri,29005,454,6
+2021/5/1,Atchison,Kansas,20005,1614,14
+2021/5/1,Athens,Ohio,39009,5163,58
+2021/5/1,Atkinson,Georgia,13003,1024,19
+2021/5/1,Atlantic,New Jersey,34001,30984,664
+2021/5/1,Atoka,Oklahoma,40005,1868,25
+2021/5/1,Attala,Mississippi,28007,2142,73
+2021/5/1,Audrain,Missouri,29007,2701,57
+2021/5/1,Audubon,Iowa,19009,500,9
+2021/5/1,Auglaize,Ohio,39011,4851,83
+2021/5/1,Augusta,Virginia,51015,5727,70
+2021/5/1,Aurora,South Dakota,46003,471,15
+2021/5/1,Austin,Texas,48015,2134,34
+2021/5/1,Autauga,Alabama,1001,6907,107
+2021/5/1,Avery,North Carolina,37011,2095,20
+2021/5/1,Avoyelles,Louisiana,22009,4178,123
+2021/5/1,Baca,Colorado,8009,288,4
+2021/5/1,Bacon,Georgia,13005,1651,36
+2021/5/1,Bailey,Texas,48017,821,19
+2021/5/1,Baker,Georgia,13007,230,9
+2021/5/1,Baker,Oregon,41001,919,14
+2021/5/1,Baker,Florida,12003,3484,60
+2021/5/1,Baldwin,Georgia,13009,4505,128
+2021/5/1,Baldwin,Alabama,1003,20966,306
+2021/5/1,Ballard,Kentucky,21007,394,8
+2021/5/1,Baltimore,Maryland,24005,63666,1470
+2021/5/1,Baltimore city,Maryland,24510,51108,1034
+2021/5/1,Bamberg,South Carolina,45009,1553,51
+2021/5/1,Bandera,Texas,48019,1386,27
+2021/5/1,Banks,Georgia,13011,1832,35
+2021/5/1,Bannock,Idaho,16005,8713,106
+2021/5/1,Baraga,Michigan,26013,857,35
+2021/5/1,Barber,Kansas,20007,374,6
+2021/5/1,Barbour,West Virginia,54001,1405,26
+2021/5/1,Barbour,Alabama,1005,2302,56
+2021/5/1,Barnes,North Dakota,38003,1403,31
+2021/5/1,Barnstable,Massachusetts,25001,13547,461
+2021/5/1,Barnwell,South Carolina,45011,2549,56
+2021/5/1,Barren,Kentucky,21009,4430,91
+2021/5/1,Barron,Wisconsin,55005,5880,83
+2021/5/1,Barrow,Georgia,13013,9903,136
+2021/5/1,Barry,Missouri,29009,2879,45
+2021/5/1,Barry,Michigan,26015,5512,63
+2021/5/1,Bartholomew,Indiana,18005,8035,160
+2021/5/1,Barton,Missouri,29011,1168,14
+2021/5/1,Barton,Kansas,20009,2606,47
+2021/5/1,Bartow,Georgia,13015,14694,223
+2021/5/1,Bastrop,Texas,48021,9356,91
+2021/5/1,Bates,Missouri,29013,1310,29
+2021/5/1,Bath,Virginia,51017,270,10
+2021/5/1,Bath,Kentucky,21011,958,21
+2021/5/1,Baxter,Arkansas,5005,3156,103
+2021/5/1,Bay,Michigan,26017,10578,323
+2021/5/1,Bay,Florida,12005,20028,386
+2021/5/1,Bayfield,Wisconsin,55007,1251,19
+2021/5/1,Baylor,Texas,48023,298,12
+2021/5/1,Beadle,South Dakota,46005,2933,40
+2021/5/1,Bear Lake,Idaho,16007,384,2
+2021/5/1,Beaufort,North Carolina,37013,4526,95
+2021/5/1,Beaufort,South Carolina,45013,16692,204
+2021/5/1,Beauregard,Louisiana,22011,3166,77
+2021/5/1,Beaver,Oklahoma,40007,474,6
+2021/5/1,Beaver,Utah,49001,783,7
+2021/5/1,Beaver,Pennsylvania,42007,14758,375
+2021/5/1,Beaverhead,Montana,30001,908,9
+2021/5/1,Becker,Minnesota,27005,3723,49
+2021/5/1,Beckham,Oklahoma,40009,2892,54
+2021/5/1,Bedford,Virginia,51019,6265,99
+2021/5/1,Bedford,Tennessee,47003,6495,129
+2021/5/1,Bedford,Pennsylvania,42009,4356,134
+2021/5/1,Bee,Texas,48025,3486,72
+2021/5/1,Belknap,New Hampshire,33001,3926,98
+2021/5/1,Bell,Kentucky,21013,3084,54
+2021/5/1,Bell,Texas,48027,22311,429
+2021/5/1,Belmont,Ohio,39013,5799,163
+2021/5/1,Beltrami,Minnesota,27007,3839,58
+2021/5/1,Ben Hill,Georgia,13017,2100,79
+2021/5/1,Benewah,Idaho,16009,670,9
+2021/5/1,Bennett,South Dakota,46007,390,9
+2021/5/1,Bennington,Vermont,50003,1946,12
+2021/5/1,Benson,North Dakota,38005,1078,18
+2021/5/1,Bent,Colorado,8011,1522,21
+2021/5/1,Benton,Indiana,18007,982,14
+2021/5/1,Benton,Oregon,41003,2917,19
+2021/5/1,Benton,Mississippi,28009,984,25
+2021/5/1,Benton,Missouri,29015,1654,33
+2021/5/1,Benton,Tennessee,47005,1652,40
+2021/5/1,Benton,Iowa,19011,2541,55
+2021/5/1,Benton,Minnesota,27009,5544,97
+2021/5/1,Benton,Washington,53005,16666,216
+2021/5/1,Benton,Arkansas,5007,28802,414
+2021/5/1,Benzie,Michigan,26019,1221,32
+2021/5/1,Bergen,New Jersey,34003,101120,2828
+2021/5/1,Berkeley,West Virginia,54003,12089,121
+2021/5/1,Berkeley,South Carolina,45015,17361,192
+2021/5/1,Berks,Pennsylvania,42011,45758,995
+2021/5/1,Berkshire,Massachusetts,25003,6324,282
+2021/5/1,Bernalillo,New Mexico,35001,56899,929
+2021/5/1,Berrien,Georgia,13019,1828,44
+2021/5/1,Berrien,Michigan,26021,14676,270
+2021/5/1,Bertie,North Carolina,37015,1749,43
+2021/5/1,Bethel Census Area,Alaska,2050,3874,21
+2021/5/1,Bexar,Texas,48029,217498,3485
+2021/5/1,Bibb,Alabama,1007,2596,63
+2021/5/1,Bibb,Georgia,13021,15845,445
+2021/5/1,Bienville,Louisiana,22013,1660,81
+2021/5/1,Big Horn,Wyoming,56003,1147,32
+2021/5/1,Big Horn,Montana,30003,2547,75
+2021/5/1,Big Stone,Minnesota,27011,588,4
+2021/5/1,Bingham,Idaho,16011,4824,74
+2021/5/1,Black Hawk,Iowa,19013,15719,307
+2021/5/1,Blackford,Indiana,18009,1355,32
+2021/5/1,Bladen,North Carolina,37017,3230,41
+2021/5/1,Blaine,Oklahoma,40011,1040,18
+2021/5/1,Blaine,Idaho,16013,2363,18
+2021/5/1,Blaine,Montana,30005,751,23
+2021/5/1,Blair,Pennsylvania,42013,12566,323
+2021/5/1,Blanco,Texas,48031,732,20
+2021/5/1,Bland,Virginia,51021,669,10
+2021/5/1,Bleckley,Georgia,13023,1469,51
+2021/5/1,Bledsoe,Tennessee,47007,2119,11
+2021/5/1,Blount,Alabama,1009,6616,135
+2021/5/1,Blount,Tennessee,47009,15388,193
+2021/5/1,Blue Earth,Minnesota,27013,7293,41
+2021/5/1,Boise,Idaho,16015,354,2
+2021/5/1,Bolivar,Mississippi,28011,4793,131
+2021/5/1,Bollinger,Missouri,29017,1114,12
+2021/5/1,Bon Homme,South Dakota,46009,1543,27
+2021/5/1,Bond,Illinois,17005,2018,30
+2021/5/1,Bonner,Idaho,16017,3221,43
+2021/5/1,Bonneville,Idaho,16019,14807,169
+2021/5/1,Boone,Nebraska,31011,584,4
+2021/5/1,Boone,West Virginia,54005,1957,33
+2021/5/1,Boone,Iowa,19015,2617,34
+2021/5/1,Boone,Arkansas,5009,3804,80
+2021/5/1,Boone,Illinois,17007,6582,83
+2021/5/1,Boone,Missouri,29019,18301,91
+2021/5/1,Boone,Indiana,18011,6657,105
+2021/5/1,Boone,Kentucky,21015,14149,145
+2021/5/1,Borden,Texas,48033,31,2
+2021/5/1,Bosque,Texas,48035,1665,33
+2021/5/1,Bossier,Louisiana,22015,13752,298
+2021/5/1,Botetourt,Virginia,51023,2501,36
+2021/5/1,Bottineau,North Dakota,38009,713,20
+2021/5/1,Boulder,Colorado,8013,23037,254
+2021/5/1,Boundary,Idaho,16021,861,10
+2021/5/1,Bourbon,Kentucky,21017,1676,18
+2021/5/1,Bourbon,Kansas,20011,1404,26
+2021/5/1,Bowie,Texas,48037,6936,212
+2021/5/1,Bowman,North Dakota,38011,401,5
+2021/5/1,Box Butte,Nebraska,31013,933,9
+2021/5/1,Box Elder,Utah,49003,5304,50
+2021/5/1,Boyd,Nebraska,31015,174,3
+2021/5/1,Boyd,Kentucky,21019,4909,73
+2021/5/1,Boyle,Kentucky,21021,3399,70
+2021/5/1,Bracken,Kentucky,21023,622,7
+2021/5/1,Bradford,Florida,12007,2999,56
+2021/5/1,Bradford,Pennsylvania,42015,5656,88
+2021/5/1,Bradley,Arkansas,5011,1381,32
+2021/5/1,Bradley,Tennessee,47011,14920,149
+2021/5/1,Branch,Michigan,26023,5439,118
+2021/5/1,Brantley,Georgia,13025,1613,37
+2021/5/1,Braxton,West Virginia,54007,891,3
+2021/5/1,Brazoria,Texas,48039,37266,488
+2021/5/1,Brazos,Texas,48041,26375,249
+2021/5/1,Breathitt,Kentucky,21025,993,8
+2021/5/1,Breckinridge,Kentucky,21027,1241,15
+2021/5/1,Bremer,Iowa,19017,2816,60
+2021/5/1,Brevard,Florida,12009,41041,861
+2021/5/1,Brewster,Texas,48043,927,16
+2021/5/1,Briscoe,Texas,48045,168,5
+2021/5/1,Bristol,Rhode Island,44001,5000,141
+2021/5/1,Bristol,Massachusetts,25005,64891,1700
+2021/5/1,Bristol city,Virginia,51520,1464,33
+2021/5/1,Broadwater,Montana,30007,485,5
+2021/5/1,Brooke,West Virginia,54009,2165,59
+2021/5/1,Brookings,South Dakota,46011,4184,37
+2021/5/1,Brooks,Texas,48047,798,36
+2021/5/1,Brooks,Georgia,13027,1384,47
+2021/5/1,Broome,New York,36007,17975,354
+2021/5/1,Broomfield,Colorado,8014,4687,75
+2021/5/1,Broward,Florida,12011,236592,2902
+2021/5/1,Brown,Nebraska,31017,219,2
+2021/5/1,Brown,Illinois,17009,696,12
+2021/5/1,Brown,Kansas,20013,1235,38
+2021/5/1,Brown,Minnesota,27015,3016,40
+2021/5/1,Brown,Indiana,18013,1012,41
+2021/5/1,Brown,Ohio,39015,3906,57
+2021/5/1,Brown,South Dakota,46013,5509,91
+2021/5/1,Brown,Texas,48049,4235,136
+2021/5/1,Brown,Wisconsin,55009,34881,283
+2021/5/1,Brule,South Dakota,46015,712,9
+2021/5/1,Brunswick,Virginia,51025,1296,21
+2021/5/1,Brunswick,North Carolina,37019,9012,152
+2021/5/1,Bryan,Georgia,13029,3620,39
+2021/5/1,Bryan,Oklahoma,40013,6086,71
+2021/5/1,Buchanan,Iowa,19019,1900,31
+2021/5/1,Buchanan,Virginia,51027,1409,38
+2021/5/1,Buchanan,Missouri,29021,10403,181
+2021/5/1,Buckingham,Virginia,51029,2118,30
+2021/5/1,Bucks,Pennsylvania,42017,58598,1251
+2021/5/1,Buena Vista,Iowa,19021,4238,40
+2021/5/1,Buena Vista city,Virginia,51530,894,19
+2021/5/1,Buffalo,Wisconsin,55011,1385,7
+2021/5/1,Buffalo,South Dakota,46017,425,13
+2021/5/1,Buffalo,Nebraska,31019,5476,58
+2021/5/1,Bullitt,Kentucky,21029,7139,72
+2021/5/1,Bulloch,Georgia,13031,6790,113
+2021/5/1,Bullock,Alabama,1011,1230,41
+2021/5/1,Buncombe,North Carolina,37021,17429,323
+2021/5/1,Bureau,Illinois,17011,3630,95
+2021/5/1,Burke,North Dakota,38013,234,1
+2021/5/1,Burke,Georgia,13033,2566,61
+2021/5/1,Burke,North Carolina,37023,9856,153
+2021/5/1,Burleigh,North Dakota,38015,15509,191
+2021/5/1,Burleson,Texas,48051,2394,46
+2021/5/1,Burlington,New Jersey,34005,43840,833
+2021/5/1,Burnet,Texas,48053,4728,63
+2021/5/1,Burnett,Wisconsin,55013,1493,22
+2021/5/1,Burt,Nebraska,31021,666,12
+2021/5/1,Butler,Nebraska,31023,852,12
+2021/5/1,Butler,Kentucky,21031,1443,24
+2021/5/1,Butler,Iowa,19023,1633,34
+2021/5/1,Butler,Missouri,29023,4160,42
+2021/5/1,Butler,Alabama,1013,2154,69
+2021/5/1,Butler,Kansas,20015,7487,85
+2021/5/1,Butler,Pennsylvania,42019,16801,406
+2021/5/1,Butler,Ohio,39017,38187,579
+2021/5/1,Butte,Idaho,16023,209,1
+2021/5/1,Butte,South Dakota,46019,1043,20
+2021/5/1,Butte,California,6007,11812,197
+2021/5/1,Butts,Georgia,13035,3110,83
+2021/5/1,Cabarrus,North Carolina,37025,21462,251
+2021/5/1,Cabell,West Virginia,54011,8590,170
+2021/5/1,Cache,Utah,49005,16007,45
+2021/5/1,Caddo,Oklahoma,40015,3963,87
+2021/5/1,Caddo,Louisiana,22017,25830,740
+2021/5/1,Calaveras,California,6009,2087,52
+2021/5/1,Calcasieu,Louisiana,22019,22340,426
+2021/5/1,Caldwell,Missouri,29025,767,13
+2021/5/1,Caldwell,Louisiana,22021,1107,29
+2021/5/1,Caldwell,Kentucky,21033,1445,30
+2021/5/1,Caldwell,Texas,48055,5573,96
+2021/5/1,Caldwell,North Carolina,37027,9234,104
+2021/5/1,Caledonia,Vermont,50005,976,6
+2021/5/1,Calhoun,Arkansas,5013,411,3
+2021/5/1,Calhoun,Illinois,17013,515,5
+2021/5/1,Calhoun,Iowa,19025,1349,13
+2021/5/1,Calhoun,Georgia,13037,582,15
+2021/5/1,Calhoun,Texas,48057,2283,23
+2021/5/1,Calhoun,Mississippi,28013,1685,32
+2021/5/1,Calhoun,South Carolina,45017,1302,36
+2021/5/1,Calhoun,Florida,12013,1688,43
+2021/5/1,Calhoun,Michigan,26025,13465,271
+2021/5/1,Calhoun,Alabama,1015,14447,312
+2021/5/1,Callahan,Texas,48059,1187,39
+2021/5/1,Callaway,Missouri,29027,4945,47
+2021/5/1,Calloway,Kentucky,21035,3504,51
+2021/5/1,Calumet,Wisconsin,55015,6403,52
+2021/5/1,Calvert,Maryland,24009,4155,78
+2021/5/1,Cambria,Pennsylvania,42021,13787,418
+2021/5/1,Camden,North Carolina,37029,652,5
+2021/5/1,Camden,Georgia,13039,3935,35
+2021/5/1,Camden,Missouri,29029,4077,87
+2021/5/1,Camden,New Jersey,34007,54014,1268
+2021/5/1,Cameron,Louisiana,22023,599,6
+2021/5/1,Cameron,Pennsylvania,42023,290,8
+2021/5/1,Cameron,Texas,48061,40361,1629
+2021/5/1,Camp,Texas,48063,1242,42
+2021/5/1,Campbell,South Dakota,46021,130,4
+2021/5/1,Campbell,Wyoming,56005,4830,60
+2021/5/1,Campbell,Tennessee,47013,4140,63
+2021/5/1,Campbell,Kentucky,21037,8710,83
+2021/5/1,Campbell,Virginia,51031,4407,84
+2021/5/1,Canadian,Oklahoma,40017,17046,168
+2021/5/1,Candler,Georgia,13043,947,65
+2021/5/1,Cannon,Tennessee,47015,1911,31
+2021/5/1,Canyon,Idaho,16027,26441,292
+2021/5/1,Cape Girardeau,Missouri,29031,9446,134
+2021/5/1,Cape May,New Jersey,34009,8942,201
+2021/5/1,Carbon,Montana,30009,863,14
+2021/5/1,Carbon,Utah,49007,1630,17
+2021/5/1,Carbon,Wyoming,56007,1568,23
+2021/5/1,Carbon,Pennsylvania,42025,6090,167
+2021/5/1,Caribou,Idaho,16029,689,12
+2021/5/1,Carlisle,Kentucky,21039,470,9
+2021/5/1,Carlton,Minnesota,27017,3381,52
+2021/5/1,Caroline,Maryland,24011,2262,25
+2021/5/1,Caroline,Virginia,51033,2554,35
+2021/5/1,Carroll,New Hampshire,33003,2330,9
+2021/5/1,Carroll,Kentucky,21041,996,19
+2021/5/1,Carroll,Indiana,18015,1879,22
+2021/5/1,Carroll,Missouri,29033,1032,23
+2021/5/1,Carroll,Mississippi,28015,1215,27
+2021/5/1,Carroll,Illinois,17015,1732,37
+2021/5/1,Carroll,Arkansas,5015,2800,45
+2021/5/1,Carroll,Ohio,39019,1907,47
+2021/5/1,Carroll,Iowa,19027,2836,52
+2021/5/1,Carroll,Virginia,51035,2597,69
+2021/5/1,Carroll,Tennessee,47017,3604,83
+2021/5/1,Carroll,Maryland,24013,9146,234
+2021/5/1,Carroll,Georgia,13045,11318,238
+2021/5/1,Carson,Texas,48065,520,14
+2021/5/1,Carson City,Nevada,32510,6425,123
+2021/5/1,Carter,Montana,30011,146,5
+2021/5/1,Carter,Missouri,29035,542,10
+2021/5/1,Carter,Kentucky,21043,2261,34
+2021/5/1,Carter,Oklahoma,40019,6091,108
+2021/5/1,Carter,Tennessee,47019,6580,156
+2021/5/1,Carteret,North Carolina,37031,5071,51
+2021/5/1,Carver,Minnesota,27019,10229,45
+2021/5/1,Cascade,Montana,30013,8883,169
+2021/5/1,Casey,Kentucky,21045,1419,37
+2021/5/1,Cass,Nebraska,31025,2637,16
+2021/5/1,Cass,Minnesota,27021,2632,28
+2021/5/1,Cass,Illinois,17017,1971,33
+2021/5/1,Cass,Iowa,19029,1371,54
+2021/5/1,Cass,Michigan,26027,5211,74
+2021/5/1,Cass,Texas,48067,1911,81
+2021/5/1,Cass,Indiana,18017,5766,107
+2021/5/1,Cass,Missouri,29037,9077,107
+2021/5/1,Cass,North Dakota,38017,24273,205
+2021/5/1,Cassia,Idaho,16031,2935,26
+2021/5/1,Castro,Texas,48069,983,32
+2021/5/1,Caswell,North Carolina,37033,2144,27
+2021/5/1,Catahoula,Louisiana,22025,1153,38
+2021/5/1,Catawba,North Carolina,37035,19156,297
+2021/5/1,Catoosa,Georgia,13047,6380,70
+2021/5/1,Catron,New Mexico,35003,92,5
+2021/5/1,Cattaraugus,New York,36009,5399,84
+2021/5/1,Cavalier,North Dakota,38019,429,5
+2021/5/1,Cayuga,New York,36011,6049,92
+2021/5/1,Cecil,Maryland,24015,6063,129
+2021/5/1,Cedar,Nebraska,31027,767,11
+2021/5/1,Cedar,Missouri,29039,1081,21
+2021/5/1,Cedar,Iowa,19031,1878,23
+2021/5/1,Centre,Pennsylvania,42027,16364,220
+2021/5/1,Cerro Gordo,Iowa,19033,5336,88
+2021/5/1,Chaffee,Colorado,8015,1632,25
+2021/5/1,Chambers,Texas,48071,4933,49
+2021/5/1,Chambers,Alabama,1017,3544,123
+2021/5/1,Champaign,Ohio,39021,3282,58
+2021/5/1,Champaign,Illinois,17019,20304,152
+2021/5/1,Chariton,Missouri,29041,674,8
+2021/5/1,Charles,Maryland,24017,10548,190
+2021/5/1,Charles City,Virginia,51036,498,15
+2021/5/1,Charles Mix,South Dakota,46023,1376,22
+2021/5/1,Charleston,South Carolina,45019,42785,500
+2021/5/1,Charlevoix,Michigan,26029,1574,20
+2021/5/1,Charlotte,Virginia,51037,841,18
+2021/5/1,Charlotte,Florida,12015,12750,416
+2021/5/1,Charlottesville city,Virginia,51540,4012,55
+2021/5/1,Charlton,Georgia,13049,1376,33
+2021/5/1,Chase,Kansas,20017,259,3
+2021/5/1,Chase,Nebraska,31029,462,5
+2021/5/1,Chatham,North Carolina,37037,4594,87
+2021/5/1,Chatham,Georgia,13051,23088,453
+2021/5/1,Chattahoochee,Georgia,13053,3943,15
+2021/5/1,Chattooga,Georgia,13055,2821,71
+2021/5/1,Chautauqua,Kansas,20019,267,6
+2021/5/1,Chautauqua,New York,36013,8635,137
+2021/5/1,Chaves,New Mexico,35005,9146,170
+2021/5/1,Cheatham,Tennessee,47021,4527,55
+2021/5/1,Cheboygan,Michigan,26031,1819,41
+2021/5/1,Chelan,Washington,53007,6818,67
+2021/5/1,Chemung,New York,36015,7361,133
+2021/5/1,Chenango,New York,36017,3288,75
+2021/5/1,Cherokee,North Carolina,37039,2500,20
+2021/5/1,Cherokee,Iowa,19035,1583,38
+2021/5/1,Cherokee,Alabama,1019,1837,45
+2021/5/1,Cherokee,Kansas,20021,2470,52
+2021/5/1,Cherokee,Oklahoma,40021,5609,74
+2021/5/1,Cherokee,Texas,48073,4153,140
+2021/5/1,Cherokee,South Carolina,45021,6001,152
+2021/5/1,Cherokee,Georgia,13057,30974,316
+2021/5/1,Cherry,Nebraska,31031,299,7
+2021/5/1,Chesapeake city,Virginia,51550,20648,288
+2021/5/1,Cheshire,New Hampshire,33005,3538,33
+2021/5/1,Chester,Tennessee,47023,2135,51
+2021/5/1,Chester,South Carolina,45023,4134,75
+2021/5/1,Chester,Pennsylvania,42029,39226,777
+2021/5/1,Chesterfield,South Carolina,45025,4756,103
+2021/5/1,Chesterfield,Virginia,51041,27248,421
+2021/5/1,Cheyenne,Colorado,8017,127,6
+2021/5/1,Cheyenne,Kansas,20023,362,14
+2021/5/1,Cheyenne,Nebraska,31033,929,18
+2021/5/1,Chickasaw,Iowa,19037,1232,15
+2021/5/1,Chickasaw,Mississippi,28017,2065,57
+2021/5/1,Chicot,Arkansas,5017,1612,41
+2021/5/1,Childress,Texas,48075,1384,17
+2021/5/1,Chilton,Alabama,1021,4235,111
+2021/5/1,Chippewa,Minnesota,27023,1509,38
+2021/5/1,Chippewa,Michigan,26033,5497,48
+2021/5/1,Chippewa,Wisconsin,55017,7517,96
+2021/5/1,Chisago,Minnesota,27025,5747,51
+2021/5/1,Chittenden,Vermont,50007,7325,101
+2021/5/1,Choctaw,Mississippi,28019,752,18
+2021/5/1,Choctaw,Oklahoma,40023,1611,21
+2021/5/1,Choctaw,Alabama,1023,600,24
+2021/5/1,Chouteau,Montana,30015,499,6
+2021/5/1,Chowan,North Carolina,37041,1451,22
+2021/5/1,Christian,Illinois,17021,3601,91
+2021/5/1,Christian,Missouri,29043,8896,91
+2021/5/1,Christian,Kentucky,21047,6961,104
+2021/5/1,Churchill,Nevada,32001,2031,49
+2021/5/1,Cibola,New Mexico,35006,3509,110
+2021/5/1,Cimarron,Oklahoma,40025,214,1
+2021/5/1,Citrus,Florida,12017,11007,444
+2021/5/1,Clackamas,Oregon,41005,16496,210
+2021/5/1,Claiborne,Mississippi,28021,1021,30
+2021/5/1,Claiborne,Louisiana,22027,1435,55
+2021/5/1,Claiborne,Tennessee,47025,3165,73
+2021/5/1,Clallam,Washington,53009,1211,8
+2021/5/1,Clare,Michigan,26035,2273,74
+2021/5/1,Clarendon,South Carolina,45027,3410,112
+2021/5/1,Clarion,Pennsylvania,42031,3061,91
+2021/5/1,Clark,South Dakota,46025,454,5
+2021/5/1,Clark,Kansas,20025,252,7
+2021/5/1,Clark,Missouri,29045,670,7
+2021/5/1,Clark,Kentucky,21049,2836,29
+2021/5/1,Clark,Illinois,17023,1779,40
+2021/5/1,Clark,Arkansas,5019,2102,41
+2021/5/1,Clark,Wisconsin,55019,3636,62
+2021/5/1,Clark,Indiana,18019,12858,200
+2021/5/1,Clark,Washington,53011,22635,260
+2021/5/1,Clark,Ohio,39023,13892,297
+2021/5/1,Clark,Nevada,32003,243942,4300
+2021/5/1,Clarke,Virginia,51043,967,19
+2021/5/1,Clarke,Iowa,19039,990,24
+2021/5/1,Clarke,Alabama,1025,3502,60
+2021/5/1,Clarke,Mississippi,28023,1782,79
+2021/5/1,Clarke,Georgia,13059,14984,144
+2021/5/1,Clatsop,Oregon,41007,956,8
+2021/5/1,Clay,Georgia,13061,238,3
+2021/5/1,Clay,West Virginia,54015,470,9
+2021/5/1,Clay,Nebraska,31035,693,11
+2021/5/1,Clay,South Dakota,46027,1917,15
+2021/5/1,Clay,Texas,48077,1029,16
+2021/5/1,Clay,North Carolina,37043,726,18
+2021/5/1,Clay,Iowa,19041,2144,25
+2021/5/1,Clay,Kansas,20027,826,29
+2021/5/1,Clay,Tennessee,47027,1101,31
+2021/5/1,Clay,Kentucky,21051,2654,44
+2021/5/1,Clay,Indiana,18021,2581,45
+2021/5/1,Clay,Illinois,17025,1480,48
+2021/5/1,Clay,Arkansas,5021,1755,50
+2021/5/1,Clay,Mississippi,28025,1843,54
+2021/5/1,Clay,Alabama,1027,1532,56
+2021/5/1,Clay,Minnesota,27027,8038,91
+2021/5/1,Clay,Missouri,29047,10242,164
+2021/5/1,Clay,Florida,12019,18467,340
+2021/5/1,Clayton,Iowa,19043,1682,56
+2021/5/1,Clayton,Georgia,13063,26365,468
+2021/5/1,Clear Creek,Colorado,8019,437,3
+2021/5/1,Clearfield,Pennsylvania,42033,8194,138
+2021/5/1,Clearwater,Idaho,16035,1045,13
+2021/5/1,Clearwater,Minnesota,27029,842,16
+2021/5/1,Cleburne,Alabama,1029,1482,41
+2021/5/1,Cleburne,Arkansas,5023,1973,74
+2021/5/1,Clermont,Ohio,39025,19659,235
+2021/5/1,Cleveland,Arkansas,5025,950,25
+2021/5/1,Cleveland,North Carolina,37045,11317,223
+2021/5/1,Cleveland,Oklahoma,40027,30818,401
+2021/5/1,Clinch,Georgia,13065,971,26
+2021/5/1,Clinton,Kentucky,21053,1448,32
+2021/5/1,Clinton,New York,36019,4693,33
+2021/5/1,Clinton,Indiana,18023,4257,58
+2021/5/1,Clinton,Ohio,39027,3689,61
+2021/5/1,Clinton,Pennsylvania,42035,3544,62
+2021/5/1,Clinton,Missouri,29049,1950,65
+2021/5/1,Clinton,Michigan,26037,7286,82
+2021/5/1,Clinton,Iowa,19045,5483,92
+2021/5/1,Clinton,Illinois,17027,5735,99
+2021/5/1,Cloud,Kansas,20029,982,23
+2021/5/1,Coahoma,Mississippi,28027,2931,79
+2021/5/1,Coal,Oklahoma,40029,696,15
+2021/5/1,Cobb,Georgia,13067,78135,1045
+2021/5/1,Cochise,Arizona,4003,11913,284
+2021/5/1,Cochran,Texas,48079,303,15
+2021/5/1,Cocke,Tennessee,47029,4479,98
+2021/5/1,Coconino,Arizona,4005,17730,329
+2021/5/1,Codington,South Dakota,46029,4591,81
+2021/5/1,Coffee,Alabama,1031,5483,115
+2021/5/1,Coffee,Tennessee,47031,6888,121
+2021/5/1,Coffee,Georgia,13069,5318,172
+2021/5/1,Coffey,Kansas,20031,726,23
+2021/5/1,Coke,Texas,48081,462,12
+2021/5/1,Colbert,Alabama,1033,6279,134
+2021/5/1,Cole,Missouri,29051,9062,122
+2021/5/1,Coleman,Texas,48083,749,32
+2021/5/1,Coles,Illinois,17029,5635,96
+2021/5/1,Colfax,Nebraska,31037,1590,21
+2021/5/1,Colfax,New Mexico,35007,901,47
+2021/5/1,Colleton,South Carolina,45029,3589,126
+2021/5/1,Collier,Florida,12021,35451,528
+2021/5/1,Collin,Texas,48085,89919,820
+2021/5/1,Collingsworth,Texas,48087,323,9
+2021/5/1,Colonial Heights city,Virginia,51570,1680,61
+2021/5/1,Colorado,Texas,48089,1715,30
+2021/5/1,Colquitt,Georgia,13071,4684,118
+2021/5/1,Columbia,Washington,53013,119,5
+2021/5/1,Columbia,Oregon,41009,1658,26
+2021/5/1,Columbia,Arkansas,5027,2340,56
+2021/5/1,Columbia,Wisconsin,55021,5752,69
+2021/5/1,Columbia,New York,36021,3894,100
+2021/5/1,Columbia,Pennsylvania,42037,5499,133
+2021/5/1,Columbia,Florida,12023,8093,169
+2021/5/1,Columbia,Georgia,13073,16783,202
+2021/5/1,Columbiana,Ohio,39029,8707,229
+2021/5/1,Columbus,North Carolina,37047,6285,150
+2021/5/1,Colusa,California,6011,2216,16
+2021/5/1,Comal,Texas,48091,10304,317
+2021/5/1,Comanche,Kansas,20033,170,9
+2021/5/1,Comanche,Texas,48093,1554,51
+2021/5/1,Comanche,Oklahoma,40031,13703,183
+2021/5/1,Concho,Texas,48095,376,8
+2021/5/1,Concordia,Louisiana,22029,1854,60
+2021/5/1,Conecuh,Alabama,1035,1100,28
+2021/5/1,Conejos,Colorado,8021,512,10
+2021/5/1,Contra Costa,California,6013,68051,800
+2021/5/1,Converse,Wyoming,56009,994,17
+2021/5/1,Conway,Arkansas,5029,2217,32
+2021/5/1,Cook,Georgia,13075,1819,43
+2021/5/1,Cook,Illinois,17031,535614,10515
+2021/5/1,Cooke,Texas,48097,3704,72
+2021/5/1,Cooper,Missouri,29053,1908,27
+2021/5/1,Coos,Oregon,41011,2032,32
+2021/5/1,Coos,New Hampshire,33007,1884,41
+2021/5/1,Coosa,Alabama,1037,1068,28
+2021/5/1,Copiah,Mississippi,28029,2957,65
+2021/5/1,Corson,South Dakota,46031,478,12
+2021/5/1,Cortland,New York,36023,3624,60
+2021/5/1,Coryell,Texas,48099,7226,86
+2021/5/1,Coshocton,Ohio,39031,2630,58
+2021/5/1,Costilla,Colorado,8023,208,2
+2021/5/1,Cottle,Texas,48101,190,7
+2021/5/1,Cotton,Oklahoma,40033,679,16
+2021/5/1,Cottonwood,Minnesota,27033,1612,21
+2021/5/1,Covington,Mississippi,28031,2560,80
+2021/5/1,Covington,Alabama,1039,4105,117
+2021/5/1,Covington city,Virginia,51580,591,13
+2021/5/1,Coweta,Georgia,13077,14014,217
+2021/5/1,Cowley,Kansas,20035,3942,107
+2021/5/1,Cowlitz,Washington,53015,5670,85
+2021/5/1,Craig,Virginia,51045,309,5
+2021/5/1,Craig,Oklahoma,40035,1966,18
+2021/5/1,Craighead,Arkansas,5031,13364,178
+2021/5/1,Crane,Texas,48103,530,12
+2021/5/1,Craven,North Carolina,37049,9186,123
+2021/5/1,Crawford,Michigan,26039,934,13
+2021/5/1,Crawford,Indiana,18025,987,15
+2021/5/1,Crawford,Wisconsin,55023,1767,17
+2021/5/1,Crawford,Georgia,13079,662,19
+2021/5/1,Crawford,Missouri,29055,2557,36
+2021/5/1,Crawford,Iowa,19047,2640,40
+2021/5/1,Crawford,Illinois,17033,2106,42
+2021/5/1,Crawford,Kansas,20037,4719,83
+2021/5/1,Crawford,Ohio,39033,3939,106
+2021/5/1,Crawford,Arkansas,5033,7060,119
+2021/5/1,Crawford,Pennsylvania,42039,7055,147
+2021/5/1,Creek,Oklahoma,40037,6891,154
+2021/5/1,Crenshaw,Alabama,1041,1514,57
+2021/5/1,Crisp,Georgia,13081,2078,79
+2021/5/1,Crittenden,Kentucky,21055,652,21
+2021/5/1,Crittenden,Arkansas,5035,6031,96
+2021/5/1,Crockett,Texas,48105,572,15
+2021/5/1,Crockett,Tennessee,47033,2026,48
+2021/5/1,Crook,Wyoming,56011,429,12
+2021/5/1,Crook,Oregon,41013,994,20
+2021/5/1,Crosby,Texas,48107,654,29
+2021/5/1,Cross,Arkansas,5037,1943,50
+2021/5/1,Crow Wing,Minnesota,27035,6459,87
+2021/5/1,Crowley,Colorado,8025,2179,15
+2021/5/1,Culberson,Texas,48109,361,11
+2021/5/1,Cullman,Alabama,1043,9610,193
+2021/5/1,Culpeper,Virginia,51047,4545,61
+2021/5/1,Cumberland,Virginia,51049,473,9
+2021/5/1,Cumberland,Kentucky,21057,698,12
+2021/5/1,Cumberland,Illinois,17035,1288,31
+2021/5/1,Cumberland,Tennessee,47035,6683,128
+2021/5/1,Cumberland,Maine,23005,16167,189
+2021/5/1,Cumberland,North Carolina,37051,27907,299
+2021/5/1,Cumberland,New Jersey,34011,16469,422
+2021/5/1,Cumberland,Pennsylvania,42041,19671,511
+2021/5/1,Cuming,Nebraska,31039,1038,11
+2021/5/1,Currituck,North Carolina,37053,1522,16
+2021/5/1,Curry,Oregon,41015,634,9
+2021/5/1,Curry,New Mexico,35009,5109,76
+2021/5/1,Custer,Colorado,8027,190,1
+2021/5/1,Custer,Idaho,16037,246,3
+2021/5/1,Custer,South Dakota,46033,830,12
+2021/5/1,Custer,Nebraska,31041,846,18
+2021/5/1,Custer,Montana,30017,1185,18
+2021/5/1,Custer,Oklahoma,40039,4066,99
+2021/5/1,Cuyahoga,Ohio,39035,110568,2100
+2021/5/1,Dade,Georgia,13083,1435,14
+2021/5/1,Dade,Missouri,29057,728,31
+2021/5/1,Dakota,Nebraska,31043,4090,76
+2021/5/1,Dakota,Minnesota,27037,44549,438
+2021/5/1,Dale,Alabama,1045,4807,111
+2021/5/1,Dallam,Texas,48111,963,24
+2021/5/1,Dallas,Arkansas,5039,758,15
+2021/5/1,Dallas,Missouri,29059,1252,27
+2021/5/1,Dallas,Iowa,19049,11057,97
+2021/5/1,Dallas,Alabama,1047,3534,150
+2021/5/1,Dallas,Texas,48113,298791,3985
+2021/5/1,Dane,Wisconsin,55025,45739,325
+2021/5/1,Daniels,Montana,30019,197,8
+2021/5/1,Danville city,Virginia,51590,4348,134
+2021/5/1,Dare,North Carolina,37055,2082,10
+2021/5/1,Darke,Ohio,39037,5327,122
+2021/5/1,Darlington,South Carolina,45031,8385,172
+2021/5/1,Dauphin,Pennsylvania,42043,24822,540
+2021/5/1,Davidson,North Carolina,37057,16195,185
+2021/5/1,Davidson,Tennessee,47037,98183,931
+2021/5/1,Davie,North Carolina,37059,4011,37
+2021/5/1,Daviess,Missouri,29061,700,11
+2021/5/1,Daviess,Indiana,18027,2940,101
+2021/5/1,Daviess,Kentucky,21059,10619,181
+2021/5/1,Davis,Iowa,19051,807,24
+2021/5/1,Davis,Utah,49011,37668,166
+2021/5/1,Davison,South Dakota,46035,3219,67
+2021/5/1,Dawes,Nebraska,31045,741,18
+2021/5/1,Dawson,Montana,30021,1102,30
+2021/5/1,Dawson,Nebraska,31047,2878,31
+2021/5/1,Dawson,Georgia,13085,3058,43
+2021/5/1,Dawson,Texas,48115,1735,68
+2021/5/1,Day,South Dakota,46037,703,29
+2021/5/1,De Baca,New Mexico,35011,146,1
+2021/5/1,De Soto,Louisiana,22031,2763,78
+2021/5/1,De Witt,Illinois,17039,1442,31
+2021/5/1,Deaf Smith,Texas,48117,2806,66
+2021/5/1,Dearborn,Indiana,18029,5774,79
+2021/5/1,Decatur,Iowa,19053,596,9
+2021/5/1,Decatur,Kansas,20039,269,12
+2021/5/1,Decatur,Tennessee,47039,1579,39
+2021/5/1,Decatur,Georgia,13087,2929,70
+2021/5/1,Decatur,Indiana,18031,2879,96
+2021/5/1,Deer Lodge,Montana,30023,1112,15
+2021/5/1,Defiance,Ohio,39039,4139,97
+2021/5/1,DeKalb,Missouri,29063,1124,31
+2021/5/1,DeKalb,Tennessee,47041,2787,54
+2021/5/1,DeKalb,Indiana,18033,4217,87
+2021/5/1,DeKalb,Illinois,17037,9885,124
+2021/5/1,DeKalb,Alabama,1049,8806,185
+2021/5/1,DeKalb,Georgia,13089,65340,998
+2021/5/1,Del Norte,California,6015,1329,7
+2021/5/1,Delaware,New York,36025,2266,37
+2021/5/1,Delaware,Iowa,19055,2076,39
+2021/5/1,Delaware,Oklahoma,40041,4594,90
+2021/5/1,Delaware,Ohio,39041,18411,131
+2021/5/1,Delaware,Indiana,18035,10545,192
+2021/5/1,Delaware,Pennsylvania,42045,50582,1388
+2021/5/1,Delta,Texas,48119,319,11
+2021/5/1,Delta,Colorado,8029,2671,61
+2021/5/1,Delta,Michigan,26041,3861,88
+2021/5/1,Dent,Missouri,29065,956,17
+2021/5/1,Denton,Texas,48121,74340,748
+2021/5/1,Denver,Colorado,8031,70636,806
+2021/5/1,Des Moines,Iowa,19057,4496,66
+2021/5/1,Deschutes,Oregon,41017,8116,73
+2021/5/1,Desha,Arkansas,5041,1361,24
+2021/5/1,DeSoto,Florida,12027,4301,93
+2021/5/1,DeSoto,Mississippi,28033,21321,256
+2021/5/1,Deuel,Nebraska,31049,101,2
+2021/5/1,Deuel,South Dakota,46039,523,9
+2021/5/1,Dewey,Oklahoma,40043,548,14
+2021/5/1,Dewey,South Dakota,46041,1462,27
+2021/5/1,DeWitt,Texas,48123,1930,59
+2021/5/1,Dickens,Texas,48125,186,10
+2021/5/1,Dickenson,Virginia,51051,921,15
+2021/5/1,Dickey,North Dakota,38021,779,33
+2021/5/1,Dickinson,Iowa,19059,2470,43
+2021/5/1,Dickinson,Kansas,20041,1744,44
+2021/5/1,Dickinson,Michigan,26043,2673,74
+2021/5/1,Dickson,Tennessee,47043,6819,110
+2021/5/1,Dillingham Census Area,Alaska,2070,228,2
+2021/5/1,Dillon,South Carolina,45033,4370,84
+2021/5/1,Dimmit,Texas,48127,2166,32
+2021/5/1,Dinwiddie,Virginia,51053,2095,42
+2021/5/1,District of Columbia,District of Columbia,11001,47800,1106
+2021/5/1,Divide,North Dakota,38023,178,2
+2021/5/1,Dixie,Florida,12029,1605,24
+2021/5/1,Dixon,Nebraska,31051,605,9
+2021/5/1,Doddridge,West Virginia,54017,573,6
+2021/5/1,Dodge,Minnesota,27039,1790,3
+2021/5/1,Dodge,Nebraska,31053,4926,60
+2021/5/1,Dodge,Georgia,13091,2135,102
+2021/5/1,Dodge,Wisconsin,55027,12717,184
+2021/5/1,Doniphan,Kansas,20043,967,23
+2021/5/1,Donley,Texas,48129,406,15
+2021/5/1,Dooly,Georgia,13093,1067,45
+2021/5/1,Door,Wisconsin,55029,2803,28
+2021/5/1,Dorchester,Maryland,24019,2716,51
+2021/5/1,Dorchester,South Carolina,45035,17629,217
+2021/5/1,Dougherty,Georgia,13095,7518,303
+2021/5/1,Douglas,South Dakota,46043,454,9
+2021/5/1,Douglas,Washington,53017,3622,23
+2021/5/1,Douglas,Missouri,29067,903,27
+2021/5/1,Douglas,Nevada,32005,2807,35
+2021/5/1,Douglas,Illinois,17041,2568,41
+2021/5/1,Douglas,Wisconsin,55031,4741,51
+2021/5/1,Douglas,Oregon,41019,3153,69
+2021/5/1,Douglas,Minnesota,27041,4559,74
+2021/5/1,Douglas,Kansas,20045,9205,87
+2021/5/1,Douglas,Georgia,13097,15075,215
+2021/5/1,Douglas,Colorado,8035,28385,253
+2021/5/1,Douglas,Nebraska,31055,70687,700
+2021/5/1,Doña Ana,New Mexico,35013,24829,448
+2021/5/1,Drew,Arkansas,5043,1997,43
+2021/5/1,Dubois,Indiana,18037,6134,118
+2021/5/1,Dubuque,Iowa,19061,13289,207
+2021/5/1,Duchesne,Utah,49013,1228,9
+2021/5/1,Dundy,Nebraska,31057,178,4
+2021/5/1,Dunklin,Missouri,29069,2805,22
+2021/5/1,Dunn,North Dakota,38025,378,7
+2021/5/1,Dunn,Wisconsin,55033,5013,32
+2021/5/1,DuPage,Illinois,17043,88941,1351
+2021/5/1,Duplin,North Carolina,37061,6204,132
+2021/5/1,Durham,North Carolina,37063,25105,223
+2021/5/1,Dutchess,New York,36027,28698,442
+2021/5/1,Duval,Texas,48131,1245,41
+2021/5/1,Duval,Florida,12031,97495,1391
+2021/5/1,Dyer,Tennessee,47045,5408,105
+2021/5/1,Eagle,Colorado,8037,6230,22
+2021/5/1,Early,Georgia,13099,1171,48
+2021/5/1,East Baton Rouge,Louisiana,22033,39099,799
+2021/5/1,East Carroll,Louisiana,22035,1124,25
+2021/5/1,East Feliciana,Louisiana,22037,3147,112
+2021/5/1,Eastland,Texas,48133,1344,48
+2021/5/1,Eaton,Michigan,26045,9681,187
+2021/5/1,Eau Claire,Wisconsin,55035,11814,120
+2021/5/1,Echols,Georgia,13101,475,9
+2021/5/1,Ector,Texas,48135,17147,367
+2021/5/1,Eddy,North Dakota,38027,468,6
+2021/5/1,Eddy,New Mexico,35015,6801,129
+2021/5/1,Edgar,Illinois,17045,1683,59
+2021/5/1,Edgecombe,North Carolina,37065,5462,111
+2021/5/1,Edgefield,South Carolina,45037,3099,42
+2021/5/1,Edmonson,Kentucky,21061,902,21
+2021/5/1,Edmunds,South Dakota,46045,508,13
+2021/5/1,Edwards,Texas,48137,248,6
+2021/5/1,Edwards,Kansas,20047,263,12
+2021/5/1,Edwards,Illinois,17047,566,13
+2021/5/1,Effingham,Georgia,13103,4587,68
+2021/5/1,Effingham,Illinois,17049,4700,83
+2021/5/1,El Dorado,California,6017,9929,110
+2021/5/1,El Paso,Colorado,8041,64179,791
+2021/5/1,El Paso,Texas,48141,134249,2657
+2021/5/1,Elbert,Colorado,8039,1669,13
+2021/5/1,Elbert,Georgia,13105,2291,72
+2021/5/1,Elk,Kansas,20049,179,5
+2021/5/1,Elk,Pennsylvania,42047,2809,38
+2021/5/1,Elkhart,Indiana,18039,28178,451
+2021/5/1,Elko,Nevada,32007,4816,56
+2021/5/1,Elliott,Kentucky,21063,961,2
+2021/5/1,Ellis,Oklahoma,40045,354,5
+2021/5/1,Ellis,Kansas,20051,3734,73
+2021/5/1,Ellis,Texas,48139,22677,310
+2021/5/1,Ellsworth,Kansas,20053,1221,25
+2021/5/1,Elmore,Idaho,16039,1978,15
+2021/5/1,Elmore,Alabama,1051,10013,205
+2021/5/1,Emanuel,Georgia,13107,2545,81
+2021/5/1,Emery,Utah,49015,923,9
+2021/5/1,Emmet,Iowa,19063,1325,40
+2021/5/1,Emmet,Michigan,26047,2245,41
+2021/5/1,Emmons,North Dakota,38029,419,13
+2021/5/1,Emporia city,Virginia,51595,669,42
+2021/5/1,Erath,Texas,48143,4177,68
+2021/5/1,Erie,Ohio,39043,7798,154
+2021/5/1,Erie,Pennsylvania,42049,20129,404
+2021/5/1,Erie,New York,36029,86439,1750
+2021/5/1,Escambia,Alabama,1053,3925,75
+2021/5/1,Escambia,Florida,12033,35962,679
+2021/5/1,Essex,Vermont,50009,269,2
+2021/5/1,Essex,Virginia,51057,753,9
+2021/5/1,Essex,New York,36031,1545,26
+2021/5/1,Essex,Massachusetts,25009,95601,2350
+2021/5/1,Essex,New Jersey,34013,93170,2903
+2021/5/1,Estill,Kentucky,21065,1072,11
+2021/5/1,Etowah,Alabama,1055,13785,352
+2021/5/1,Evangeline,Louisiana,22039,3580,92
+2021/5/1,Evans,Georgia,13109,957,29
+2021/5/1,Fairbanks North Star Borough,Alaska,2090,7567,37
+2021/5/1,Fairfax,Virginia,51059,75862,1073
+2021/5/1,Fairfax city,Virginia,51600,550,19
+2021/5/1,Fairfield,South Carolina,45039,2374,79
+2021/5/1,Fairfield,Ohio,39045,16035,199
+2021/5/1,Fairfield,Connecticut,9001,98131,2165
+2021/5/1,Fall River,South Dakota,46047,591,15
+2021/5/1,Fallon,Montana,30025,281,2
+2021/5/1,Falls,Texas,48145,2084,32
+2021/5/1,Falls Church city,Virginia,51610,423,9
+2021/5/1,Fannin,Georgia,13111,2384,71
+2021/5/1,Fannin,Texas,48147,3484,108
+2021/5/1,Faribault,Minnesota,27043,1487,19
+2021/5/1,Faulk,South Dakota,46049,369,13
+2021/5/1,Faulkner,Arkansas,5045,12453,161
+2021/5/1,Fauquier,Virginia,51061,4628,63
+2021/5/1,Fayette,Iowa,19065,1843,41
+2021/5/1,Fayette,Ohio,39047,2801,48
+2021/5/1,Fayette,Illinois,17051,3150,58
+2021/5/1,Fayette,Texas,48149,2696,61
+2021/5/1,Fayette,Alabama,1057,2119,62
+2021/5/1,Fayette,Indiana,18041,2919,64
+2021/5/1,Fayette,West Virginia,54019,3361,75
+2021/5/1,Fayette,Tennessee,47047,5017,76
+2021/5/1,Fayette,Georgia,13113,8886,168
+2021/5/1,Fayette,Pennsylvania,42051,12470,306
+2021/5/1,Fayette,Kentucky,21067,35355,307
+2021/5/1,Fentress,Tennessee,47049,2408,47
+2021/5/1,Fergus,Montana,30027,1109,31
+2021/5/1,Ferry,Washington,53019,325,4
+2021/5/1,Fillmore,Minnesota,27045,1534,9
+2021/5/1,Fillmore,Nebraska,31059,500,10
+2021/5/1,Finney,Kansas,20055,6048,71
+2021/5/1,Fisher,Texas,48151,298,14
+2021/5/1,Flagler,Florida,12035,7220,111
+2021/5/1,Flathead,Montana,30029,11765,93
+2021/5/1,Fleming,Kentucky,21069,1167,22
+2021/5/1,Florence,Wisconsin,55037,499,12
+2021/5/1,Florence,South Carolina,45041,17607,413
+2021/5/1,Floyd,Virginia,51063,842,21
+2021/5/1,Floyd,Texas,48153,846,30
+2021/5/1,Floyd,Iowa,19067,1590,42
+2021/5/1,Floyd,Kentucky,21071,3376,65
+2021/5/1,Floyd,Indiana,18043,7623,181
+2021/5/1,Floyd,Georgia,13115,11979,223
+2021/5/1,Fluvanna,Virginia,51065,1904,17
+2021/5/1,Foard,Texas,48155,122,10
+2021/5/1,Fond du Lac,Wisconsin,55039,13540,121
+2021/5/1,Ford,Illinois,17053,1742,54
+2021/5/1,Ford,Kansas,20057,5743,74
+2021/5/1,Forest,Pennsylvania,42053,1409,21
+2021/5/1,Forest,Wisconsin,55041,1034,26
+2021/5/1,Forrest,Mississippi,28035,7620,149
+2021/5/1,Forsyth,Georgia,13117,22646,188
+2021/5/1,Forsyth,North Carolina,37067,35263,374
+2021/5/1,Fort Bend,Texas,48157,66783,661
+2021/5/1,Foster,North Dakota,38031,582,19
+2021/5/1,Fountain,Indiana,18045,2116,47
+2021/5/1,Franklin,Nebraska,31061,240,4
+2021/5/1,Franklin,New York,36033,2483,12
+2021/5/1,Franklin,Maine,23007,1225,13
+2021/5/1,Franklin,Idaho,16041,1193,16
+2021/5/1,Franklin,Florida,12037,1315,17
+2021/5/1,Franklin,Iowa,19069,1156,21
+2021/5/1,Franklin,Mississippi,28037,831,23
+2021/5/1,Franklin,Texas,48159,721,26
+2021/5/1,Franklin,Indiana,18047,1684,36
+2021/5/1,Franklin,Arkansas,5047,1689,39
+2021/5/1,Franklin,Vermont,50011,1941,39
+2021/5/1,Franklin,Kansas,20059,2544,43
+2021/5/1,Franklin,Kentucky,21073,4002,46
+2021/5/1,Franklin,North Carolina,37069,6668,49
+2021/5/1,Franklin,Georgia,13119,2680,53
+2021/5/1,Franklin,Virginia,51067,3994,74
+2021/5/1,Franklin,Alabama,1059,4234,82
+2021/5/1,Franklin,Illinois,17055,4388,82
+2021/5/1,Franklin,Tennessee,47051,5133,90
+2021/5/1,Franklin,Louisiana,22041,2477,105
+2021/5/1,Franklin,Washington,53021,12207,110
+2021/5/1,Franklin,Massachusetts,25011,2474,113
+2021/5/1,Franklin,Missouri,29071,10541,180
+2021/5/1,Franklin,Pennsylvania,42055,14692,360
+2021/5/1,Franklin,Ohio,39049,124806,1385
+2021/5/1,Franklin city,Virginia,51620,1131,32
+2021/5/1,Frederick,Virginia,51069,7842,100
+2021/5/1,Frederick,Maryland,24021,19453,320
+2021/5/1,Fredericksburg city,Virginia,51630,2087,23
+2021/5/1,Freeborn,Minnesota,27047,3370,29
+2021/5/1,Freestone,Texas,48161,1881,49
+2021/5/1,Fremont,Iowa,19071,619,9
+2021/5/1,Fremont,Idaho,16043,1125,14
+2021/5/1,Fremont,Colorado,8043,6083,55
+2021/5/1,Fremont,Wyoming,56013,5175,84
+2021/5/1,Fresno,California,6019,101263,1670
+2021/5/1,Frio,Texas,48163,2822,50
+2021/5/1,Frontier,Nebraska,31063,193,1
+2021/5/1,Fulton,Kentucky,21075,510,14
+2021/5/1,Fulton,Pennsylvania,42057,1286,15
+2021/5/1,Fulton,Indiana,18049,1938,40
+2021/5/1,Fulton,Arkansas,5049,1121,47
+2021/5/1,Fulton,Illinois,17057,3801,59
+2021/5/1,Fulton,Ohio,39051,4174,69
+2021/5/1,Fulton,New York,36035,4215,90
+2021/5/1,Fulton,Georgia,13121,96526,1368
+2021/5/1,Furnas,Nebraska,31065,504,5
+2021/5/1,Gadsden,Florida,12039,5646,94
+2021/5/1,Gage,Nebraska,31067,2183,19
+2021/5/1,Gaines,Texas,48165,1434,43
+2021/5/1,Galax city,Virginia,51640,1155,51
+2021/5/1,Gallatin,Illinois,17059,457,5
+2021/5/1,Gallatin,Kentucky,21077,692,28
+2021/5/1,Gallatin,Montana,30031,14572,62
+2021/5/1,Gallia,Ohio,39053,2345,48
+2021/5/1,Galveston,Texas,48167,39033,410
+2021/5/1,Garden,Nebraska,31069,113,1
+2021/5/1,Garfield,Montana,30033,80,2
+2021/5/1,Garfield,Nebraska,31071,149,3
+2021/5/1,Garfield,Washington,53023,121,5
+2021/5/1,Garfield,Utah,49017,469,10
+2021/5/1,Garfield,Colorado,8045,5770,38
+2021/5/1,Garfield,Oklahoma,40047,7782,128
+2021/5/1,Garland,Arkansas,5051,10126,259
+2021/5/1,Garrard,Kentucky,21079,1514,35
+2021/5/1,Garrett,Maryland,24023,1983,63
+2021/5/1,Garvin,Oklahoma,40049,3602,77
+2021/5/1,Garza,Texas,48169,488,22
+2021/5/1,Gasconade,Missouri,29073,1528,45
+2021/5/1,Gaston,North Carolina,37071,26177,420
+2021/5/1,Gates,North Carolina,37073,729,13
+2021/5/1,Geary,Kansas,20061,3366,40
+2021/5/1,Geauga,Ohio,39055,6634,148
+2021/5/1,Gem,Idaho,16045,1753,38
+2021/5/1,Genesee,New York,36037,5221,121
+2021/5/1,Genesee,Michigan,26049,39733,871
+2021/5/1,Geneva,Alabama,1061,2469,75
+2021/5/1,Gentry,Missouri,29075,822,20
+2021/5/1,George,Mississippi,28039,2452,47
+2021/5/1,Georgetown,South Carolina,45043,6664,139
+2021/5/1,Gibson,Indiana,18051,4337,93
+2021/5/1,Gibson,Tennessee,47053,6503,145
+2021/5/1,Gila,Arizona,4007,6893,227
+2021/5/1,Gilchrist,Florida,12041,1604,43
+2021/5/1,Giles,Virginia,51071,1257,21
+2021/5/1,Giles,Tennessee,47055,3980,100
+2021/5/1,Gillespie,Texas,48171,2545,50
+2021/5/1,Gilliam,Oregon,41021,57,1
+2021/5/1,Gilmer,West Virginia,54021,783,5
+2021/5/1,Gilmer,Georgia,13123,2948,84
+2021/5/1,Gilpin,Colorado,8047,230,3
+2021/5/1,Glacier,Montana,30035,1528,42
+2021/5/1,Glades,Florida,12043,952,19
+2021/5/1,Gladwin,Michigan,26051,2185,50
+2021/5/1,Glascock,Georgia,13125,266,19
+2021/5/1,Glasscock,Texas,48173,104,2
+2021/5/1,Glenn,California,6021,2883,25
+2021/5/1,Gloucester,Virginia,51073,2179,48
+2021/5/1,Gloucester,New Jersey,34015,29697,609
+2021/5/1,Glynn,Georgia,13127,8103,172
+2021/5/1,Gogebic,Michigan,26053,1364,50
+2021/5/1,Golden Valley,Montana,30037,55,2
+2021/5/1,Golden Valley,North Dakota,38033,257,3
+2021/5/1,Goliad,Texas,48175,445,13
+2021/5/1,Gonzales,Texas,48177,2730,57
+2021/5/1,Goochland,Virginia,51075,1431,23
+2021/5/1,Goodhue,Minnesota,27049,4652,72
+2021/5/1,Gooding,Idaho,16047,1299,23
+2021/5/1,Gordon,Georgia,13129,8189,114
+2021/5/1,Goshen,Wyoming,56015,1207,24
+2021/5/1,Gosper,Nebraska,31073,181,5
+2021/5/1,Gove,Kansas,20063,386,19
+2021/5/1,Grady,Georgia,13131,2139,60
+2021/5/1,Grady,Oklahoma,40051,5919,121
+2021/5/1,Grafton,New Hampshire,33009,3783,26
+2021/5/1,Graham,Kansas,20065,265,9
+2021/5/1,Graham,North Carolina,37075,581,12
+2021/5/1,Graham,Arizona,4009,5549,78
+2021/5/1,Grainger,Tennessee,47057,2616,50
+2021/5/1,Grand,Utah,49019,901,3
+2021/5/1,Grand,Colorado,8049,1455,7
+2021/5/1,Grand Forks,North Dakota,38035,10536,77
+2021/5/1,Grand Isle,Vermont,50013,207,2
+2021/5/1,Grand Traverse,Michigan,26055,6199,88
+2021/5/1,Granite,Montana,30039,192,2
+2021/5/1,Grant,Nebraska,31075,39,4
+2021/5/1,Grant,Oregon,41023,493,4
+2021/5/1,Grant,North Dakota,38037,200,7
+2021/5/1,Grant,Oklahoma,40053,549,7
+2021/5/1,Grant,Minnesota,27051,561,8
+2021/5/1,Grant,Kansas,20067,975,18
+2021/5/1,Grant,Kentucky,21081,2412,22
+2021/5/1,Grant,West Virginia,54023,1262,27
+2021/5/1,Grant,Arkansas,5053,1644,32
+2021/5/1,Grant,New Mexico,35017,1696,36
+2021/5/1,Grant,South Dakota,46051,1037,42
+2021/5/1,Grant,Louisiana,22043,2132,55
+2021/5/1,Grant,Wisconsin,55043,5659,90
+2021/5/1,Grant,Washington,53025,9939,119
+2021/5/1,Grant,Indiana,18053,7371,179
+2021/5/1,Granville,North Carolina,37077,5878,80
+2021/5/1,Gratiot,Michigan,26057,6655,116
+2021/5/1,Graves,Kentucky,21083,4161,92
+2021/5/1,Gray,Kansas,20069,611,14
+2021/5/1,Gray,Texas,48179,2310,56
+2021/5/1,Grays Harbor,Washington,53027,3807,62
+2021/5/1,Grayson,Virginia,51077,1444,33
+2021/5/1,Grayson,Kentucky,21085,2129,54
+2021/5/1,Grayson,Texas,48181,11264,340
+2021/5/1,Greeley,Kansas,20071,104,1
+2021/5/1,Greeley,Nebraska,31077,213,2
+2021/5/1,Green,Kentucky,21087,1206,16
+2021/5/1,Green,Wisconsin,55045,3603,24
+2021/5/1,Green Lake,Wisconsin,55047,2005,22
+2021/5/1,Greenbrier,West Virginia,54025,2743,62
+2021/5/1,Greene,Iowa,19073,773,10
+2021/5/1,Greene,Virginia,51079,1240,16
+2021/5/1,Greene,Mississippi,28041,1300,33
+2021/5/1,Greene,Alabama,1063,922,34
+2021/5/1,Greene,Pennsylvania,42059,3153,39
+2021/5/1,Greene,North Carolina,37079,2287,44
+2021/5/1,Greene,Illinois,17061,1431,46
+2021/5/1,Greene,Georgia,13133,1822,64
+2021/5/1,Greene,New York,36039,3255,74
+2021/5/1,Greene,Arkansas,5055,6101,75
+2021/5/1,Greene,Indiana,18055,2755,89
+2021/5/1,Greene,Tennessee,47059,7827,153
+2021/5/1,Greene,Ohio,39057,14956,243
+2021/5/1,Greene,Missouri,29077,28954,464
+2021/5/1,Greenlee,Arizona,4011,571,10
+2021/5/1,Greensville,Virginia,51081,1568,24
+2021/5/1,Greenup,Kentucky,21089,3555,58
+2021/5/1,Greenville,South Carolina,45045,73561,993
+2021/5/1,Greenwood,Kansas,20073,589,11
+2021/5/1,Greenwood,South Carolina,45047,8056,172
+2021/5/1,Greer,Oklahoma,40055,581,21
+2021/5/1,Gregg,Texas,48183,11098,353
+2021/5/1,Gregory,South Dakota,46053,579,30
+2021/5/1,Grenada,Mississippi,28043,2590,85
+2021/5/1,Griggs,North Dakota,38039,321,2
+2021/5/1,Grimes,Texas,48185,3676,69
+2021/5/1,Grundy,Iowa,19075,1359,32
+2021/5/1,Grundy,Missouri,29079,987,34
+2021/5/1,Grundy,Tennessee,47061,1788,34
+2021/5/1,Grundy,Illinois,17063,5770,75
+2021/5/1,Guadalupe,New Mexico,35019,629,9
+2021/5/1,Guadalupe,Texas,48187,14597,210
+2021/5/1,Guernsey,Ohio,39059,3136,52
+2021/5/1,Guilford,North Carolina,37081,46460,693
+2021/5/1,Gulf,Florida,12045,1954,42
+2021/5/1,Gunnison,Colorado,8051,1324,6
+2021/5/1,Guthrie,Iowa,19077,1201,29
+2021/5/1,Gwinnett,Georgia,13135,100888,1143
+2021/5/1,Haakon,South Dakota,46055,262,10
+2021/5/1,Habersham,Georgia,13137,5161,161
+2021/5/1,Hale,Alabama,1065,2217,76
+2021/5/1,Hale,Texas,48189,6111,155
+2021/5/1,Halifax,Virginia,51083,2776,77
+2021/5/1,Halifax,North Carolina,37083,5520,109
+2021/5/1,Hall,Texas,48191,462,14
+2021/5/1,Hall,Nebraska,31079,7744,117
+2021/5/1,Hall,Georgia,13139,27228,464
+2021/5/1,Hamblen,Tennessee,47063,8585,172
+2021/5/1,Hamilton,Kansas,20075,202,1
+2021/5/1,Hamilton,New York,36041,303,2
+2021/5/1,Hamilton,Illinois,17065,828,18
+2021/5/1,Hamilton,Nebraska,31081,936,18
+2021/5/1,Hamilton,Florida,12047,1624,25
+2021/5/1,Hamilton,Texas,48193,770,26
+2021/5/1,Hamilton,Iowa,19079,1789,49
+2021/5/1,Hamilton,Indiana,18057,35275,426
+2021/5/1,Hamilton,Tennessee,47065,44226,491
+2021/5/1,Hamilton,Ohio,39061,79492,1190
+2021/5/1,Hamlin,South Dakota,46057,794,39
+2021/5/1,Hampden,Massachusetts,25013,50743,1496
+2021/5/1,Hampshire,West Virginia,54027,1760,33
+2021/5/1,Hampshire,Massachusetts,25015,8960,290
+2021/5/1,Hampton,South Carolina,45049,1901,52
+2021/5/1,Hampton city,Virginia,51650,10261,172
+2021/5/1,Hancock,Tennessee,47067,582,12
+2021/5/1,Hancock,Kentucky,21091,878,16
+2021/5/1,Hancock,Iowa,19081,1459,34
+2021/5/1,Hancock,Maine,23009,1229,36
+2021/5/1,Hancock,Illinois,17067,1741,41
+2021/5/1,Hancock,Georgia,13141,915,65
+2021/5/1,Hancock,Mississippi,28045,3759,86
+2021/5/1,Hancock,West Virginia,54029,2756,88
+2021/5/1,Hancock,Ohio,39063,6864,126
+2021/5/1,Hancock,Indiana,18059,8197,143
+2021/5/1,Hand,South Dakota,46059,362,6
+2021/5/1,Hanover,Virginia,51085,7993,154
+2021/5/1,Hansford,Texas,48195,896,25
+2021/5/1,Hanson,South Dakota,46061,386,4
+2021/5/1,Haralson,Georgia,13143,2634,82
+2021/5/1,Hardee,Florida,12049,3117,43
+2021/5/1,Hardeman,Texas,48197,374,12
+2021/5/1,Hardeman,Tennessee,47069,3505,64
+2021/5/1,Hardin,Illinois,17069,382,12
+2021/5/1,Hardin,Iowa,19083,1843,42
+2021/5/1,Hardin,Ohio,39065,2691,64
+2021/5/1,Hardin,Tennessee,47071,3564,66
+2021/5/1,Hardin,Texas,48199,5670,111
+2021/5/1,Hardin,Kentucky,21093,9618,154
+2021/5/1,Harding,South Dakota,46063,96,1
+2021/5/1,Hardy,West Virginia,54031,1499,24
+2021/5/1,Harford,Maryland,24025,16109,271
+2021/5/1,Harlan,Kentucky,21095,2800,83
+2021/5/1,Harmon,Oklahoma,40057,324,4
+2021/5/1,Harnett,North Carolina,37085,11324,169
+2021/5/1,Harney,Oregon,41025,329,8
+2021/5/1,Harper,Oklahoma,40059,420,6
+2021/5/1,Harper,Kansas,20077,625,18
+2021/5/1,Harris,Georgia,13145,2536,58
+2021/5/1,Harris,Texas,48201,392664,6212
+2021/5/1,Harrison,Missouri,29081,875,14
+2021/5/1,Harrison,Kentucky,21097,1675,22
+2021/5/1,Harrison,Ohio,39067,1065,36
+2021/5/1,Harrison,Iowa,19085,1788,73
+2021/5/1,Harrison,Indiana,18061,4319,74
+2021/5/1,Harrison,West Virginia,54033,5572,74
+2021/5/1,Harrison,Texas,48203,4815,107
+2021/5/1,Harrison,Mississippi,28047,17735,306
+2021/5/1,Harrisonburg city,Virginia,51660,6450,95
+2021/5/1,Hart,Kentucky,21099,1966,46
+2021/5/1,Hart,Georgia,13147,2370,52
+2021/5/1,Hartford,Connecticut,9003,81660,2394
+2021/5/1,Hartley,Texas,48205,632,2
+2021/5/1,Harvey,Kansas,20079,3613,68
+2021/5/1,Haskell,Kansas,20081,418,9
+2021/5/1,Haskell,Oklahoma,40061,1250,16
+2021/5/1,Haskell,Texas,48207,445,27
+2021/5/1,Hawaii,Hawaii,15001,2756,53
+2021/5/1,Hawkins,Tennessee,47073,5973,107
+2021/5/1,Hays,Texas,48209,20360,239
+2021/5/1,Haywood,Tennessee,47075,2703,61
+2021/5/1,Haywood,North Carolina,37087,4303,95
+2021/5/1,Heard,Georgia,13149,871,19
+2021/5/1,Hemphill,Texas,48211,586,2
+2021/5/1,Hempstead,Arkansas,5057,1998,20
+2021/5/1,Henderson,Illinois,17071,522,23
+2021/5/1,Henderson,Kentucky,21101,4710,75
+2021/5/1,Henderson,Tennessee,47077,3777,76
+2021/5/1,Henderson,North Carolina,37089,10037,158
+2021/5/1,Henderson,Texas,48213,5839,184
+2021/5/1,Hendricks,Indiana,18063,17117,332
+2021/5/1,Hendry,Florida,12051,4703,82
+2021/5/1,Hennepin,Minnesota,27053,119846,1707
+2021/5/1,Henrico,Virginia,51087,25004,602
+2021/5/1,Henry,Kentucky,21103,1345,13
+2021/5/1,Henry,Iowa,19087,2896,37
+2021/5/1,Henry,Missouri,29083,2006,38
+2021/5/1,Henry,Alabama,1067,1884,44
+2021/5/1,Henry,Ohio,39069,2674,66
+2021/5/1,Henry,Tennessee,47079,3165,75
+2021/5/1,Henry,Illinois,17073,4867,92
+2021/5/1,Henry,Indiana,18065,5663,103
+2021/5/1,Henry,Virginia,51089,4498,121
+2021/5/1,Henry,Georgia,13151,25058,323
+2021/5/1,Herkimer,New York,36043,4994,107
+2021/5/1,Hernando,Florida,12053,13768,459
+2021/5/1,Hertford,North Carolina,37091,2079,63
+2021/5/1,Hettinger,North Dakota,38041,327,4
+2021/5/1,Hickman,Kentucky,21105,373,10
+2021/5/1,Hickman,Tennessee,47081,2831,46
+2021/5/1,Hickory,Missouri,29085,642,15
+2021/5/1,Hidalgo,New Mexico,35023,361,9
+2021/5/1,Hidalgo,Texas,48215,87012,2824
+2021/5/1,Highland,Virginia,51091,108,1
+2021/5/1,Highland,Ohio,39071,3516,61
+2021/5/1,Highlands,Florida,12055,8457,351
+2021/5/1,Hill,Montana,30041,1962,44
+2021/5/1,Hill,Texas,48217,4483,108
+2021/5/1,Hillsborough,New Hampshire,33011,34834,623
+2021/5/1,Hillsborough,Florida,12057,135705,1711
+2021/5/1,Hillsdale,Michigan,26059,4156,85
+2021/5/1,Hinds,Mississippi,28049,20214,414
+2021/5/1,Hitchcock,Nebraska,31087,253,5
+2021/5/1,Hocking,Ohio,39073,2141,61
+2021/5/1,Hockley,Texas,48219,2818,102
+2021/5/1,Hodgeman,Kansas,20083,211,8
+2021/5/1,Hoke,North Carolina,37093,4594,55
+2021/5/1,Holmes,Florida,12059,2241,49
+2021/5/1,Holmes,Mississippi,28051,1882,72
+2021/5/1,Holmes,Ohio,39075,2582,101
+2021/5/1,Holt,Missouri,29087,440,13
+2021/5/1,Holt,Nebraska,31089,858,16
+2021/5/1,Honolulu,Hawaii,15003,25532,374
+2021/5/1,Hood,Texas,48221,6517,128
+2021/5/1,Hood River,Oregon,41027,1160,30
+2021/5/1,Hooker,Nebraska,31091,54,2
+2021/5/1,Hopewell city,Virginia,51670,2556,70
+2021/5/1,Hopkins,Texas,48223,3081,109
+2021/5/1,Hopkins,Kentucky,21107,4422,146
+2021/5/1,Horry,South Carolina,45051,38631,569
+2021/5/1,Hot Spring,Arkansas,5059,5083,72
+2021/5/1,Hot Springs,Wyoming,56017,368,3
+2021/5/1,Houghton,Michigan,26061,3039,40
+2021/5/1,Houston,Minnesota,27055,1662,15
+2021/5/1,Houston,Tennessee,47083,1089,33
+2021/5/1,Houston,Texas,48225,1628,52
+2021/5/1,Houston,Georgia,13153,14556,253
+2021/5/1,Houston,Alabama,1069,10501,280
+2021/5/1,Howard,Missouri,29089,1046,7
+2021/5/1,Howard,Nebraska,31093,551,17
+2021/5/1,Howard,Iowa,19089,1041,22
+2021/5/1,Howard,Arkansas,5061,1653,25
+2021/5/1,Howard,Texas,48227,4633,101
+2021/5/1,Howard,Indiana,18067,9804,218
+2021/5/1,Howard,Maryland,24027,18892,233
+2021/5/1,Howell,Missouri,29091,3479,43
+2021/5/1,Hubbard,Minnesota,27057,1804,41
+2021/5/1,Hudson,New Jersey,34017,86882,2220
+2021/5/1,Hudspeth,Texas,48229,526,11
+2021/5/1,Huerfano,Colorado,8055,387,17
+2021/5/1,Hughes,Oklahoma,40063,1232,29
+2021/5/1,Hughes,South Dakota,46065,2476,39
+2021/5/1,Humboldt,Nevada,32013,1168,13
+2021/5/1,Humboldt,Iowa,19091,1186,26
+2021/5/1,Humboldt,California,6023,3852,38
+2021/5/1,Humphreys,Tennessee,47085,1783,24
+2021/5/1,Humphreys,Mississippi,28053,953,32
+2021/5/1,Hunt,Texas,48231,5919,167
+2021/5/1,Hunterdon,New Jersey,34019,9519,172
+2021/5/1,Huntingdon,Pennsylvania,42061,4912,128
+2021/5/1,Huntington,Indiana,18069,3854,82
+2021/5/1,Huron,Michigan,26063,3969,73
+2021/5/1,Huron,Ohio,39077,5397,118
+2021/5/1,Hutchinson,South Dakota,46067,914,27
+2021/5/1,Hutchinson,Texas,48233,2011,71
+2021/5/1,Hyde,South Dakota,46069,141,1
+2021/5/1,Hyde,North Carolina,37095,665,8
+2021/5/1,Iberia,Louisiana,22045,6971,153
+2021/5/1,Iberville,Louisiana,22047,3796,98
+2021/5/1,Ida,Iowa,19093,903,34
+2021/5/1,Idaho,Idaho,16049,1215,18
+2021/5/1,Imperial,California,6025,28244,720
+2021/5/1,Independence,Arkansas,5063,3755,123
+2021/5/1,Indian River,Florida,12061,12438,299
+2021/5/1,Indiana,Pennsylvania,42063,5939,171
+2021/5/1,Ingham,Michigan,26065,23709,349
+2021/5/1,Inyo,California,6027,1421,38
+2021/5/1,Ionia,Michigan,26067,8772,82
+2021/5/1,Iosco,Michigan,26069,1860,70
+2021/5/1,Iowa,Wisconsin,55049,2098,11
+2021/5/1,Iowa,Iowa,19095,1476,24
+2021/5/1,Iredell,North Carolina,37097,18407,206
+2021/5/1,Irion,Texas,48235,125,1
+2021/5/1,Iron,Missouri,29093,888,6
+2021/5/1,Iron,Utah,49021,5719,32
+2021/5/1,Iron,Wisconsin,55051,692,40
+2021/5/1,Iron,Michigan,26071,1007,51
+2021/5/1,Iroquois,Illinois,17075,2956,66
+2021/5/1,Irwin,Georgia,13155,918,28
+2021/5/1,Isabella,Michigan,26073,5869,85
+2021/5/1,Isanti,Minnesota,27059,4029,61
+2021/5/1,Island,Washington,53029,1658,30
+2021/5/1,Isle of Wight,Virginia,51093,3111,66
+2021/5/1,Issaquena,Mississippi,28055,168,6
+2021/5/1,Itasca,Minnesota,27061,4070,53
+2021/5/1,Itawamba,Mississippi,28057,2990,77
+2021/5/1,Izard,Arkansas,5065,1677,41
+2021/5/1,Jack,Texas,48237,607,16
+2021/5/1,Jackson,Minnesota,27063,1208,11
+2021/5/1,Jackson,South Dakota,46071,289,14
+2021/5/1,Jackson,Kansas,20085,1398,16
+2021/5/1,Jackson,Wisconsin,55053,2681,28
+2021/5/1,Jackson,Texas,48239,1814,31
+2021/5/1,Jackson,Kentucky,21109,1303,32
+2021/5/1,Jackson,Tennessee,47087,1315,35
+2021/5/1,Jackson,Arkansas,5067,3218,38
+2021/5/1,Jackson,Iowa,19097,2202,42
+2021/5/1,Jackson,Louisiana,22049,1904,50
+2021/5/1,Jackson,Ohio,39079,3114,51
+2021/5/1,Jackson,North Carolina,37099,3579,55
+2021/5/1,Jackson,Oklahoma,40065,3108,56
+2021/5/1,Jackson,West Virginia,54035,2008,59
+2021/5/1,Jackson,Indiana,18071,4989,73
+2021/5/1,Jackson,Illinois,17077,4941,74
+2021/5/1,Jackson,Alabama,1071,6790,110
+2021/5/1,Jackson,Oregon,41029,10510,131
+2021/5/1,Jackson,Georgia,13157,9807,151
+2021/5/1,Jackson,Florida,12063,6180,156
+2021/5/1,Jackson,Mississippi,28059,13363,246
+2021/5/1,Jackson,Michigan,26075,20063,292
+2021/5/1,Jackson,Missouri,29095,37618,417
+2021/5/1,James City,Virginia,51095,4545,72
+2021/5/1,Jasper,Illinois,17079,1148,20
+2021/5/1,Jasper,Georgia,13159,1401,38
+2021/5/1,Jasper,South Carolina,45053,2313,45
+2021/5/1,Jasper,Mississippi,28061,2206,48
+2021/5/1,Jasper,Indiana,18073,3601,49
+2021/5/1,Jasper,Iowa,19099,4120,70
+2021/5/1,Jasper,Texas,48241,2466,88
+2021/5/1,Jasper,Missouri,29097,9383,127
+2021/5/1,Jay,Indiana,18075,1906,31
+2021/5/1,Jeff Davis,Texas,48243,190,5
+2021/5/1,Jeff Davis,Georgia,13161,1889,44
+2021/5/1,Jefferson,Nebraska,31095,663,1
+2021/5/1,Jefferson,Washington,53031,395,3
+2021/5/1,Jefferson,Montana,30043,1071,8
+2021/5/1,Jefferson,Oklahoma,40067,700,13
+2021/5/1,Jefferson,Idaho,16051,2977,26
+2021/5/1,Jefferson,Florida,12065,1485,27
+2021/5/1,Jefferson,Mississippi,28063,651,28
+2021/5/1,Jefferson,Oregon,41031,2135,32
+2021/5/1,Jefferson,Kansas,20087,1710,34
+2021/5/1,Jefferson,Iowa,19101,1319,35
+2021/5/1,Jefferson,West Virginia,54037,4513,48
+2021/5/1,Jefferson,New York,36045,5668,65
+2021/5/1,Jefferson,Georgia,13163,1946,66
+2021/5/1,Jefferson,Indiana,18077,3274,81
+2021/5/1,Jefferson,Pennsylvania,42065,3207,95
+2021/5/1,Jefferson,Illinois,17081,4222,120
+2021/5/1,Jefferson,Tennessee,47089,6155,125
+2021/5/1,Jefferson,Wisconsin,55055,9499,132
+2021/5/1,Jefferson,Ohio,39081,5455,150
+2021/5/1,Jefferson,Arkansas,5069,8858,166
+2021/5/1,Jefferson,Missouri,29099,23037,241
+2021/5/1,Jefferson,Texas,48245,19573,421
+2021/5/1,Jefferson,Colorado,8059,45266,750
+2021/5/1,Jefferson,Louisiana,22051,45903,891
+2021/5/1,Jefferson,Kentucky,21111,80963,1178
+2021/5/1,Jefferson,Alabama,1073,76175,1516
+2021/5/1,Jefferson Davis,Mississippi,28065,1067,32
+2021/5/1,Jefferson Davis,Louisiana,22053,3149,96
+2021/5/1,Jenkins,Georgia,13165,852,44
+2021/5/1,Jennings,Indiana,18079,2285,50
+2021/5/1,Jerauld,South Dakota,46073,273,16
+2021/5/1,Jerome,Idaho,16053,2587,23
+2021/5/1,Jersey,Illinois,17083,2678,68
+2021/5/1,Jessamine,Kentucky,21113,4545,64
+2021/5/1,Jewell,Kansas,20089,210,6
+2021/5/1,Jim Hogg,Texas,48247,613,16
+2021/5/1,Jim Wells,Texas,48249,4248,101
+2021/5/1,Jo Daviess,Illinois,17085,1796,27
+2021/5/1,Johnson,Nebraska,31097,640,9
+2021/5/1,Johnson,Wyoming,56019,717,10
+2021/5/1,Johnson,Illinois,17087,1412,20
+2021/5/1,Johnson,Kentucky,21115,1927,34
+2021/5/1,Johnson,Tennessee,47091,2382,38
+2021/5/1,Johnson,Arkansas,5071,2907,38
+2021/5/1,Johnson,Georgia,13167,1121,49
+2021/5/1,Johnson,Missouri,29101,4749,52
+2021/5/1,Johnson,Iowa,19103,14360,83
+2021/5/1,Johnson,Texas,48251,19714,366
+2021/5/1,Johnson,Indiana,18081,17851,391
+2021/5/1,Johnson,Kansas,20091,57888,750
+2021/5/1,Johnston,Oklahoma,40069,1375,35
+2021/5/1,Johnston,North Carolina,37101,21075,213
+2021/5/1,Jones,North Carolina,37103,819,19
+2021/5/1,Jones,Texas,48253,2641,55
+2021/5/1,Jones,Georgia,13169,2009,57
+2021/5/1,Jones,Iowa,19105,2955,57
+2021/5/1,Jones,Mississippi,28067,8354,163
+2021/5/1,Joplin,Missouri,,6010,106
+2021/5/1,Josephine,Oregon,41033,3234,67
+2021/5/1,Juab,Utah,49023,1265,12
+2021/5/1,Judith Basin,Montana,30045,90,1
+2021/5/1,Juneau,Wisconsin,55057,3247,27
+2021/5/1,Juneau City and Borough,Alaska,2110,1351,3
+2021/5/1,Juniata,Pennsylvania,42067,2069,82
+2021/5/1,Kalamazoo,Michigan,26077,21641,358
+2021/5/1,Kalkaska,Michigan,26079,1055,21
+2021/5/1,Kanabec,Minnesota,27065,1410,24
+2021/5/1,Kanawha,West Virginia,54039,14609,331
+2021/5/1,Kandiyohi,Minnesota,27067,6442,81
+2021/5/1,Kane,Utah,49025,659,5
+2021/5/1,Kane,Illinois,17089,57295,817
+2021/5/1,Kankakee,Illinois,17091,13877,214
+2021/5/1,Kansas City,Missouri,,43383,572
+2021/5/1,Karnes,Texas,48255,2079,37
+2021/5/1,Kauai,Hawaii,15007,262,2
+2021/5/1,Kaufman,Texas,48257,15930,256
+2021/5/1,Kay,Oklahoma,40071,5305,126
+2021/5/1,Kearney,Nebraska,31099,688,5
+2021/5/1,Kearny,Kansas,20093,567,10
+2021/5/1,Keith,Nebraska,31101,717,10
+2021/5/1,Kemper,Mississippi,28069,958,28
+2021/5/1,Kenai Peninsula Borough,Alaska,2122,4406,19
+2021/5/1,Kendall,Texas,48259,3267,72
+2021/5/1,Kendall,Illinois,17093,13181,100
+2021/5/1,Kenedy,Texas,48261,38,2
+2021/5/1,Kennebec,Maine,23011,5700,68
+2021/5/1,Kenosha,Wisconsin,55059,18188,322
+2021/5/1,Kent,Texas,48263,106,2
+2021/5/1,Kent,Maryland,24029,1317,46
+2021/5/1,Kent,Delaware,10001,17413,334
+2021/5/1,Kent,Rhode Island,44003,18092,360
+2021/5/1,Kent,Michigan,26081,68444,793
+2021/5/1,Kenton,Kentucky,21117,16769,201
+2021/5/1,Keokuk,Iowa,19107,953,31
+2021/5/1,Kern,California,6029,108598,1354
+2021/5/1,Kerr,Texas,48265,4455,88
+2021/5/1,Kershaw,South Carolina,45055,7415,138
+2021/5/1,Ketchikan Gateway Borough,Alaska,2130,424,1
+2021/5/1,Kewaunee,Wisconsin,55061,2670,35
+2021/5/1,Keweenaw,Michigan,26083,173,2
+2021/5/1,Kidder,North Dakota,38043,266,10
+2021/5/1,Kimball,Nebraska,31105,414,7
+2021/5/1,Kimble,Texas,48267,267,6
+2021/5/1,King,Washington,53033,102351,1517
+2021/5/1,King and Queen,Virginia,51097,388,8
+2021/5/1,King George,Virginia,51099,1655,19
+2021/5/1,King William,Virginia,51101,1195,11
+2021/5/1,Kingfisher,Oklahoma,40073,2050,38
+2021/5/1,Kingman,Kansas,20095,752,15
+2021/5/1,Kings,California,6031,22886,246
+2021/5/1,Kingsbury,South Dakota,46077,814,16
+2021/5/1,Kinney,Texas,48271,347,6
+2021/5/1,Kiowa,Colorado,8061,93,3
+2021/5/1,Kiowa,Kansas,20097,271,5
+2021/5/1,Kiowa,Oklahoma,40075,810,24
+2021/5/1,Kit Carson,Colorado,8063,606,11
+2021/5/1,Kitsap,Washington,53035,7627,105
+2021/5/1,Kittitas,Washington,53037,2809,33
+2021/5/1,Kittson,Minnesota,27069,480,22
+2021/5/1,Klamath,Oregon,41035,4062,59
+2021/5/1,Kleberg,Texas,48273,2628,93
+2021/5/1,Klickitat,Washington,53039,716,9
+2021/5/1,Knott,Kentucky,21119,1138,23
+2021/5/1,Knox,Missouri,29103,374,2
+2021/5/1,Knox,Maine,23013,996,5
+2021/5/1,Knox,Nebraska,31107,886,12
+2021/5/1,Knox,Texas,48275,258,17
+2021/5/1,Knox,Kentucky,21121,3339,36
+2021/5/1,Knox,Indiana,18083,3707,90
+2021/5/1,Knox,Ohio,39083,4458,110
+2021/5/1,Knox,Illinois,17095,5461,169
+2021/5/1,Knox,Tennessee,47093,51573,633
+2021/5/1,Kodiak Island Borough,Alaska,2150,1101,5
+2021/5/1,Koochiching,Minnesota,27071,802,14
+2021/5/1,Kootenai,Idaho,16055,17776,207
+2021/5/1,Kosciusko,Indiana,18085,9342,120
+2021/5/1,Kossuth,Iowa,19109,2145,64
+2021/5/1,Kusilvak Census Area,Alaska,2158,1275,4
+2021/5/1,La Crosse,Wisconsin,55063,13484,82
+2021/5/1,La Paz,Arizona,4012,2461,80
+2021/5/1,La Plata,Colorado,8067,3844,39
+2021/5/1,La Salle,Texas,48283,1045,28
+2021/5/1,Labette,Kansas,20099,2734,49
+2021/5/1,Lac qui Parle,Minnesota,27073,748,22
+2021/5/1,Lackawanna,Pennsylvania,42069,17746,458
+2021/5/1,Laclede,Missouri,29105,3268,68
+2021/5/1,Lafayette,Arkansas,5073,546,9
+2021/5/1,Lafayette,Wisconsin,55065,1703,9
+2021/5/1,Lafayette,Florida,12067,1616,26
+2021/5/1,Lafayette,Missouri,29107,3034,56
+2021/5/1,Lafayette,Mississippi,28071,6142,118
+2021/5/1,Lafayette,Louisiana,22055,23220,276
+2021/5/1,Lafourche,Louisiana,22057,9514,203
+2021/5/1,LaGrange,Indiana,18087,2631,72
+2021/5/1,Lake,Oregon,41037,437,7
+2021/5/1,Lake,Michigan,26085,585,15
+2021/5/1,Lake,South Dakota,46079,1362,18
+2021/5/1,Lake,Minnesota,27075,802,19
+2021/5/1,Lake,Tennessee,47095,1701,26
+2021/5/1,Lake,Montana,30047,2027,36
+2021/5/1,Lake,California,6033,3440,43
+2021/5/1,Lake,Ohio,39085,20447,368
+2021/5/1,Lake,Florida,12069,29369,633
+2021/5/1,Lake,Indiana,18089,53014,999
+2021/5/1,Lake,Illinois,17097,66075,1046
+2021/5/1,Lake of the Woods,Minnesota,27077,315,3
+2021/5/1,Lamar,Alabama,1075,1409,34
+2021/5/1,Lamar,Georgia,13171,2030,56
+2021/5/1,Lamar,Mississippi,28073,6191,85
+2021/5/1,Lamar,Texas,48277,5813,155
+2021/5/1,Lamb,Texas,48279,2282,82
+2021/5/1,Lamoille,Vermont,50015,847,3
+2021/5/1,LaMoure,North Dakota,38045,533,17
+2021/5/1,Lampasas,Texas,48281,2173,32
+2021/5/1,Lancaster,Virginia,51103,710,16
+2021/5/1,Lancaster,South Carolina,45057,10618,166
+2021/5/1,Lancaster,Nebraska,31109,31061,232
+2021/5/1,Lancaster,Pennsylvania,42071,53334,1112
+2021/5/1,Lander,Nevada,32015,450,9
+2021/5/1,Lane,Kansas,20101,143,7
+2021/5/1,Lane,Oregon,41039,12406,144
+2021/5/1,Langlade,Wisconsin,55067,2156,46
+2021/5/1,Lanier,Georgia,13173,774,13
+2021/5/1,Lapeer,Michigan,26087,9244,185
+2021/5/1,LaPorte,Indiana,18091,11595,210
+2021/5/1,Laramie,Wyoming,56021,9044,113
+2021/5/1,Larimer,Colorado,8069,25541,233
+2021/5/1,Larue,Kentucky,21123,1313,26
+2021/5/1,Las Animas,Colorado,8071,1111,11
+2021/5/1,LaSalle,Louisiana,22059,1528,36
+2021/5/1,LaSalle,Illinois,17099,12212,293
+2021/5/1,Lassen,California,6035,5692,24
+2021/5/1,Latah,Idaho,16057,3100,10
+2021/5/1,Latimer,Oklahoma,40077,835,13
+2021/5/1,Lauderdale,Tennessee,47097,3174,44
+2021/5/1,Lauderdale,Alabama,1077,9386,238
+2021/5/1,Lauderdale,Mississippi,28075,7218,240
+2021/5/1,Laurel,Kentucky,21125,6602,70
+2021/5/1,Laurens,Georgia,13175,5581,167
+2021/5/1,Laurens,South Carolina,45059,7296,170
+2021/5/1,Lavaca,Texas,48285,2471,76
+2021/5/1,Lawrence,Kentucky,21127,1423,21
+2021/5/1,Lawrence,Mississippi,28077,1281,23
+2021/5/1,Lawrence,Illinois,17101,2400,34
+2021/5/1,Lawrence,Arkansas,5075,2107,43
+2021/5/1,Lawrence,South Dakota,46081,2959,47
+2021/5/1,Lawrence,Missouri,29109,3378,81
+2021/5/1,Lawrence,Tennessee,47099,5877,86
+2021/5/1,Lawrence,Alabama,1079,2994,98
+2021/5/1,Lawrence,Ohio,39087,5530,102
+2021/5/1,Lawrence,Indiana,18093,4445,123
+2021/5/1,Lawrence,Pennsylvania,42073,7263,205
+2021/5/1,Le Flore,Oklahoma,40079,5557,64
+2021/5/1,Le Sueur,Minnesota,27079,2824,22
+2021/5/1,Lea,New Mexico,35025,9034,164
+2021/5/1,Leake,Mississippi,28079,2640,73
+2021/5/1,Leavenworth,Kansas,20103,7188,91
+2021/5/1,Lebanon,Pennsylvania,42075,15418,281
+2021/5/1,Lee,Kentucky,21129,1272,26
+2021/5/1,Lee,Arkansas,5077,1668,34
+2021/5/1,Lee,Texas,48287,2177,39
+2021/5/1,Lee,Virginia,51105,2413,46
+2021/5/1,Lee,Iowa,19111,3712,55
+2021/5/1,Lee,Georgia,13177,2723,58
+2021/5/1,Lee,South Carolina,45061,1891,59
+2021/5/1,Lee,North Carolina,37105,5905,76
+2021/5/1,Lee,Illinois,17103,4094,91
+2021/5/1,Lee,Alabama,1081,15792,168
+2021/5/1,Lee,Mississippi,28081,9944,171
+2021/5/1,Lee,Florida,12071,69650,959
+2021/5/1,Leelanau,Michigan,26089,1193,18
+2021/5/1,Leflore,Mississippi,28083,3484,125
+2021/5/1,Lehigh,Pennsylvania,42077,38277,835
+2021/5/1,Lemhi,Idaho,16059,523,9
+2021/5/1,Lenawee,Michigan,26091,10375,158
+2021/5/1,Lenoir,North Carolina,37107,5873,112
+2021/5/1,Leon,Texas,48289,1625,43
+2021/5/1,Leon,Florida,12073,31655,314
+2021/5/1,Leslie,Kentucky,21131,909,7
+2021/5/1,Letcher,Kentucky,21133,1894,42
+2021/5/1,Levy,Florida,12075,3410,53
+2021/5/1,Lewis,Idaho,16061,391,9
+2021/5/1,Lewis,Missouri,29111,1014,13
+2021/5/1,Lewis,West Virginia,54041,1154,20
+2021/5/1,Lewis,Tennessee,47101,1579,26
+2021/5/1,Lewis,New York,36049,2557,34
+2021/5/1,Lewis,Kentucky,21135,1289,35
+2021/5/1,Lewis,Washington,53041,4336,64
+2021/5/1,Lewis and Clark,Montana,30049,6778,87
+2021/5/1,Lexington,South Carolina,45063,33028,480
+2021/5/1,Lexington city,Virginia,51678,1171,32
+2021/5/1,Liberty,Montana,30051,117,1
+2021/5/1,Liberty,Florida,12077,1071,16
+2021/5/1,Liberty,Georgia,13179,3965,63
+2021/5/1,Liberty,Texas,48291,7762,181
+2021/5/1,Licking,Ohio,39089,16346,209
+2021/5/1,Limestone,Texas,48293,2768,76
+2021/5/1,Limestone,Alabama,1083,9927,150
+2021/5/1,Lincoln,Maine,23015,876,2
+2021/5/1,Lincoln,Nevada,32017,361,3
+2021/5/1,Lincoln,Minnesota,27081,571,3
+2021/5/1,Lincoln,Colorado,8073,1022,4
+2021/5/1,Lincoln,Kansas,20105,263,5
+2021/5/1,Lincoln,Washington,53043,471,8
+2021/5/1,Lincoln,Idaho,16063,501,11
+2021/5/1,Lincoln,Wyoming,56023,1394,12
+2021/5/1,Lincoln,Montana,30053,1612,17
+2021/5/1,Lincoln,New Mexico,35027,1662,19
+2021/5/1,Lincoln,Oregon,41041,1355,20
+2021/5/1,Lincoln,West Virginia,54043,1441,21
+2021/5/1,Lincoln,Georgia,13181,806,26
+2021/5/1,Lincoln,Missouri,29113,5759,41
+2021/5/1,Lincoln,Arkansas,5079,3200,48
+2021/5/1,Lincoln,Kentucky,21137,2288,50
+2021/5/1,Lincoln,Nebraska,31111,3773,54
+2021/5/1,Lincoln,Tennessee,47103,4343,63
+2021/5/1,Lincoln,Oklahoma,40081,3230,70
+2021/5/1,Lincoln,South Dakota,46083,8621,77
+2021/5/1,Lincoln,North Carolina,37109,9852,85
+2021/5/1,Lincoln,Wisconsin,55069,3258,91
+2021/5/1,Lincoln,Louisiana,22061,4482,92
+2021/5/1,Lincoln,Mississippi,28085,3928,110
+2021/5/1,Linn,Kansas,20107,815,12
+2021/5/1,Linn,Missouri,29115,1182,13
+2021/5/1,Linn,Oregon,41043,4557,66
+2021/5/1,Linn,Iowa,19113,20618,333
+2021/5/1,Lipscomb,Texas,48295,335,12
+2021/5/1,Litchfield,Connecticut,9005,14323,293
+2021/5/1,Little River,Arkansas,5081,1235,42
+2021/5/1,Live Oak,Texas,48297,1129,22
+2021/5/1,Livingston,Kentucky,21139,838,20
+2021/5/1,Livingston,Missouri,29117,1653,40
+2021/5/1,Livingston,New York,36051,4189,58
+2021/5/1,Livingston,Illinois,17105,4731,96
+2021/5/1,Livingston,Michigan,26093,15927,172
+2021/5/1,Livingston,Louisiana,22063,13311,204
+2021/5/1,Llano,Texas,48299,1650,51
+2021/5/1,Logan,Kansas,20109,289,6
+2021/5/1,Logan,North Dakota,38047,257,8
+2021/5/1,Logan,Arkansas,5083,2229,22
+2021/5/1,Logan,Oklahoma,40083,4216,56
+2021/5/1,Logan,Kentucky,21141,2829,64
+2021/5/1,Logan,Colorado,8075,3940,67
+2021/5/1,Logan,Illinois,17107,3786,70
+2021/5/1,Logan,Ohio,39091,3797,76
+2021/5/1,Logan,West Virginia,54045,3027,92
+2021/5/1,Long,Georgia,13183,848,11
+2021/5/1,Lonoke,Arkansas,5085,7271,119
+2021/5/1,Lorain,Ohio,39093,24723,479
+2021/5/1,Los Alamos,New Mexico,35028,518,6
+2021/5/1,Los Angeles,California,6037,1234151,23919
+2021/5/1,Loudon,Tennessee,47105,6087,69
+2021/5/1,Loudoun,Virginia,51107,27358,274
+2021/5/1,Louisa,Virginia,51109,1949,32
+2021/5/1,Louisa,Iowa,19115,1277,49
+2021/5/1,Love,Oklahoma,40085,1492,20
+2021/5/1,Lowndes,Alabama,1085,1383,53
+2021/5/1,Lowndes,Mississippi,28087,6348,144
+2021/5/1,Lowndes,Georgia,13185,12613,208
+2021/5/1,Lubbock,Texas,48303,48910,784
+2021/5/1,Lucas,Iowa,19117,766,23
+2021/5/1,Lucas,Ohio,39095,41582,781
+2021/5/1,Luce,Michigan,26095,1218,3
+2021/5/1,Lumpkin,Georgia,13187,2968,70
+2021/5/1,Luna,New Mexico,35029,3308,85
+2021/5/1,Lunenburg,Virginia,51111,761,13
+2021/5/1,Luzerne,Pennsylvania,42079,30428,794
+2021/5/1,Lycoming,Pennsylvania,42081,11341,276
+2021/5/1,Lyman,South Dakota,46085,647,11
+2021/5/1,Lynchburg city,Virginia,51680,7617,146
+2021/5/1,Lynn,Texas,48305,618,23
+2021/5/1,Lyon,Kentucky,21143,1524,19
+2021/5/1,Lyon,Iowa,19119,1569,41
+2021/5/1,Lyon,Minnesota,27083,3547,50
+2021/5/1,Lyon,Nevada,32019,3134,65
+2021/5/1,Lyon,Kansas,20111,4261,84
+2021/5/1,Mackinac,Michigan,26097,619,3
+2021/5/1,Macomb,Michigan,26099,95414,2260
+2021/5/1,Macon,Missouri,29121,1538,15
+2021/5/1,Macon,Georgia,13193,868,30
+2021/5/1,Macon,North Carolina,37113,3055,36
+2021/5/1,Macon,Alabama,1087,1586,49
+2021/5/1,Macon,Tennessee,47111,3610,78
+2021/5/1,Macon,Illinois,17115,10517,204
+2021/5/1,Macoupin,Illinois,17117,4645,110
+2021/5/1,Madera,California,6039,16395,240
+2021/5/1,Madison,Montana,30057,781,8
+2021/5/1,Madison,Virginia,51113,607,16
+2021/5/1,Madison,Missouri,29123,1635,16
+2021/5/1,Madison,Iowa,19121,1574,19
+2021/5/1,Madison,Arkansas,5087,1451,23
+2021/5/1,Madison,Idaho,16065,7149,27
+2021/5/1,Madison,Texas,48313,1959,29
+2021/5/1,Madison,Louisiana,22065,1563,39
+2021/5/1,Madison,North Carolina,37115,1546,41
+2021/5/1,Madison,Nebraska,31119,4222,42
+2021/5/1,Madison,Florida,12079,2050,45
+2021/5/1,Madison,Georgia,13195,3231,56
+2021/5/1,Madison,Ohio,39097,4334,61
+2021/5/1,Madison,New York,36053,4385,88
+2021/5/1,Madison,Kentucky,21151,9262,109
+2021/5/1,Madison,Mississippi,28089,10035,215
+2021/5/1,Madison,Tennessee,47113,11097,241
+2021/5/1,Madison,Indiana,18095,12514,358
+2021/5/1,Madison,Alabama,1089,34520,501
+2021/5/1,Madison,Illinois,17119,30187,590
+2021/5/1,Magoffin,Kentucky,21153,944,14
+2021/5/1,Mahaska,Iowa,19123,2280,50
+2021/5/1,Mahnomen,Minnesota,27087,536,8
+2021/5/1,Mahoning,Ohio,39099,21315,585
+2021/5/1,Major,Oklahoma,40093,954,21
+2021/5/1,Malheur,Oregon,41045,3463,61
+2021/5/1,Manassas city,Virginia,51683,4304,47
+2021/5/1,Manassas Park city,Virginia,51685,1214,12
+2021/5/1,Manatee,Florida,12081,38237,664
+2021/5/1,Manistee,Michigan,26101,1907,23
+2021/5/1,Manitowoc,Wisconsin,55071,8735,88
+2021/5/1,Marathon,Wisconsin,55073,16046,220
+2021/5/1,Marengo,Alabama,1091,2485,64
+2021/5/1,Maricopa,Arizona,4013,537899,9876
+2021/5/1,Maries,Missouri,29125,634,8
+2021/5/1,Marin,California,6041,13895,228
+2021/5/1,Marinette,Wisconsin,55075,4560,69
+2021/5/1,Marion,Georgia,13197,560,19
+2021/5/1,Marion,Kansas,20115,1095,24
+2021/5/1,Marion,Arkansas,5089,1054,30
+2021/5/1,Marion,Texas,48315,538,33
+2021/5/1,Marion,Kentucky,21155,2285,37
+2021/5/1,Marion,Missouri,29127,3607,45
+2021/5/1,Marion,West Virginia,54049,4311,45
+2021/5/1,Marion,Tennessee,47115,3120,47
+2021/5/1,Marion,Iowa,19125,3591,75
+2021/5/1,Marion,Mississippi,28091,2684,80
+2021/5/1,Marion,Alabama,1093,3089,100
+2021/5/1,Marion,South Carolina,45067,3515,106
+2021/5/1,Marion,Illinois,17121,4437,121
+2021/5/1,Marion,Ohio,39101,8475,135
+2021/5/1,Marion,Oregon,41047,21257,300
+2021/5/1,Marion,Florida,12083,30845,955
+2021/5/1,Marion,Indiana,18097,98658,1798
+2021/5/1,Mariposa,California,6043,441,7
+2021/5/1,Marlboro,South Carolina,45069,3297,53
+2021/5/1,Marquette,Wisconsin,55077,1555,27
+2021/5/1,Marquette,Michigan,26103,5756,59
+2021/5/1,Marshall,South Dakota,46091,370,6
+2021/5/1,Marshall,Minnesota,27089,873,17
+2021/5/1,Marshall,Illinois,17123,1025,20
+2021/5/1,Marshall,Kansas,20117,1084,23
+2021/5/1,Marshall,Oklahoma,40095,2044,23
+2021/5/1,Marshall,Kentucky,21157,2757,56
+2021/5/1,Marshall,Tennessee,47117,4166,58
+2021/5/1,Marshall,Iowa,19127,4803,75
+2021/5/1,Marshall,West Virginia,54051,3361,76
+2021/5/1,Marshall,Mississippi,28093,4368,103
+2021/5/1,Marshall,Indiana,18099,5931,111
+2021/5/1,Marshall,Alabama,1095,12158,222
+2021/5/1,Martin,Indiana,18101,873,15
+2021/5/1,Martin,Texas,48317,631,18
+2021/5/1,Martin,Kentucky,21159,1025,20
+2021/5/1,Martin,Minnesota,27091,2259,31
+2021/5/1,Martin,North Carolina,37117,2231,39
+2021/5/1,Martin,Florida,12085,12215,320
+2021/5/1,Martinsville city,Virginia,51690,1583,76
+2021/5/1,Mason,Texas,48319,395,6
+2021/5/1,Mason,Washington,53045,2649,29
+2021/5/1,Mason,Michigan,26105,2006,32
+2021/5/1,Mason,Kentucky,21161,1660,34
+2021/5/1,Mason,West Virginia,54053,1980,36
+2021/5/1,Mason,Illinois,17125,1471,43
+2021/5/1,Massac,Illinois,17127,1327,43
+2021/5/1,Matagorda,Texas,48321,3961,109
+2021/5/1,Matanuska-Susitna Borough,Alaska,2170,11319,45
+2021/5/1,Mathews,Virginia,51115,595,12
+2021/5/1,Maui,Hawaii,15009,4331,51
+2021/5/1,Maury,Tennessee,47119,13406,171
+2021/5/1,Maverick,Texas,48323,10426,355
+2021/5/1,Mayes,Oklahoma,40097,4175,68
+2021/5/1,McClain,Oklahoma,40087,5273,69
+2021/5/1,McCone,Montana,30055,183,1
+2021/5/1,McCook,South Dakota,46087,804,25
+2021/5/1,McCormick,South Carolina,45065,1021,28
+2021/5/1,McCracken,Kentucky,21145,6505,120
+2021/5/1,McCreary,Kentucky,21147,1973,31
+2021/5/1,McCulloch,Texas,48307,573,19
+2021/5/1,McCurtain,Oklahoma,40089,3928,88
+2021/5/1,McDonald,Missouri,29119,2609,36
+2021/5/1,McDonough,Illinois,17109,2743,57
+2021/5/1,McDowell,West Virginia,54047,1537,21
+2021/5/1,McDowell,North Carolina,37111,5192,63
+2021/5/1,McDuffie,Georgia,13189,2472,48
+2021/5/1,McHenry,North Dakota,38049,641,22
+2021/5/1,McHenry,Illinois,17111,28000,309
+2021/5/1,McIntosh,North Dakota,38051,339,7
+2021/5/1,McIntosh,Georgia,13191,860,16
+2021/5/1,McIntosh,Oklahoma,40091,1997,58
+2021/5/1,McKean,Pennsylvania,42083,3500,67
+2021/5/1,McKenzie,North Dakota,38053,1283,12
+2021/5/1,McKinley,New Mexico,35031,12231,465
+2021/5/1,McLean,Kentucky,21149,877,26
+2021/5/1,McLean,North Dakota,38055,1264,30
+2021/5/1,McLean,Illinois,17113,17689,210
+2021/5/1,McLennan,Texas,48309,26984,470
+2021/5/1,McLeod,Minnesota,27085,4133,58
+2021/5/1,McMinn,Tennessee,47107,6466,98
+2021/5/1,McMullen,Texas,48311,83,5
+2021/5/1,McNairy,Tennessee,47109,2802,54
+2021/5/1,McPherson,Nebraska,31117,29,1
+2021/5/1,McPherson,South Dakota,46089,244,4
+2021/5/1,McPherson,Kansas,20113,3305,88
+2021/5/1,Meade,Kansas,20119,513,12
+2021/5/1,Meade,Kentucky,21163,2013,25
+2021/5/1,Meade,South Dakota,46093,2745,30
+2021/5/1,Meagher,Montana,30059,153,7
+2021/5/1,Mecklenburg,Virginia,51117,2268,66
+2021/5/1,Mecklenburg,North Carolina,37119,109948,940
+2021/5/1,Mecosta,Michigan,26107,2974,30
+2021/5/1,Medina,Texas,48325,4972,103
+2021/5/1,Medina,Ohio,39103,15161,261
+2021/5/1,Meeker,Minnesota,27093,2481,38
+2021/5/1,Meigs,Tennessee,47121,1379,25
+2021/5/1,Meigs,Ohio,39105,1440,39
+2021/5/1,Mellette,South Dakota,46095,260,2
+2021/5/1,Menard,Texas,48327,208,9
+2021/5/1,Menard,Illinois,17129,1207,16
+2021/5/1,Mendocino,California,6045,4029,48
+2021/5/1,Menifee,Kentucky,21165,468,16
+2021/5/1,Menominee,Wisconsin,55078,807,11
+2021/5/1,Menominee,Michigan,26109,2051,41
+2021/5/1,Merced,California,6047,31594,454
+2021/5/1,Mercer,Missouri,29129,299,2
+2021/5/1,Mercer,North Dakota,38057,1111,10
+2021/5/1,Mercer,Illinois,17131,1421,33
+2021/5/1,Mercer,Kentucky,21167,2533,50
+2021/5/1,Mercer,Ohio,39107,4779,85
+2021/5/1,Mercer,West Virginia,54055,4700,116
+2021/5/1,Mercer,Pennsylvania,42085,9159,254
+2021/5/1,Mercer,New Jersey,34021,33309,933
+2021/5/1,Meriwether,Georgia,13199,1998,84
+2021/5/1,Merrick,Nebraska,31121,771,15
+2021/5/1,Merrimack,New Hampshire,33013,9243,113
+2021/5/1,Mesa,Colorado,8077,14422,212
+2021/5/1,Metcalfe,Kentucky,21169,1035,26
+2021/5/1,Miami,Kansas,20121,2741,42
+2021/5/1,Miami,Indiana,18103,3791,66
+2021/5/1,Miami,Ohio,39109,10637,215
+2021/5/1,Miami-Dade,Florida,12086,484513,6175
+2021/5/1,Middlesex,Virginia,51119,569,20
+2021/5/1,Middlesex,Connecticut,9007,12547,362
+2021/5/1,Middlesex,New Jersey,34023,91001,2303
+2021/5/1,Middlesex,Massachusetts,25017,132458,3721
+2021/5/1,Midland,Michigan,26111,7085,78
+2021/5/1,Midland,Texas,48329,17331,266
+2021/5/1,Mifflin,Pennsylvania,42087,5159,176
+2021/5/1,Milam,Texas,48331,2522,48
+2021/5/1,Millard,Utah,49027,1435,13
+2021/5/1,Mille Lacs,Minnesota,27095,2952,52
+2021/5/1,Miller,Georgia,13201,855,13
+2021/5/1,Miller,Arkansas,5091,4291,37
+2021/5/1,Miller,Missouri,29131,2529,54
+2021/5/1,Mills,Texas,48333,655,21
+2021/5/1,Mills,Iowa,19129,1611,21
+2021/5/1,Milwaukee,Wisconsin,55079,114963,1345
+2021/5/1,Miner,South Dakota,46097,298,9
+2021/5/1,Mineral,Colorado,8079,88,1
+2021/5/1,Mineral,Nevada,32021,308,7
+2021/5/1,Mineral,West Virginia,54057,2817,84
+2021/5/1,Mingo,West Virginia,54059,2498,39
+2021/5/1,Minidoka,Idaho,16067,2334,32
+2021/5/1,Minnehaha,South Dakota,46099,31343,352
+2021/5/1,Missaukee,Michigan,26113,1415,23
+2021/5/1,Mississippi,Missouri,29133,1443,28
+2021/5/1,Mississippi,Arkansas,5093,5830,107
+2021/5/1,Missoula,Montana,30063,9004,93
+2021/5/1,Mitchell,North Carolina,37121,1405,16
+2021/5/1,Mitchell,Kansas,20123,561,18
+2021/5/1,Mitchell,Texas,48335,603,30
+2021/5/1,Mitchell,Iowa,19131,1255,41
+2021/5/1,Mitchell,Georgia,13205,2075,82
+2021/5/1,Mobile,Alabama,1097,40767,804
+2021/5/1,Modoc,California,6049,492,4
+2021/5/1,Moffat,Colorado,8081,750,22
+2021/5/1,Mohave,Arizona,4015,22678,715
+2021/5/1,Moniteau,Missouri,29135,1781,31
+2021/5/1,Monmouth,New Jersey,34025,74367,1577
+2021/5/1,Mono,California,6051,1276,4
+2021/5/1,Monona,Iowa,19133,824,30
+2021/5/1,Monongalia,West Virginia,54061,9100,82
+2021/5/1,Monroe,Missouri,29137,995,12
+2021/5/1,Monroe,Arkansas,5095,868,17
+2021/5/1,Monroe,West Virginia,54063,1109,17
+2021/5/1,Monroe,Iowa,19135,950,28
+2021/5/1,Monroe,Wisconsin,55081,4605,38
+2021/5/1,Monroe,Alabama,1099,1757,40
+2021/5/1,Monroe,Ohio,39111,1301,41
+2021/5/1,Monroe,Kentucky,21171,1327,41
+2021/5/1,Monroe,Florida,12087,6916,49
+2021/5/1,Monroe,Illinois,17133,4343,91
+2021/5/1,Monroe,Tennessee,47123,5808,95
+2021/5/1,Monroe,Georgia,13207,2633,100
+2021/5/1,Monroe,Mississippi,28095,4084,133
+2021/5/1,Monroe,Indiana,18105,11767,169
+2021/5/1,Monroe,Michigan,26115,14574,238
+2021/5/1,Monroe,Pennsylvania,42089,13970,300
+2021/5/1,Monroe,New York,36055,63999,1050
+2021/5/1,Montague,Texas,48337,2083,71
+2021/5/1,Montcalm,Michigan,26117,7559,108
+2021/5/1,Monterey,California,6053,43461,381
+2021/5/1,Montezuma,Colorado,8083,1885,24
+2021/5/1,Montgomery,Missouri,29139,1030,11
+2021/5/1,Montgomery,Georgia,13209,885,23
+2021/5/1,Montgomery,Kentucky,21173,2609,30
+2021/5/1,Montgomery,Arkansas,5097,753,33
+2021/5/1,Montgomery,Iowa,19137,1024,37
+2021/5/1,Montgomery,Mississippi,28097,1262,42
+2021/5/1,Montgomery,Kansas,20125,3449,79
+2021/5/1,Montgomery,Illinois,17135,3684,79
+2021/5/1,Montgomery,Indiana,18107,4222,90
+2021/5/1,Montgomery,Virginia,51121,9285,91
+2021/5/1,Montgomery,North Carolina,37123,3295,93
+2021/5/1,Montgomery,New York,36057,4079,120
+2021/5/1,Montgomery,Tennessee,47125,20074,224
+2021/5/1,Montgomery,Texas,48339,52540,562
+2021/5/1,Montgomery,Alabama,1101,24249,585
+2021/5/1,Montgomery,Ohio,39113,51043,1010
+2021/5/1,Montgomery,Maryland,24031,69919,1522
+2021/5/1,Montgomery,Pennsylvania,42091,68000,1661
+2021/5/1,Montmorency,Michigan,26119,544,19
+2021/5/1,Montour,Pennsylvania,42093,1963,63
+2021/5/1,Montrose,Colorado,8085,3430,57
+2021/5/1,Moody,South Dakota,46101,649,17
+2021/5/1,Moore,Tennessee,47127,1008,17
+2021/5/1,Moore,Texas,48341,2457,72
+2021/5/1,Moore,North Carolina,37125,8768,187
+2021/5/1,Mora,New Mexico,35033,170,6
+2021/5/1,Morehouse,Louisiana,22067,2815,73
+2021/5/1,Morgan,Kentucky,21175,2238,3
+2021/5/1,Morgan,Utah,49029,1274,11
+2021/5/1,Morgan,West Virginia,54065,1130,20
+2021/5/1,Morgan,Ohio,39115,1081,23
+2021/5/1,Morgan,Georgia,13211,2223,30
+2021/5/1,Morgan,Tennessee,47129,2484,39
+2021/5/1,Morgan,Missouri,29141,1707,43
+2021/5/1,Morgan,Colorado,8087,2630,93
+2021/5/1,Morgan,Illinois,17137,3908,101
+2021/5/1,Morgan,Indiana,18109,6531,144
+2021/5/1,Morgan,Alabama,1103,14240,279
+2021/5/1,Morrill,Nebraska,31123,506,15
+2021/5/1,Morris,Kansas,20127,613,22
+2021/5/1,Morris,Texas,48343,865,33
+2021/5/1,Morris,New Jersey,34027,49488,1213
+2021/5/1,Morrison,Minnesota,27097,4090,60
+2021/5/1,Morrow,Oregon,41049,1092,15
+2021/5/1,Morrow,Ohio,39117,2824,39
+2021/5/1,Morton,Kansas,20129,255,9
+2021/5/1,Morton,North Dakota,38059,5211,100
+2021/5/1,Motley,Texas,48345,115,8
+2021/5/1,Moultrie,Illinois,17139,1595,34
+2021/5/1,Mountrail,North Dakota,38061,1313,17
+2021/5/1,Mower,Minnesota,27099,4582,32
+2021/5/1,Muhlenberg,Kentucky,21177,2919,61
+2021/5/1,Multnomah,Oregon,41051,36859,586
+2021/5/1,Murray,Minnesota,27101,1051,9
+2021/5/1,Murray,Oklahoma,40099,2014,38
+2021/5/1,Murray,Georgia,13213,4936,86
+2021/5/1,Muscatine,Iowa,19139,4698,99
+2021/5/1,Muscogee,Georgia,13215,16273,451
+2021/5/1,Muskegon,Michigan,26121,16636,339
+2021/5/1,Muskingum,Ohio,39119,8774,131
+2021/5/1,Muskogee,Oklahoma,40101,9306,164
+2021/5/1,Musselshell,Montana,30065,339,11
+2021/5/1,Nacogdoches,Texas,48347,4511,168
+2021/5/1,Nance,Nebraska,31125,410,10
+2021/5/1,Napa,California,6055,9793,81
+2021/5/1,Nash,North Carolina,37127,11312,181
+2021/5/1,Nassau,Florida,12089,8329,124
+2021/5/1,Nassau,New York,36059,180605,3144
+2021/5/1,Natchitoches,Louisiana,22069,4040,86
+2021/5/1,Natrona,Wyoming,56025,7952,136
+2021/5/1,Navajo,Arizona,4017,16204,532
+2021/5/1,Navarro,Texas,48349,5781,154
+2021/5/1,Nelson,Virginia,51125,887,12
+2021/5/1,Nelson,North Dakota,38063,477,15
+2021/5/1,Nelson,Kentucky,21179,4887,52
+2021/5/1,Nemaha,Nebraska,31127,680,15
+2021/5/1,Nemaha,Kansas,20131,1514,55
+2021/5/1,Neosho,Kansas,20133,1800,35
+2021/5/1,Neshoba,Mississippi,28099,4021,176
+2021/5/1,Ness,Kansas,20135,371,16
+2021/5/1,Nevada,Arkansas,5099,821,24
+2021/5/1,Nevada,California,6057,4608,75
+2021/5/1,New Castle,Delaware,10003,61787,809
+2021/5/1,New Hanover,North Carolina,37129,18846,164
+2021/5/1,New Haven,Connecticut,9009,89526,2069
+2021/5/1,New Kent,Virginia,51127,1477,16
+2021/5/1,New London,Connecticut,9011,21907,441
+2021/5/1,New Madrid,Missouri,29143,2111,43
+2021/5/1,New York City,New York,,928840,32596
+2021/5/1,Newaygo,Michigan,26123,4450,57
+2021/5/1,Newberry,South Carolina,45071,4958,101
+2021/5/1,Newport,Rhode Island,44005,6603,41
+2021/5/1,Newport News city,Virginia,51700,13766,224
+2021/5/1,Newton,Arkansas,5101,719,26
+2021/5/1,Newton,Texas,48351,620,35
+2021/5/1,Newton,Indiana,18111,1065,36
+2021/5/1,Newton,Mississippi,28101,2470,61
+2021/5/1,Newton,Missouri,29145,5257,75
+2021/5/1,Newton,Georgia,13217,10958,237
+2021/5/1,Nez Perce,Idaho,16069,3585,55
+2021/5/1,Niagara,New York,36063,19138,340
+2021/5/1,Nicholas,Kentucky,21181,541,8
+2021/5/1,Nicholas,West Virginia,54067,1586,18
+2021/5/1,Nicollet,Minnesota,27103,3185,43
+2021/5/1,Niobrara,Wyoming,56027,154,2
+2021/5/1,Noble,Oklahoma,40103,1377,19
+2021/5/1,Noble,Ohio,39121,1334,37
+2021/5/1,Noble,Indiana,18113,5536,86
+2021/5/1,Nobles,Minnesota,27105,4058,48
+2021/5/1,Nodaway,Missouri,29147,2688,25
+2021/5/1,Nolan,Texas,48353,1532,51
+2021/5/1,Norfolk,Massachusetts,25021,53783,1773
+2021/5/1,Norfolk city,Virginia,51710,17380,252
+2021/5/1,Norman,Minnesota,27107,534,9
+2021/5/1,North Slope Borough,Alaska,2185,1065,4
+2021/5/1,Northampton,Virginia,51131,797,36
+2021/5/1,Northampton,North Carolina,37131,1863,58
+2021/5/1,Northampton,Pennsylvania,42095,34570,694
+2021/5/1,Northumberland,Virginia,51133,740,20
+2021/5/1,Northumberland,Pennsylvania,42097,9245,347
+2021/5/1,Northwest Arctic Borough,Alaska,2188,613,2
+2021/5/1,Norton,Kansas,20137,1221,27
+2021/5/1,Norton city,Virginia,51720,282,7
+2021/5/1,Nottoway,Virginia,51135,1899,48
+2021/5/1,Nowata,Oklahoma,40105,1144,18
+2021/5/1,Noxubee,Mississippi,28103,1268,34
+2021/5/1,Nuckolls,Nebraska,31129,430,11
+2021/5/1,Nueces,Texas,48355,38649,775
+2021/5/1,Nye,Nevada,32023,2918,106
+2021/5/1,Oakland,Michigan,26125,111429,2210
+2021/5/1,Obion,Tennessee,47131,4527,96
+2021/5/1,O'Brien,Iowa,19141,1987,60
+2021/5/1,Ocean,New Jersey,34029,74664,2114
+2021/5/1,Oceana,Michigan,26127,2605,54
+2021/5/1,Ochiltree,Texas,48357,1141,27
+2021/5/1,Oconee,Georgia,13219,4010,72
+2021/5/1,Oconee,South Carolina,45073,9496,133
+2021/5/1,Oconto,Wisconsin,55083,4946,61
+2021/5/1,Ogemaw,Michigan,26129,1563,36
+2021/5/1,Oglala Lakota,South Dakota,46102,2107,49
+2021/5/1,Ogle,Illinois,17141,5986,88
+2021/5/1,Oglethorpe,Georgia,13221,1477,29
+2021/5/1,Ohio,Indiana,18115,562,11
+2021/5/1,Ohio,Kentucky,21183,2438,55
+2021/5/1,Ohio,West Virginia,54069,4134,81
+2021/5/1,Okaloosa,Florida,12091,20447,361
+2021/5/1,Okanogan,Washington,53047,2445,38
+2021/5/1,Okeechobee,Florida,12093,3977,88
+2021/5/1,Okfuskee,Oklahoma,40107,1781,30
+2021/5/1,Oklahoma,Oklahoma,40109,86030,1194
+2021/5/1,Okmulgee,Oklahoma,40111,3724,77
+2021/5/1,Oktibbeha,Mississippi,28105,4593,98
+2021/5/1,Oldham,Texas,48359,268,4
+2021/5/1,Oldham,Kentucky,21185,7522,82
+2021/5/1,Oliver,North Dakota,38065,156,3
+2021/5/1,Olmsted,Minnesota,27109,13045,97
+2021/5/1,Oneida,Idaho,16071,356,4
+2021/5/1,Oneida,Wisconsin,55085,3781,75
+2021/5/1,Oneida,New York,36065,21892,501
+2021/5/1,Onondaga,New York,36067,37232,666
+2021/5/1,Onslow,North Carolina,37133,16588,142
+2021/5/1,Ontario,New York,36069,7129,92
+2021/5/1,Ontonagon,Michigan,26131,454,21
+2021/5/1,Orange,Vermont,50017,752,3
+2021/5/1,Orange,Virginia,51137,2156,39
+2021/5/1,Orange,Indiana,18117,1817,57
+2021/5/1,Orange,North Carolina,37135,8483,101
+2021/5/1,Orange,Texas,48361,8416,146
+2021/5/1,Orange,New York,36071,47264,705
+2021/5/1,Orange,Florida,12095,136672,1248
+2021/5/1,Orange,California,6059,270194,4965
+2021/5/1,Orangeburg,South Carolina,45075,9664,244
+2021/5/1,Oregon,Missouri,29149,794,3
+2021/5/1,Orleans,Vermont,50019,1178,10
+2021/5/1,Orleans,New York,36073,2932,83
+2021/5/1,Orleans,Louisiana,22071,29878,792
+2021/5/1,Osage,Missouri,29151,1615,15
+2021/5/1,Osage,Kansas,20139,1232,25
+2021/5/1,Osage,Oklahoma,40113,4681,73
+2021/5/1,Osborne,Kansas,20141,289,12
+2021/5/1,Osceola,Iowa,19143,776,16
+2021/5/1,Osceola,Michigan,26133,1796,27
+2021/5/1,Osceola,Florida,12097,44174,500
+2021/5/1,Oscoda,Michigan,26135,588,24
+2021/5/1,Oswego,New York,36075,7221,90
+2021/5/1,Otero,Colorado,8089,1965,65
+2021/5/1,Otero,New Mexico,35035,4895,75
+2021/5/1,Otoe,Nebraska,31131,1446,9
+2021/5/1,Otsego,Michigan,26137,2209,36
+2021/5/1,Otsego,New York,36077,3312,47
+2021/5/1,Ottawa,Kansas,20143,551,13
+2021/5/1,Ottawa,Oklahoma,40115,3881,64
+2021/5/1,Ottawa,Ohio,39123,3651,78
+2021/5/1,Ottawa,Michigan,26139,30760,398
+2021/5/1,Otter Tail,Minnesota,27111,5636,73
+2021/5/1,Ouachita,Arkansas,5103,2305,61
+2021/5/1,Ouachita,Louisiana,22073,18301,448
+2021/5/1,Ouray,Colorado,8091,283,3
+2021/5/1,Outagamie,Wisconsin,55087,23464,218
+2021/5/1,Overton,Tennessee,47133,2999,61
+2021/5/1,Owen,Kentucky,21187,661,13
+2021/5/1,Owen,Indiana,18119,1953,58
+2021/5/1,Owsley,Kentucky,21189,490,14
+2021/5/1,Owyhee,Idaho,16073,1058,28
+2021/5/1,Oxford,Maine,23017,3257,62
+2021/5/1,Ozark,Missouri,29153,644,17
+2021/5/1,Ozaukee,Wisconsin,55089,9120,91
+2021/5/1,Pacific,Washington,53049,897,10
+2021/5/1,Page,Iowa,19145,1917,21
+2021/5/1,Page,Virginia,51139,2010,57
+2021/5/1,Palm Beach,Florida,12099,143469,2770
+2021/5/1,Palo Alto,Iowa,19147,1119,23
+2021/5/1,Palo Pinto,Texas,48363,2890,75
+2021/5/1,Pamlico,North Carolina,37137,1115,13
+2021/5/1,Panola,Texas,48365,1597,74
+2021/5/1,Panola,Mississippi,28107,4530,103
+2021/5/1,Park,Colorado,8093,737,5
+2021/5/1,Park,Montana,30067,1284,19
+2021/5/1,Park,Wyoming,56029,2701,30
+2021/5/1,Parke,Indiana,18121,1468,16
+2021/5/1,Parker,Texas,48367,15615,180
+2021/5/1,Parmer,Texas,48369,1268,36
+2021/5/1,Pasco,Florida,12101,40808,743
+2021/5/1,Pasquotank,North Carolina,37139,3305,80
+2021/5/1,Passaic,New Jersey,34031,71574,1863
+2021/5/1,Patrick,Virginia,51141,1338,43
+2021/5/1,Paulding,Ohio,39125,1707,39
+2021/5/1,Paulding,Georgia,13223,16726,212
+2021/5/1,Pawnee,Nebraska,31133,233,1
+2021/5/1,Pawnee,Kansas,20145,1165,13
+2021/5/1,Pawnee,Oklahoma,40117,1777,48
+2021/5/1,Payette,Idaho,16075,2536,36
+2021/5/1,Payne,Oklahoma,40119,8653,71
+2021/5/1,Peach,Georgia,13225,2632,59
+2021/5/1,Pearl River,Mississippi,28109,4482,144
+2021/5/1,Pecos,Texas,48371,1657,34
+2021/5/1,Pembina,North Dakota,38067,808,11
+2021/5/1,Pemiscot,Missouri,29155,1578,30
+2021/5/1,Pend Oreille,Washington,53051,723,7
+2021/5/1,Pender,North Carolina,37141,5308,69
+2021/5/1,Pendleton,Kentucky,21191,1022,4
+2021/5/1,Pendleton,West Virginia,54071,697,9
+2021/5/1,Pennington,Minnesota,27113,1532,19
+2021/5/1,Pennington,South Dakota,46103,13606,190
+2021/5/1,Penobscot,Maine,23019,5408,90
+2021/5/1,Peoria,Illinois,17143,22534,318
+2021/5/1,Pepin,Wisconsin,55091,876,7
+2021/5/1,Perkins,Nebraska,31135,288,11
+2021/5/1,Perkins,South Dakota,46105,355,14
+2021/5/1,Perquimans,North Carolina,37143,988,10
+2021/5/1,Perry,Arkansas,5105,836,10
+2021/5/1,Perry,Alabama,1105,1075,26
+2021/5/1,Perry,Tennessee,47135,1061,28
+2021/5/1,Perry,Missouri,29157,2209,30
+2021/5/1,Perry,Mississippi,28111,1259,38
+2021/5/1,Perry,Indiana,18123,1833,38
+2021/5/1,Perry,Ohio,39127,2939,50
+2021/5/1,Perry,Kentucky,21193,2636,65
+2021/5/1,Perry,Illinois,17145,3140,68
+2021/5/1,Perry,Pennsylvania,42099,3648,99
+2021/5/1,Pershing,Nevada,32027,954,20
+2021/5/1,Person,North Carolina,37145,3318,67
+2021/5/1,Petersburg city,Virginia,51730,3806,84
+2021/5/1,Petroleum,Montana,30069,12,1
+2021/5/1,Pettis,Missouri,29159,5101,78
+2021/5/1,Phelps,Nebraska,31137,994,10
+2021/5/1,Phelps,Missouri,29161,3811,129
+2021/5/1,Philadelphia,Pennsylvania,42101,147125,3492
+2021/5/1,Phillips,Colorado,8095,375,13
+2021/5/1,Phillips,Montana,30071,521,16
+2021/5/1,Phillips,Kansas,20147,713,24
+2021/5/1,Phillips,Arkansas,5107,1813,38
+2021/5/1,Piatt,Illinois,17147,1449,20
+2021/5/1,Pickaway,Ohio,39129,8515,121
+2021/5/1,Pickens,Alabama,1107,2334,59
+2021/5/1,Pickens,Georgia,13227,3416,79
+2021/5/1,Pickens,South Carolina,45077,18477,294
+2021/5/1,Pickett,Tennessee,47137,759,24
+2021/5/1,Pierce,Nebraska,31139,630,20
+2021/5/1,Pierce,North Dakota,38069,542,25
+2021/5/1,Pierce,Wisconsin,55093,4885,42
+2021/5/1,Pierce,Georgia,13229,2462,55
+2021/5/1,Pierce,Washington,53053,49302,649
+2021/5/1,Pike,Arkansas,5109,1012,22
+2021/5/1,Pike,Missouri,29163,1783,24
+2021/5/1,Pike,Ohio,39131,2369,32
+2021/5/1,Pike,Indiana,18125,1326,34
+2021/5/1,Pike,Georgia,13231,2266,40
+2021/5/1,Pike,Illinois,17149,1782,54
+2021/5/1,Pike,Pennsylvania,42103,3768,54
+2021/5/1,Pike,Alabama,1109,3089,77
+2021/5/1,Pike,Kentucky,21195,5501,94
+2021/5/1,Pike,Mississippi,28113,3280,105
+2021/5/1,Pima,Arizona,4019,115239,2395
+2021/5/1,Pinal,Arizona,4021,51392,872
+2021/5/1,Pine,Minnesota,27115,3212,21
+2021/5/1,Pinellas,Florida,12103,78971,1609
+2021/5/1,Pipestone,Minnesota,27117,1135,26
+2021/5/1,Piscataquis,Maine,23021,448,6
+2021/5/1,Pitkin,Colorado,8097,2579,4
+2021/5/1,Pitt,North Carolina,37147,19269,86
+2021/5/1,Pittsburg,Oklahoma,40121,4621,68
+2021/5/1,Pittsylvania,Virginia,51143,5491,78
+2021/5/1,Piute,Utah,49031,99,2
+2021/5/1,Placer,California,6061,22222,289
+2021/5/1,Plaquemines,Louisiana,22075,2517,26
+2021/5/1,Platte,Wyoming,56031,623,11
+2021/5/1,Platte,Missouri,29165,4131,47
+2021/5/1,Platte,Nebraska,31141,4125,48
+2021/5/1,Pleasants,West Virginia,54073,857,11
+2021/5/1,Plumas,California,6063,700,6
+2021/5/1,Plymouth,Iowa,19149,3995,79
+2021/5/1,Plymouth,Massachusetts,25023,47903,1411
+2021/5/1,Pocahontas,West Virginia,54075,661,10
+2021/5/1,Pocahontas,Iowa,19151,852,21
+2021/5/1,Poinsett,Arkansas,5111,3159,77
+2021/5/1,Pointe Coupee,Louisiana,22077,2612,73
+2021/5/1,Polk,Nebraska,31143,583,18
+2021/5/1,Polk,Tennessee,47139,2053,24
+2021/5/1,Polk,North Carolina,37149,1457,29
+2021/5/1,Polk,Missouri,29167,3325,40
+2021/5/1,Polk,Oregon,41053,3600,52
+2021/5/1,Polk,Wisconsin,55095,4503,53
+2021/5/1,Polk,Minnesota,27119,3775,67
+2021/5/1,Polk,Arkansas,5113,1985,72
+2021/5/1,Polk,Georgia,13233,5656,94
+2021/5/1,Polk,Texas,48373,3218,112
+2021/5/1,Polk,Iowa,19153,56959,617
+2021/5/1,Polk,Florida,12105,67819,1310
+2021/5/1,Pondera,Montana,30073,477,4
+2021/5/1,Pontotoc,Mississippi,28115,4188,72
+2021/5/1,Pontotoc,Oklahoma,40123,5105,72
+2021/5/1,Pope,Illinois,17151,313,4
+2021/5/1,Pope,Minnesota,27121,1062,6
+2021/5/1,Pope,Arkansas,5115,8023,107
+2021/5/1,Poquoson city,Virginia,51735,871,16
+2021/5/1,Portage,Wisconsin,55097,7267,72
+2021/5/1,Portage,Ohio,39133,12706,202
+2021/5/1,Porter,Indiana,18127,18474,315
+2021/5/1,Portsmouth city,Virginia,51740,8895,188
+2021/5/1,Posey,Indiana,18129,2707,33
+2021/5/1,Pottawatomie,Kansas,20149,1886,30
+2021/5/1,Pottawatomie,Oklahoma,40125,8319,125
+2021/5/1,Pottawattamie,Iowa,19155,10988,165
+2021/5/1,Potter,South Dakota,46107,390,4
+2021/5/1,Potter,Pennsylvania,42105,1078,23
+2021/5/1,Potter,Texas,48375,17312,446
+2021/5/1,Powder River,Montana,30075,120,6
+2021/5/1,Powell,Montana,30077,920,10
+2021/5/1,Powell,Kentucky,21197,1239,12
+2021/5/1,Power,Idaho,16077,662,9
+2021/5/1,Poweshiek,Iowa,19157,1539,33
+2021/5/1,Powhatan,Virginia,51145,1887,16
+2021/5/1,Prairie,Montana,30079,141,2
+2021/5/1,Prairie,Arkansas,5117,892,21
+2021/5/1,Pratt,Kansas,20151,816,25
+2021/5/1,Preble,Ohio,39135,3770,98
+2021/5/1,Prentiss,Mississippi,28117,2780,59
+2021/5/1,Presidio,Texas,48377,817,24
+2021/5/1,Presque Isle,Michigan,26141,973,31
+2021/5/1,Preston,West Virginia,54077,2845,46
+2021/5/1,Price,Wisconsin,55099,1332,7
+2021/5/1,Prince Edward,Virginia,51147,2123,34
+2021/5/1,Prince George,Virginia,51149,3484,27
+2021/5/1,Prince George's,Maryland,24033,83133,1456
+2021/5/1,Prince of Wales-Hyder Census Area,Alaska,2198,96,1
+2021/5/1,Prince William,Virginia,51153,44613,482
+2021/5/1,Providence,Rhode Island,44007,95637,1946
+2021/5/1,Prowers,Colorado,8099,1206,21
+2021/5/1,Pueblo,Colorado,8101,17906,377
+2021/5/1,Pulaski,Illinois,17153,683,7
+2021/5/1,Pulaski,Georgia,13235,931,44
+2021/5/1,Pulaski,Indiana,18131,1157,45
+2021/5/1,Pulaski,Missouri,29169,3454,51
+2021/5/1,Pulaski,Virginia,51155,2603,61
+2021/5/1,Pulaski,Kentucky,21199,6298,101
+2021/5/1,Pulaski,Arkansas,5119,39024,652
+2021/5/1,Pushmataha,Oklahoma,40127,1012,20
+2021/5/1,Putnam,Missouri,29171,299,4
+2021/5/1,Putnam,Illinois,17155,466,4
+2021/5/1,Putnam,Georgia,13237,2189,57
+2021/5/1,Putnam,Indiana,18133,3573,60
+2021/5/1,Putnam,West Virginia,54079,5006,90
+2021/5/1,Putnam,New York,36079,10427,91
+2021/5/1,Putnam,Ohio,39137,4256,100
+2021/5/1,Putnam,Florida,12107,6444,145
+2021/5/1,Putnam,Tennessee,47141,11321,174
+2021/5/1,Quay,New Mexico,35037,452,8
+2021/5/1,Queen Anne's,Maryland,24035,2933,45
+2021/5/1,Quitman,Georgia,13239,167,2
+2021/5/1,Quitman,Mississippi,28119,795,16
+2021/5/1,Rabun,Georgia,13241,1721,49
+2021/5/1,Racine,Wisconsin,55101,24522,369
+2021/5/1,Radford city,Virginia,51750,2112,18
+2021/5/1,Rains,Texas,48379,797,25
+2021/5/1,Raleigh,West Virginia,54081,6601,82
+2021/5/1,Ralls,Missouri,29173,1053,12
+2021/5/1,Ramsey,North Dakota,38071,1703,30
+2021/5/1,Ramsey,Minnesota,27123,49849,864
+2021/5/1,Randall,Texas,48381,16678,294
+2021/5/1,Randolph,West Virginia,54083,2526,12
+2021/5/1,Randolph,Missouri,29175,2629,30
+2021/5/1,Randolph,Georgia,13243,625,34
+2021/5/1,Randolph,Alabama,1111,1791,41
+2021/5/1,Randolph,Arkansas,5121,2101,47
+2021/5/1,Randolph,Indiana,18135,2432,81
+2021/5/1,Randolph,Illinois,17157,4115,90
+2021/5/1,Randolph,North Carolina,37151,14844,224
+2021/5/1,Rankin,Mississippi,28121,13520,278
+2021/5/1,Ransom,North Dakota,38073,675,17
+2021/5/1,Rapides,Louisiana,22079,11974,314
+2021/5/1,Rappahannock,Virginia,51157,346,2
+2021/5/1,Ravalli,Montana,30081,3036,32
+2021/5/1,Rawlins,Kansas,20153,360,7
+2021/5/1,Ray,Missouri,29177,1934,27
+2021/5/1,Reagan,Texas,48383,380,8
+2021/5/1,Real,Texas,48385,311,12
+2021/5/1,Red Lake,Minnesota,27125,392,7
+2021/5/1,Red River,Texas,48387,691,37
+2021/5/1,Red River,Louisiana,22081,874,38
+2021/5/1,Red Willow,Nebraska,31145,1208,15
+2021/5/1,Redwood,Minnesota,27127,1703,36
+2021/5/1,Reeves,Texas,48389,1736,43
+2021/5/1,Refugio,Texas,48391,656,21
+2021/5/1,Reno,Kansas,20155,8490,138
+2021/5/1,Rensselaer,New York,36083,10928,139
+2021/5/1,Renville,North Dakota,38075,320,14
+2021/5/1,Renville,Minnesota,27129,1769,43
+2021/5/1,Republic,Kansas,20157,680,15
+2021/5/1,Reynolds,Missouri,29179,474,4
+2021/5/1,Rhea,Tennessee,47143,4335,75
+2021/5/1,Rice,Kansas,20159,1074,12
+2021/5/1,Rice,Minnesota,27131,7886,104
+2021/5/1,Richardson,Nebraska,31147,722,19
+2021/5/1,Richland,Wisconsin,55103,1372,15
+2021/5/1,Richland,Montana,30083,1216,17
+2021/5/1,Richland,North Dakota,38077,2003,17
+2021/5/1,Richland,Illinois,17159,1732,49
+2021/5/1,Richland,Louisiana,22083,2416,54
+2021/5/1,Richland,Ohio,39139,11250,198
+2021/5/1,Richland,South Carolina,45079,46053,546
+2021/5/1,Richmond,Virginia,51159,1492,15
+2021/5/1,Richmond,North Carolina,37153,4600,92
+2021/5/1,Richmond,Georgia,13245,24458,502
+2021/5/1,Richmond city,Virginia,51760,16804,257
+2021/5/1,Riley,Kansas,20161,6421,43
+2021/5/1,Ringgold,Iowa,19159,544,24
+2021/5/1,Rio Arriba,New Mexico,35039,3583,75
+2021/5/1,Rio Blanco,Colorado,8103,563,4
+2021/5/1,Rio Grande,Colorado,8105,786,14
+2021/5/1,Ripley,Missouri,29181,1062,15
+2021/5/1,Ripley,Indiana,18137,3377,70
+2021/5/1,Ritchie,West Virginia,54085,683,11
+2021/5/1,Riverside,California,6065,298450,4574
+2021/5/1,Roane,West Virginia,54087,600,8
+2021/5/1,Roane,Tennessee,47145,6249,104
+2021/5/1,Roanoke,Virginia,51161,8133,138
+2021/5/1,Roanoke city,Virginia,51770,8375,190
+2021/5/1,Roberts,Texas,48393,61,1
+2021/5/1,Roberts,South Dakota,46109,1357,39
+2021/5/1,Robertson,Kentucky,21201,224,14
+2021/5/1,Robertson,Texas,48395,2117,40
+2021/5/1,Robertson,Tennessee,47147,9724,131
+2021/5/1,Robeson,North Carolina,37155,16245,230
+2021/5/1,Rock,Nebraska,31149,102,2
+2021/5/1,Rock,Minnesota,27133,1261,19
+2021/5/1,Rock,Wisconsin,55105,17653,190
+2021/5/1,Rock Island,Illinois,17161,14635,348
+2021/5/1,Rockbridge,Virginia,51163,1510,46
+2021/5/1,Rockcastle,Kentucky,21203,1492,22
+2021/5/1,Rockdale,Georgia,13247,7591,171
+2021/5/1,Rockingham,Virginia,51165,6682,105
+2021/5/1,Rockingham,North Carolina,37157,7398,106
+2021/5/1,Rockingham,New Hampshire,33015,23403,249
+2021/5/1,Rockland,New York,36087,46319,746
+2021/5/1,Rockwall,Texas,48397,11446,155
+2021/5/1,Roger Mills,Oklahoma,40129,391,12
+2021/5/1,Rogers,Oklahoma,40131,10426,174
+2021/5/1,Rolette,North Dakota,38079,2141,28
+2021/5/1,Rooks,Kansas,20163,660,11
+2021/5/1,Roosevelt,Montana,30085,1627,54
+2021/5/1,Roosevelt,New Mexico,35041,1894,55
+2021/5/1,Roscommon,Michigan,26143,1808,47
+2021/5/1,Roseau,Minnesota,27135,2041,19
+2021/5/1,Rosebud,Montana,30087,1206,48
+2021/5/1,Ross,Ohio,39141,6808,152
+2021/5/1,Routt,Colorado,8107,2186,20
+2021/5/1,Rowan,Kentucky,21205,2209,20
+2021/5/1,Rowan,North Carolina,37159,16586,300
+2021/5/1,Runnels,Texas,48399,1286,37
+2021/5/1,Rush,Kansas,20165,431,14
+2021/5/1,Rush,Indiana,18139,1790,24
+2021/5/1,Rusk,Wisconsin,55107,1345,18
+2021/5/1,Rusk,Texas,48401,3946,107
+2021/5/1,Russell,Kansas,20167,858,29
+2021/5/1,Russell,Virginia,51167,2241,38
+2021/5/1,Russell,Alabama,1113,4378,38
+2021/5/1,Russell,Kentucky,21207,1851,43
+2021/5/1,Rutherford,North Carolina,37161,7216,206
+2021/5/1,Rutherford,Tennessee,47149,42810,428
+2021/5/1,Rutland,Vermont,50021,2103,20
+2021/5/1,Sabine,Texas,48403,519,45
+2021/5/1,Sabine,Louisiana,22085,2925,60
+2021/5/1,Sac,Iowa,19161,1294,19
+2021/5/1,Sacramento,California,6067,102958,1663
+2021/5/1,Sagadahoc,Maine,23023,1287,10
+2021/5/1,Saginaw,Michigan,26145,20989,577
+2021/5/1,Saguache,Colorado,8109,365,4
+2021/5/1,Saipan,Northern Mariana Islands,69110,166,2
+2021/5/1,Salem,New Jersey,34033,5897,177
+2021/5/1,Salem city,Virginia,51775,2130,47
+2021/5/1,Saline,Nebraska,31151,2024,3
+2021/5/1,Saline,Missouri,29195,2823,38
+2021/5/1,Saline,Illinois,17165,2549,69
+2021/5/1,Saline,Kansas,20169,6216,134
+2021/5/1,Saline,Arkansas,5125,11867,166
+2021/5/1,Salt Lake,Utah,49035,148119,849
+2021/5/1,Saluda,South Carolina,45081,1782,49
+2021/5/1,Sampson,North Carolina,37163,7827,108
+2021/5/1,San Augustine,Texas,48405,568,32
+2021/5/1,San Benito,California,6069,6024,63
+2021/5/1,San Bernardino,California,6071,296009,4640
+2021/5/1,San Diego,California,6073,276220,3702
+2021/5/1,San Francisco,California,6075,36456,538
+2021/5/1,San Jacinto,Texas,48407,1270,36
+2021/5/1,San Joaquin,California,6077,72478,1346
+2021/5/1,San Juan,Utah,49037,1888,37
+2021/5/1,San Juan,New Mexico,35045,14514,468
+2021/5/1,San Luis Obispo,California,6079,21193,260
+2021/5/1,San Mateo,California,6081,41583,564
+2021/5/1,San Miguel,New Mexico,35047,1342,17
+2021/5/1,San Patricio,Texas,48409,4346,148
+2021/5/1,San Saba,Texas,48411,784,23
+2021/5/1,Sanborn,South Dakota,46111,342,3
+2021/5/1,Sanders,Montana,30089,639,15
+2021/5/1,Sandoval,New Mexico,35043,11856,228
+2021/5/1,Sandusky,Ohio,39143,5299,120
+2021/5/1,Sangamon,Illinois,17167,18338,273
+2021/5/1,Sanilac,Michigan,26151,4110,103
+2021/5/1,Sanpete,Utah,49039,3753,22
+2021/5/1,Santa Barbara,California,6083,34180,451
+2021/5/1,Santa Clara,California,6085,118369,2069
+2021/5/1,Santa Cruz,Arizona,4023,7919,176
+2021/5/1,Santa Cruz,California,6087,15999,207
+2021/5/1,Santa Fe,New Mexico,35049,10321,145
+2021/5/1,Santa Rosa,Florida,12113,18159,285
+2021/5/1,Sarasota,Florida,12115,32479,812
+2021/5/1,Saratoga,New York,36091,14789,164
+2021/5/1,Sargent,North Dakota,38081,488,7
+2021/5/1,Sarpy,Nebraska,31153,22517,129
+2021/5/1,Sauk,Wisconsin,55111,6032,53
+2021/5/1,Saunders,Nebraska,31155,2506,16
+2021/5/1,Sawyer,Wisconsin,55113,1712,26
+2021/5/1,Schenectady,New York,36093,12717,194
+2021/5/1,Schleicher,Texas,48413,235,6
+2021/5/1,Schley,Georgia,13249,352,5
+2021/5/1,Schoharie,New York,36095,1609,16
+2021/5/1,Schoolcraft,Michigan,26153,358,5
+2021/5/1,Schuyler,Missouri,29197,337,6
+2021/5/1,Schuyler,New York,36097,1017,14
+2021/5/1,Schuyler,Illinois,17169,730,17
+2021/5/1,Schuylkill,Pennsylvania,42107,14125,393
+2021/5/1,Scioto,Ohio,39145,6373,101
+2021/5/1,Scotland,Missouri,29199,305,3
+2021/5/1,Scotland,North Carolina,37165,3724,84
+2021/5/1,Scott,Illinois,17171,476,1
+2021/5/1,Scott,Arkansas,5127,933,14
+2021/5/1,Scott,Kansas,20171,621,23
+2021/5/1,Scott,Kentucky,21209,4892,32
+2021/5/1,Scott,Tennessee,47151,3103,45
+2021/5/1,Scott,Virginia,51169,1808,52
+2021/5/1,Scott,Indiana,18143,2648,55
+2021/5/1,Scott,Mississippi,28123,3139,73
+2021/5/1,Scott,Missouri,29201,4689,84
+2021/5/1,Scott,Minnesota,27139,16811,123
+2021/5/1,Scott,Iowa,19163,19614,239
+2021/5/1,Scotts Bluff,Nebraska,31157,4639,95
+2021/5/1,Screven,Georgia,13251,984,31
+2021/5/1,Scurry,Texas,48415,2424,62
+2021/5/1,Searcy,Arkansas,5129,680,18
+2021/5/1,Sebastian,Arkansas,5131,15184,274
+2021/5/1,Sedgwick,Colorado,8115,213,2
+2021/5/1,Sedgwick,Kansas,20173,56132,743
+2021/5/1,Seminole,Georgia,13253,954,19
+2021/5/1,Seminole,Oklahoma,40133,2861,69
+2021/5/1,Seminole,Florida,12117,33775,488
+2021/5/1,Seneca,New York,36099,1934,56
+2021/5/1,Seneca,Ohio,39147,5238,121
+2021/5/1,Sequatchie,Tennessee,47153,1690,29
+2021/5/1,Sequoyah,Oklahoma,40135,4098,50
+2021/5/1,Sevier,Utah,49041,2181,14
+2021/5/1,Sevier,Arkansas,5133,2789,24
+2021/5/1,Sevier,Tennessee,47155,13304,175
+2021/5/1,Seward,Nebraska,31159,1988,32
+2021/5/1,Seward,Kansas,20175,3957,41
+2021/5/1,Shackelford,Texas,48417,271,5
+2021/5/1,Shannon,Missouri,29203,581,12
+2021/5/1,Sharkey,Mississippi,28125,501,17
+2021/5/1,Sharp,Arkansas,5135,1592,45
+2021/5/1,Shasta,California,6089,11901,220
+2021/5/1,Shawano,Wisconsin,55115,5252,83
+2021/5/1,Shawnee,Kansas,20177,17380,359
+2021/5/1,Sheboygan,Wisconsin,55117,14575,150
+2021/5/1,Shelby,Missouri,29205,580,7
+2021/5/1,Shelby,Iowa,19165,1299,37
+2021/5/1,Shelby,Illinois,17173,2272,40
+2021/5/1,Shelby,Texas,48419,1674,67
+2021/5/1,Shelby,Kentucky,21211,4631,70
+2021/5/1,Shelby,Ohio,39149,4657,93
+2021/5/1,Shelby,Indiana,18145,5844,106
+2021/5/1,Shelby,Alabama,1117,23341,246
+2021/5/1,Shelby,Tennessee,47157,95598,1620
+2021/5/1,Shenandoah,Virginia,51171,4246,130
+2021/5/1,Sherburne,Minnesota,27141,11285,82
+2021/5/1,Sheridan,North Dakota,38083,120,2
+2021/5/1,Sheridan,Montana,30091,423,5
+2021/5/1,Sheridan,Kansas,20179,432,13
+2021/5/1,Sheridan,Nebraska,31161,510,19
+2021/5/1,Sheridan,Wyoming,56033,3124,31
+2021/5/1,Sherman,Oregon,41055,57,1
+2021/5/1,Sherman,Nebraska,31163,191,4
+2021/5/1,Sherman,Texas,48421,222,12
+2021/5/1,Sherman,Kansas,20181,633,12
+2021/5/1,Shiawassee,Michigan,26155,6023,96
+2021/5/1,Shoshone,Idaho,16079,1091,34
+2021/5/1,Sibley,Minnesota,27143,1393,10
+2021/5/1,Sierra,New Mexico,35051,746,49
+2021/5/1,Silver Bow,Montana,30093,4084,85
+2021/5/1,Simpson,Kentucky,21213,2078,36
+2021/5/1,Simpson,Mississippi,28127,2935,88
+2021/5/1,Sioux,North Dakota,38085,656,12
+2021/5/1,Sioux,Iowa,19167,5102,74
+2021/5/1,Siskiyou,California,6093,2071,21
+2021/5/1,Skagit,Washington,53057,5409,67
+2021/5/1,Skamania,Washington,53059,308,1
+2021/5/1,Smith,Kansas,20183,270,3
+2021/5/1,Smith,Mississippi,28129,1619,34
+2021/5/1,Smith,Tennessee,47159,2766,39
+2021/5/1,Smith,Texas,48423,20149,466
+2021/5/1,Smyth,Virginia,51173,2878,91
+2021/5/1,Snohomish,Washington,53061,36093,566
+2021/5/1,Snyder,Pennsylvania,42109,3523,83
+2021/5/1,Socorro,New Mexico,35053,1309,56
+2021/5/1,Solano,California,6095,32482,249
+2021/5/1,Somerset,Maine,23025,1897,29
+2021/5/1,Somerset,Maryland,24039,2540,37
+2021/5/1,Somerset,Pennsylvania,42111,7576,201
+2021/5/1,Somerset,New Jersey,34035,29442,827
+2021/5/1,Somervell,Texas,48425,1076,14
+2021/5/1,Sonoma,California,6097,29856,318
+2021/5/1,Southampton,Virginia,51175,1970,56
+2021/5/1,Southeast Fairbanks Census Area,Alaska,2240,667,4
+2021/5/1,Spalding,Georgia,13255,6230,188
+2021/5/1,Spartanburg,South Carolina,45083,40824,801
+2021/5/1,Spencer,Kentucky,21215,1593,22
+2021/5/1,Spencer,Indiana,18147,2302,31
+2021/5/1,Spink,South Dakota,46115,840,26
+2021/5/1,Spokane,Washington,53063,42192,625
+2021/5/1,Spotsylvania,Virginia,51177,9717,114
+2021/5/1,St. Bernard,Louisiana,22087,4003,50
+2021/5/1,St. Charles,Louisiana,22089,5373,93
+2021/5/1,St. Charles,Missouri,29183,46787,479
+2021/5/1,St. Clair,Missouri,29185,783,8
+2021/5/1,St. Clair,Alabama,1115,9575,237
+2021/5/1,St. Clair,Michigan,26147,17388,389
+2021/5/1,St. Clair,Illinois,17163,30495,553
+2021/5/1,St. Croix,Virgin Islands,78010,1361,10
+2021/5/1,St. Croix,Wisconsin,55109,9358,57
+2021/5/1,St. Francis,Arkansas,5123,3586,42
+2021/5/1,St. Francois,Missouri,29187,8754,115
+2021/5/1,St. Helena,Louisiana,22091,922,10
+2021/5/1,St. James,Louisiana,22093,1955,50
+2021/5/1,St. John,Virgin Islands,78020,221,1
+2021/5/1,St. John the Baptist,Louisiana,22095,3696,137
+2021/5/1,St. Johns,Florida,12109,22434,209
+2021/5/1,St. Joseph,Michigan,26149,5863,94
+2021/5/1,St. Joseph,Indiana,18141,35121,567
+2021/5/1,St. Landry,Louisiana,22097,8813,253
+2021/5/1,St. Lawrence,New York,36089,6363,96
+2021/5/1,St. Louis,Minnesota,27137,17352,302
+2021/5/1,St. Louis,Missouri,29189,97757,2184
+2021/5/1,St. Louis city,Missouri,29510,24117,481
+2021/5/1,St. Lucie,Florida,12111,26094,626
+2021/5/1,St. Martin,Louisiana,22099,5208,116
+2021/5/1,St. Mary,Louisiana,22101,4665,134
+2021/5/1,St. Mary's,Maryland,24037,5852,123
+2021/5/1,St. Tammany,Louisiana,22103,25568,520
+2021/5/1,St. Thomas,Virgin Islands,78030,1543,16
+2021/5/1,Stafford,Kansas,20185,352,9
+2021/5/1,Stafford,Virginia,51179,11092,75
+2021/5/1,Stanislaus,California,6099,61430,1044
+2021/5/1,Stanley,South Dakota,46117,347,2
+2021/5/1,Stanly,North Carolina,37167,7701,131
+2021/5/1,Stanton,Kansas,20187,184,6
+2021/5/1,Stanton,Nebraska,31167,361,9
+2021/5/1,Stark,Illinois,17175,628,23
+2021/5/1,Stark,North Dakota,38089,4728,51
+2021/5/1,Stark,Ohio,39151,32006,907
+2021/5/1,Starke,Indiana,18149,2122,54
+2021/5/1,Starr,Texas,48427,9491,297
+2021/5/1,Staunton city,Virginia,51790,2500,70
+2021/5/1,Ste. Genevieve,Missouri,29186,1810,16
+2021/5/1,Stearns,Minnesota,27145,21782,220
+2021/5/1,Steele,North Dakota,38091,181,2
+2021/5/1,Steele,Minnesota,27147,3775,15
+2021/5/1,Stephens,Texas,48429,788,25
+2021/5/1,Stephens,Georgia,13257,3117,81
+2021/5/1,Stephens,Oklahoma,40137,4828,101
+2021/5/1,Stephenson,Illinois,17177,4636,100
+2021/5/1,Sterling,Texas,48431,107,4
+2021/5/1,Steuben,Indiana,18151,3800,59
+2021/5/1,Steuben,New York,36101,6552,143
+2021/5/1,Stevens,Kansas,20189,586,10
+2021/5/1,Stevens,Minnesota,27149,877,10
+2021/5/1,Stevens,Washington,53065,2061,28
+2021/5/1,Stewart,Georgia,13259,893,25
+2021/5/1,Stewart,Tennessee,47161,1317,28
+2021/5/1,Stillwater,Montana,30095,723,14
+2021/5/1,Stoddard,Missouri,29207,2475,37
+2021/5/1,Stokes,North Carolina,37169,3967,80
+2021/5/1,Stone,Arkansas,5137,987,30
+2021/5/1,Stone,Mississippi,28131,1808,33
+2021/5/1,Stone,Missouri,29209,2409,44
+2021/5/1,Stonewall,Texas,48433,156,6
+2021/5/1,Storey,Nevada,32029,102,3
+2021/5/1,Story,Iowa,19169,10497,48
+2021/5/1,Strafford,New Hampshire,33017,9441,82
+2021/5/1,Stutsman,North Dakota,38093,3487,81
+2021/5/1,Sublette,Wyoming,56035,776,7
+2021/5/1,Suffolk,Massachusetts,25025,90988,1819
+2021/5/1,Suffolk,New York,36103,197356,3349
+2021/5/1,Suffolk city,Virginia,51800,7830,185
+2021/5/1,Sullivan,Missouri,29211,841,14
+2021/5/1,Sullivan,Pennsylvania,42113,408,20
+2021/5/1,Sullivan,New Hampshire,33019,1665,25
+2021/5/1,Sullivan,Indiana,18153,2106,42
+2021/5/1,Sullivan,New York,36105,6400,71
+2021/5/1,Sullivan,Tennessee,47163,16604,290
+2021/5/1,Sully,South Dakota,46119,142,3
+2021/5/1,Summers,West Virginia,54089,795,21
+2021/5/1,Summit,Colorado,8117,3676,7
+2021/5/1,Summit,Utah,49043,5499,12
+2021/5/1,Summit,Ohio,39153,46637,932
+2021/5/1,Sumner,Kansas,20191,2158,51
+2021/5/1,Sumner,Tennessee,47165,23831,347
+2021/5/1,Sumter,Alabama,1119,1040,32
+2021/5/1,Sumter,Georgia,13261,2546,101
+2021/5/1,Sumter,South Carolina,45085,10382,202
+2021/5/1,Sumter,Florida,12119,9270,275
+2021/5/1,Sunflower,Mississippi,28133,3346,90
+2021/5/1,Surry,Virginia,51181,421,9
+2021/5/1,Surry,North Carolina,37171,8090,158
+2021/5/1,Susquehanna,Pennsylvania,42115,2466,59
+2021/5/1,Sussex,Virginia,51183,1181,21
+2021/5/1,Sussex,New Jersey,34037,13591,296
+2021/5/1,Sussex,Delaware,10005,25205,483
+2021/5/1,Sutter,California,6101,9356,110
+2021/5/1,Sutton,Texas,48435,469,8
+2021/5/1,Suwannee,Florida,12121,5321,138
+2021/5/1,Swain,North Carolina,37173,1207,18
+2021/5/1,Sweet Grass,Montana,30097,394,7
+2021/5/1,Sweetwater,Wyoming,56037,4230,37
+2021/5/1,Swift,Minnesota,27151,1034,18
+2021/5/1,Swisher,Texas,48437,826,17
+2021/5/1,Switzerland,Indiana,18155,779,8
+2021/5/1,Talbot,Georgia,13263,475,18
+2021/5/1,Talbot,Maryland,24041,2072,37
+2021/5/1,Taliaferro,Georgia,13265,122,3
+2021/5/1,Talladega,Alabama,1121,8173,175
+2021/5/1,Tallahatchie,Mississippi,28135,1771,40
+2021/5/1,Tallapoosa,Alabama,1123,3994,150
+2021/5/1,Tama,Iowa,19171,2085,71
+2021/5/1,Taney,Missouri,29213,5251,92
+2021/5/1,Tangipahoa,Louisiana,22105,12610,292
+2021/5/1,Taos,New Mexico,35055,1656,51
+2021/5/1,Tarrant,Texas,48439,256779,3419
+2021/5/1,Tate,Mississippi,28137,3309,84
+2021/5/1,Tattnall,Georgia,13267,2307,65
+2021/5/1,Taylor,Iowa,19173,655,12
+2021/5/1,Taylor,West Virginia,54091,1211,23
+2021/5/1,Taylor,Georgia,13269,805,25
+2021/5/1,Taylor,Wisconsin,55119,2095,32
+2021/5/1,Taylor,Florida,12123,2720,46
+2021/5/1,Taylor,Kentucky,21217,3046,47
+2021/5/1,Taylor,Texas,48441,15751,406
+2021/5/1,Tazewell,Virginia,51185,3590,66
+2021/5/1,Tazewell,Illinois,17179,16569,307
+2021/5/1,Tehama,California,6103,4944,53
+2021/5/1,Telfair,Georgia,13271,1305,57
+2021/5/1,Teller,Colorado,8119,1656,14
+2021/5/1,Tensas,Louisiana,22107,360,8
+2021/5/1,Terrebonne,Louisiana,22109,10100,220
+2021/5/1,Terrell,Texas,48443,75,2
+2021/5/1,Terrell,Georgia,13273,800,47
+2021/5/1,Terry,Texas,48445,1692,56
+2021/5/1,Teton,Idaho,16081,1209,4
+2021/5/1,Teton,Montana,30099,463,5
+2021/5/1,Teton,Wyoming,56039,3732,9
+2021/5/1,Texas,Missouri,29215,1823,23
+2021/5/1,Texas,Oklahoma,40139,3506,32
+2021/5/1,Thayer,Nebraska,31169,494,4
+2021/5/1,Thomas,Nebraska,31171,53,1
+2021/5/1,Thomas,Kansas,20193,1135,20
+2021/5/1,Thomas,Georgia,13275,4398,123
+2021/5/1,Throckmorton,Texas,48447,73,5
+2021/5/1,Thurston,Nebraska,31173,833,12
+2021/5/1,Thurston,Washington,53067,8975,94
+2021/5/1,Tift,Georgia,13277,4879,125
+2021/5/1,Tillamook,Oregon,41057,622,3
+2021/5/1,Tillman,Oklahoma,40141,803,17
+2021/5/1,Tioga,New York,36107,3578,61
+2021/5/1,Tioga,Pennsylvania,42117,2866,104
+2021/5/1,Tippah,Mississippi,28139,2868,68
+2021/5/1,Tippecanoe,Indiana,18157,22233,219
+2021/5/1,Tipton,Indiana,18159,1623,47
+2021/5/1,Tipton,Tennessee,47167,7297,101
+2021/5/1,Tishomingo,Mississippi,28141,2244,67
+2021/5/1,Titus,Texas,48449,3695,83
+2021/5/1,Todd,Kentucky,21219,1122,25
+2021/5/1,Todd,South Dakota,46121,1226,29
+2021/5/1,Todd,Minnesota,27153,2749,31
+2021/5/1,Tolland,Connecticut,9013,9350,182
+2021/5/1,Tom Green,Texas,48451,16765,269
+2021/5/1,Tompkins,New York,36109,4151,50
+2021/5/1,Tooele,Utah,49045,7197,41
+2021/5/1,Toole,Montana,30101,718,11
+2021/5/1,Toombs,Georgia,13279,3391,113
+2021/5/1,Torrance,New Mexico,35057,767,13
+2021/5/1,Towner,North Dakota,38095,313,11
+2021/5/1,Towns,Georgia,13281,1226,55
+2021/5/1,Traill,North Dakota,38097,1040,18
+2021/5/1,Transylvania,North Carolina,37175,2317,32
+2021/5/1,Traverse,Minnesota,27155,366,5
+2021/5/1,Travis,Texas,48453,82339,997
+2021/5/1,Treasure,Montana,30103,55,1
+2021/5/1,Trego,Kansas,20195,407,8
+2021/5/1,Trempealeau,Wisconsin,55121,3632,44
+2021/5/1,Treutlen,Georgia,13283,843,27
+2021/5/1,Trigg,Kentucky,21221,1272,14
+2021/5/1,Trimble,Kentucky,21223,680,7
+2021/5/1,Trinity,California,6105,327,3
+2021/5/1,Trinity,Texas,48455,749,25
+2021/5/1,Tripp,South Dakota,46123,755,17
+2021/5/1,Troup,Georgia,13285,7470,225
+2021/5/1,Trousdale,Tennessee,47169,2498,22
+2021/5/1,Trumbull,Ohio,39155,15922,463
+2021/5/1,Tucker,West Virginia,54093,523,10
+2021/5/1,Tulare,California,6107,49477,836
+2021/5/1,Tulsa,Oklahoma,40143,74049,1033
+2021/5/1,Tunica,Mississippi,28143,1044,25
+2021/5/1,Tuolumne,California,6109,4105,65
+2021/5/1,Turner,Georgia,13287,1016,39
+2021/5/1,Turner,South Dakota,46125,1168,56
+2021/5/1,Tuscaloosa,Alabama,1125,25622,451
+2021/5/1,Tuscarawas,Ohio,39157,8441,241
+2021/5/1,Tuscola,Michigan,26157,5403,163
+2021/5/1,Twiggs,Georgia,13289,714,42
+2021/5/1,Twin Falls,Idaho,16083,9440,127
+2021/5/1,Tyler,West Virginia,54095,685,9
+2021/5/1,Tyler,Texas,48457,1314,38
+2021/5/1,Tyrrell,North Carolina,37177,318,6
+2021/5/1,Uinta,Wyoming,56041,2183,12
+2021/5/1,Uintah,Utah,49047,2628,22
+2021/5/1,Ulster,New York,36111,13517,249
+2021/5/1,Umatilla,Oregon,41059,8089,84
+2021/5/1,Unicoi,Tennessee,47171,2013,49
+2021/5/1,Union,New Mexico,35059,417,9
+2021/5/1,Union,Indiana,18161,732,11
+2021/5/1,Union,Kentucky,21225,1332,15
+2021/5/1,Union,Oregon,41061,1435,23
+2021/5/1,Union,Iowa,19175,1267,32
+2021/5/1,Union,Tennessee,47173,1895,34
+2021/5/1,Union,South Dakota,46127,2213,43
+2021/5/1,Union,Illinois,17181,2241,44
+2021/5/1,Union,Ohio,39159,5685,47
+2021/5/1,Union,Florida,12125,1817,72
+2021/5/1,Union,Georgia,13291,2218,73
+2021/5/1,Union,Mississippi,28145,4079,76
+2021/5/1,Union,Louisiana,22111,2379,77
+2021/5/1,Union,South Carolina,45087,3104,84
+2021/5/1,Union,Pennsylvania,42119,5928,86
+2021/5/1,Union,Arkansas,5139,4011,114
+2021/5/1,Union,North Carolina,37179,23975,215
+2021/5/1,Union,New Jersey,34039,70328,1931
+2021/5/1,Unknown,New Hampshire,,1116,5
+2021/5/1,Unknown,Utah,,1165,11
+2021/5/1,Unknown,Massachusetts,,44422,12
+2021/5/1,Unknown,Georgia,,3206,14
+2021/5/1,Unknown,Rhode Island,,13086,15
+2021/5/1,Unknown,Michigan,,405,17
+2021/5/1,Unknown,North Dakota,,31,31
+2021/5/1,Unknown,Minnesota,,581,93
+2021/5/1,Unknown,Tennessee,,9141,124
+2021/5/1,Unknown,Guam,,8944,137
+2021/5/1,Unknown,Puerto Rico,,5400,2310
+2021/5/1,Upshur,West Virginia,54097,1842,33
+2021/5/1,Upshur,Texas,48459,3245,74
+2021/5/1,Upson,Georgia,13293,3459,126
+2021/5/1,Upton,Texas,48461,367,10
+2021/5/1,Utah,Utah,49049,95336,380
+2021/5/1,Uvalde,Texas,48463,3570,72
+2021/5/1,Val Verde,Texas,48465,7855,220
+2021/5/1,Valdez-Cordova Census Area,Alaska,2261,635,2
+2021/5/1,Valencia,New Mexico,35061,6930,106
+2021/5/1,Valley,Nebraska,31175,328,3
+2021/5/1,Valley,Idaho,16085,835,6
+2021/5/1,Valley,Montana,30105,889,18
+2021/5/1,Van Buren,Iowa,19177,556,18
+2021/5/1,Van Buren,Tennessee,47175,844,23
+2021/5/1,Van Buren,Arkansas,5141,1300,23
+2021/5/1,Van Buren,Michigan,26159,6746,116
+2021/5/1,Van Wert,Ohio,39161,2419,63
+2021/5/1,Van Zandt,Texas,48467,4268,117
+2021/5/1,Vance,North Carolina,37181,4886,86
+2021/5/1,Vanderburgh,Indiana,18163,22220,400
+2021/5/1,Venango,Pennsylvania,42121,3764,93
+2021/5/1,Ventura,California,6111,80617,1009
+2021/5/1,Vermilion,Louisiana,22113,5324,119
+2021/5/1,Vermilion,Illinois,17183,9303,148
+2021/5/1,Vermillion,Indiana,18165,1674,43
+2021/5/1,Vernon,Wisconsin,55123,1982,42
+2021/5/1,Vernon,Missouri,29217,1938,43
+2021/5/1,Vernon,Louisiana,22115,3058,101
+2021/5/1,Victoria,Texas,48469,8613,206
+2021/5/1,Vigo,Indiana,18167,12380,249
+2021/5/1,Vilas,Wisconsin,55125,2383,42
+2021/5/1,Vinton,Ohio,39163,820,15
+2021/5/1,Virginia Beach city,Virginia,51810,35419,386
+2021/5/1,Volusia,Florida,12127,42824,792
+2021/5/1,Wabash,Illinois,17185,1341,15
+2021/5/1,Wabash,Indiana,18169,3524,78
+2021/5/1,Wabasha,Minnesota,27157,2022,3
+2021/5/1,Wabaunsee,Kansas,20197,679,14
+2021/5/1,Wadena,Minnesota,27159,1506,21
+2021/5/1,Wagoner,Oklahoma,40145,8027,113
+2021/5/1,Wake,North Carolina,37183,86502,730
+2021/5/1,Wakulla,Florida,12129,3414,55
+2021/5/1,Waldo,Maine,23027,847,19
+2021/5/1,Walker,Georgia,13295,7500,87
+2021/5/1,Walker,Texas,48471,8789,125
+2021/5/1,Walker,Alabama,1127,7203,279
+2021/5/1,Walla Walla,Washington,53071,5023,64
+2021/5/1,Wallace,Kansas,20199,178,4
+2021/5/1,Waller,Texas,48473,4109,46
+2021/5/1,Wallowa,Oregon,41063,175,5
+2021/5/1,Walsh,North Dakota,38099,1893,25
+2021/5/1,Walthall,Mississippi,28147,1335,45
+2021/5/1,Walton,Florida,12131,7739,87
+2021/5/1,Walton,Georgia,13297,10678,255
+2021/5/1,Walworth,South Dakota,46129,766,16
+2021/5/1,Walworth,Wisconsin,55127,12392,159
+2021/5/1,Wapello,Iowa,19179,4267,122
+2021/5/1,Ward,Texas,48475,1186,24
+2021/5/1,Ward,North Dakota,38101,9636,194
+2021/5/1,Ware,Georgia,13299,4854,177
+2021/5/1,Warren,Indiana,18171,806,16
+2021/5/1,Warren,Georgia,13301,528,17
+2021/5/1,Warren,North Carolina,37185,1777,20
+2021/5/1,Warren,Missouri,29219,3101,31
+2021/5/1,Warren,Illinois,17187,1773,49
+2021/5/1,Warren,Virginia,51187,2899,55
+2021/5/1,Warren,New York,36113,3488,57
+2021/5/1,Warren,Tennessee,47177,5539,81
+2021/5/1,Warren,Iowa,19181,5694,88
+2021/5/1,Warren,Pennsylvania,42123,2502,101
+2021/5/1,Warren,Mississippi,28149,4348,119
+2021/5/1,Warren,Kentucky,21227,15828,169
+2021/5/1,Warren,New Jersey,34041,9671,234
+2021/5/1,Warren,Ohio,39165,24163,298
+2021/5/1,Warrick,Indiana,18173,7754,158
+2021/5/1,Wasatch,Utah,49051,4611,21
+2021/5/1,Wasco,Oregon,41065,1357,28
+2021/5/1,Waseca,Minnesota,27161,2346,21
+2021/5/1,Washakie,Wyoming,56043,902,26
+2021/5/1,Washburn,Wisconsin,55129,1524,20
+2021/5/1,Washington,Colorado,8121,449,12
+2021/5/1,Washington,Kansas,20201,533,14
+2021/5/1,Washington,Maine,23029,832,15
+2021/5/1,Washington,Vermont,50023,1794,15
+2021/5/1,Washington,Idaho,16087,1214,21
+2021/5/1,Washington,Nebraska,31177,2187,24
+2021/5/1,Washington,North Carolina,37187,1054,31
+2021/5/1,Washington,Illinois,17189,1636,31
+2021/5/1,Washington,Indiana,18175,2380,31
+2021/5/1,Washington,Kentucky,21229,1431,36
+2021/5/1,Washington,Alabama,1129,1666,39
+2021/5/1,Washington,Missouri,29221,2708,49
+2021/5/1,Washington,Iowa,19183,2513,50
+2021/5/1,Washington,Florida,12133,2722,51
+2021/5/1,Washington,New York,36115,2973,55
+2021/5/1,Washington,Georgia,13303,2118,86
+2021/5/1,Washington,Texas,48477,4030,93
+2021/5/1,Washington,Virginia,51191,4835,106
+2021/5/1,Washington,Ohio,39167,5128,108
+2021/5/1,Washington,Oklahoma,40147,5183,108
+2021/5/1,Washington,Louisiana,22117,4357,129
+2021/5/1,Washington,Mississippi,28151,5313,133
+2021/5/1,Washington,Wisconsin,55131,16595,162
+2021/5/1,Washington,Rhode Island,44009,9768,168
+2021/5/1,Washington,Utah,49053,20950,204
+2021/5/1,Washington,Oregon,41067,24681,231
+2021/5/1,Washington,Tennessee,47179,14471,245
+2021/5/1,Washington,Maryland,24043,14190,273
+2021/5/1,Washington,Minnesota,27163,26083,278
+2021/5/1,Washington,Pennsylvania,42125,16946,292
+2021/5/1,Washington,Arkansas,5143,30805,347
+2021/5/1,Washita,Oklahoma,40149,1079,21
+2021/5/1,Washoe,Nevada,32031,45339,669
+2021/5/1,Washtenaw,Michigan,26161,26010,278
+2021/5/1,Watauga,North Carolina,37189,4525,31
+2021/5/1,Watonwan,Minnesota,27165,1284,9
+2021/5/1,Waukesha,Wisconsin,55133,48464,574
+2021/5/1,Waupaca,Wisconsin,55135,5989,162
+2021/5/1,Waushara,Wisconsin,55137,2483,37
+2021/5/1,Wayne,Nebraska,31179,1074,7
+2021/5/1,Wayne,Missouri,29223,1030,11
+2021/5/1,Wayne,Iowa,19185,530,23
+2021/5/1,Wayne,Tennessee,47181,2948,35
+2021/5/1,Wayne,West Virginia,54099,3001,40
+2021/5/1,Wayne,Mississippi,28153,2622,41
+2021/5/1,Wayne,Kentucky,21231,2190,49
+2021/5/1,Wayne,Illinois,17191,1754,53
+2021/5/1,Wayne,New York,36117,5457,67
+2021/5/1,Wayne,Pennsylvania,42127,3890,77
+2021/5/1,Wayne,Georgia,13305,3578,88
+2021/5/1,Wayne,Indiana,18177,7369,202
+2021/5/1,Wayne,Ohio,39169,8712,210
+2021/5/1,Wayne,North Carolina,37191,10989,243
+2021/5/1,Wayne,Michigan,26163,155474,4651
+2021/5/1,Waynesboro city,Virginia,51820,2346,37
+2021/5/1,Weakley,Tennessee,47183,4076,64
+2021/5/1,Webb,Texas,48479,43842,834
+2021/5/1,Weber,Utah,49057,28783,199
+2021/5/1,Webster,Georgia,13307,145,4
+2021/5/1,Webster,Nebraska,31181,380,6
+2021/5/1,Webster,West Virginia,54101,469,7
+2021/5/1,Webster,Kentucky,21233,1238,20
+2021/5/1,Webster,Mississippi,28155,1145,32
+2021/5/1,Webster,Missouri,29225,3573,54
+2021/5/1,Webster,Iowa,19187,5102,92
+2021/5/1,Webster,Louisiana,22119,4086,112
+2021/5/1,Weld,Colorado,8123,30639,334
+2021/5/1,Wells,North Dakota,38103,446,8
+2021/5/1,Wells,Indiana,18179,2925,83
+2021/5/1,West Baton Rouge,Louisiana,22121,2841,59
+2021/5/1,West Carroll,Louisiana,22123,1173,41
+2021/5/1,West Feliciana,Louisiana,22125,1153,34
+2021/5/1,Westchester,New York,36119,127816,2257
+2021/5/1,Westmoreland,Virginia,51193,1265,24
+2021/5/1,Westmoreland,Pennsylvania,42129,32705,745
+2021/5/1,Weston,Wyoming,56045,650,5
+2021/5/1,Wetzel,West Virginia,54103,1282,29
+2021/5/1,Wexford,Michigan,26165,2702,39
+2021/5/1,Wharton,Texas,48481,4087,115
+2021/5/1,Whatcom,Washington,53073,8454,91
+2021/5/1,Wheatland,Montana,30107,177,8
+2021/5/1,Wheeler,Oregon,41069,26,1
+2021/5/1,Wheeler,Texas,48483,530,10
+2021/5/1,Wheeler,Georgia,13309,628,24
+2021/5/1,White,Illinois,17193,1683,36
+2021/5/1,White,Indiana,18181,3117,55
+2021/5/1,White,Tennessee,47185,3609,69
+2021/5/1,White,Georgia,13311,3194,80
+2021/5/1,White,Arkansas,5145,7953,118
+2021/5/1,White Pine,Nevada,32033,594,6
+2021/5/1,Whiteside,Illinois,17195,7148,208
+2021/5/1,Whitfield,Georgia,13313,16842,244
+2021/5/1,Whitley,Indiana,18183,3902,39
+2021/5/1,Whitley,Kentucky,21235,4901,55
+2021/5/1,Whitman,Washington,53075,4211,48
+2021/5/1,Wibaux,Montana,30109,120,6
+2021/5/1,Wichita,Kansas,20203,216,6
+2021/5/1,Wichita,Texas,48485,14971,375
+2021/5/1,Wicomico,Maryland,24045,7448,152
+2021/5/1,Wilbarger,Texas,48487,1906,55
+2021/5/1,Wilcox,Alabama,1131,1263,28
+2021/5/1,Wilcox,Georgia,13315,830,47
+2021/5/1,Wilkes,Georgia,13317,1072,27
+2021/5/1,Wilkes,North Carolina,37193,6550,111
+2021/5/1,Wilkin,Minnesota,27167,796,12
+2021/5/1,Wilkinson,Georgia,13319,927,28
+2021/5/1,Wilkinson,Mississippi,28157,665,30
+2021/5/1,Will,Illinois,17197,74000,1052
+2021/5/1,Willacy,Texas,48489,2954,88
+2021/5/1,Williams,North Dakota,38105,4768,38
+2021/5/1,Williams,Ohio,39171,3357,75
+2021/5/1,Williamsburg,South Carolina,45089,4039,98
+2021/5/1,Williamsburg city,Virginia,51830,757,12
+2021/5/1,Williamson,Illinois,17199,7328,139
+2021/5/1,Williamson,Tennessee,47187,27845,217
+2021/5/1,Williamson,Texas,48491,45408,462
+2021/5/1,Wilson,Kansas,20205,1006,16
+2021/5/1,Wilson,Texas,48493,4468,68
+2021/5/1,Wilson,North Carolina,37195,9554,171
+2021/5/1,Wilson,Tennessee,47189,18700,233
+2021/5/1,Winchester city,Virginia,51840,2822,44
+2021/5/1,Windham,Vermont,50025,1306,14
+2021/5/1,Windham,Connecticut,9015,10622,191
+2021/5/1,Windsor,Vermont,50027,1351,12
+2021/5/1,Winkler,Texas,48495,767,21
+2021/5/1,Winn,Louisiana,22127,1535,43
+2021/5/1,Winnebago,Iowa,19189,1402,31
+2021/5/1,Winnebago,Wisconsin,55139,21100,216
+2021/5/1,Winnebago,Illinois,17201,32302,498
+2021/5/1,Winneshiek,Iowa,19191,1960,33
+2021/5/1,Winona,Minnesota,27169,4461,50
+2021/5/1,Winston,Alabama,1133,2733,72
+2021/5/1,Winston,Mississippi,28159,2267,81
+2021/5/1,Wirt,West Virginia,54105,400,3
+2021/5/1,Wise,Virginia,51195,3125,96
+2021/5/1,Wise,Texas,48497,7300,121
+2021/5/1,Wolfe,Kentucky,21237,514,5
+2021/5/1,Wood,Wisconsin,55141,7477,94
+2021/5/1,Wood,Texas,48499,3420,127
+2021/5/1,Wood,West Virginia,54107,7678,165
+2021/5/1,Wood,Ohio,39173,12973,188
+2021/5/1,Woodbury,Iowa,19193,15057,228
+2021/5/1,Woodford,Kentucky,21239,2132,19
+2021/5/1,Woodford,Illinois,17203,4653,86
+2021/5/1,Woodruff,Arkansas,5147,645,13
+2021/5/1,Woods,Oklahoma,40151,1204,17
+2021/5/1,Woodson,Kansas,20207,216,5
+2021/5/1,Woodward,Oklahoma,40153,3156,33
+2021/5/1,Worcester,Maryland,24047,3570,98
+2021/5/1,Worcester,Massachusetts,25027,75417,2189
+2021/5/1,Worth,Missouri,29227,162,2
+2021/5/1,Worth,Iowa,19195,732,8
+2021/5/1,Worth,Georgia,13321,1782,68
+2021/5/1,Wright,Missouri,29229,1575,31
+2021/5/1,Wright,Iowa,19197,1821,36
+2021/5/1,Wright,Minnesota,27171,15567,135
+2021/5/1,Wyandot,Ohio,39175,2304,54
+2021/5/1,Wyandotte,Kansas,20209,20233,290
+2021/5/1,Wyoming,West Virginia,54109,1961,39
+2021/5/1,Wyoming,Pennsylvania,42131,1834,47
+2021/5/1,Wyoming,New York,36121,3405,51
+2021/5/1,Wythe,Virginia,51197,2600,78
+2021/5/1,Yadkin,North Carolina,37197,3939,47
+2021/5/1,Yakima,Washington,53077,30523,446
+2021/5/1,Yakutat plus Hoonah-Angoon,Alaska,2998,71,2
+2021/5/1,Yalobusha,Mississippi,28161,1617,36
+2021/5/1,Yamhill,Oregon,41071,4298,75
+2021/5/1,Yancey,North Carolina,37199,1588,28
+2021/5/1,Yankton,South Dakota,46135,3069,30
+2021/5/1,Yates,New York,36123,1141,26
+2021/5/1,Yavapai,Arizona,4025,18718,503
+2021/5/1,Yazoo,Mississippi,28163,3095,69
+2021/5/1,Yell,Arkansas,5149,3425,65
+2021/5/1,Yellow Medicine,Minnesota,27173,1132,20
+2021/5/1,Yellowstone,Montana,30111,17187,263
+2021/5/1,Yoakum,Texas,48501,871,26
+2021/5/1,Yolo,California,6113,13756,208
+2021/5/1,York,Nebraska,31185,1736,13
+2021/5/1,York,Virginia,51199,3696,52
+2021/5/1,York,Maine,23031,12556,130
+2021/5/1,York,South Carolina,45091,30720,377
+2021/5/1,York,Pennsylvania,42133,44286,783
+2021/5/1,Young,Texas,48503,2163,44
+2021/5/1,Yuba,California,6115,6172,44
+2021/5/1,Yukon-Koyukuk Census Area,Alaska,2290,358,4
+2021/5/1,Yuma,Colorado,8125,878,17
+2021/5/1,Yuma,Arizona,4027,37088,833
+2021/5/1,Zapata,Texas,48505,1764,36
+2021/5/1,Zavala,Texas,48507,1856,43
+2021/5/1,Ziebach,South Dakota,46137,344,9
