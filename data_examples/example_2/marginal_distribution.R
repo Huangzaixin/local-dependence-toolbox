@@ -1,10 +1,8 @@
 ###################################################################################################
 # Example 2: COVID-19 data
 ###################################################################################################
-#
 # Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear 
 #                    local dependence" (Huang & Zhang,2026)
-#
 # Author: Zaixin Huang
 # Email: eric.huangzaixin@gmail.com
 # Version 2024-11-05 
