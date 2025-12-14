@@ -1,8 +1,7 @@
 function CL = mixFCCL(theta,data)
 % Description: The negative log-likelihood of MixFC copula model
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework 
-%                    for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
 %
 % Author: Zaixin Huang
 % Date: finished at 2015.06.07; updated at 2023.01.01; current version: 2025.03.16

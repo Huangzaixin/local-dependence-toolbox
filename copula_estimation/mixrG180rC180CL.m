@@ -1,8 +1,7 @@
 function CL = mixrG180rC180CL(theta,data)
 % Description: The negative log-likelihood of MixrG180rC180 copula model
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework 
-%                    for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
 %
 % Author: Zaixin Huang
 % Date: finished at 2015.06.07; updated at 2018.01.04; current version: 2025.03.16
