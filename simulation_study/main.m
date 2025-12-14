@@ -18,8 +18,7 @@
 %         4) Empirical 95% Coverage Probability(CP%)
 % Step 7. Compare performance metrics between two estimators.
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for 
-%                     uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
 %
 % Output: All results are stored in 'simulation_results.xlsx'
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
