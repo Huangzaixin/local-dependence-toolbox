@@ -34,7 +34,7 @@ lower = [1.001];
 upper = [+Inf];
 par0 = [3];
 
-%% Use two estimators to estimate local Kendall's tau respectively
+%% Estimate local Kendall's tau using two estimators, respectively
 % copula model-based estimator
 % copula_based_local_tau = fun_copulald_type_II(copula_type,weight1,weight2,copula_parameter1,copula_parameter2,copula_parameter3,measure_type,ld_type,0.05,0.05);
 copula_based_local_tau = fun_copulald_general(copula_type,weight1,weight2,copula_parameter1,copula_parameter2,copula_parameter3,measure_type,pl,pu,ql,qu);
