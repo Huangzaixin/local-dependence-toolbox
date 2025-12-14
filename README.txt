@@ -15,7 +15,7 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    Author: Zaixin Huang
    Email: eric.huangzaixin@gmail.com
    Repository: https://github.com/huangzaixin/local-dependence-toolbox
-   Latest version can be downloaded from the GitHub repository. If you encounter any bugs or have suggestions, please contact me. We will update them on GitHub and acknowledge your contribution. Thank you!
+   Latest version can be downloaded from the GitHub repository. If you encounter any bugs or have suggestions, please contact us. We will update them on GitHub and acknowledge your contribution. Thank you!
 
 4. Languages
    MATLAB + R (tested under Matlab R2020a and R 4.4.1).
