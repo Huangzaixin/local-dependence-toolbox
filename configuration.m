@@ -1,6 +1,6 @@
 % Description: Add all necessary directories to MATLAB
 addpath('functions/');  
-addpath('ld_surfaces/');  
+addpath('ld_surfaces/');
 addpath('simulation_study/');
 addpath('copula_estimation/');
 addpath('data_examples/');
