@@ -6,8 +6,8 @@ format long g;
 options = optimset('Display','iter','TolCon',10^-9,'TolFun',10^-8,'TolX',10^-8);
 
 %% Read Data
-u = csvread('data_examples/example_1/data/inv_u_FAM171A2.csv',1,0);  
-v = csvread('data_examples/example_1/data/v_alpha_syn.csv',1,0); 
+u = readmatrix('data_examples/example_1/data/inv_u_FAM171A2.csv', 'NumHeaderLines', 1);  
+v = readmatrix('data_examples/example_1/data/v_alpha_syn.csv', 'NumHeaderLines', 1);
 
 %% Gaussian copula
 par_gauss = corrcoef12(norminv(u),norminv(v));
@@ -19,10 +19,10 @@ AIC_gauss     % -122.47
 lower = [-0.999, 2.001];
 upper = [ 0.999, 100];
 par_0 = [par_gauss;10];
-[para_t LL_t] = fmincon('tcopulaCL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
+[par_t LL_t] = fmincon('tcopulaCL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL_t) + 2*2;
 AIC     %  -125.32
-para_t
+par_t
 
 %% Clayton copula
 lower = 0.001;    % lower bound 
@@ -35,10 +35,10 @@ par_clayton
 %% rotated Clayton copula (180-degrees)
 lower = 0.001;
 par_0 = 1.001;
-[par_rotclayton LL] = fmincon('claytonCL',par_0,[],[],[],[],lower,[],[],options,1-[u,v]);
+[par_rc180 LL] = fmincon('claytonCL',par_0,[],[],[],[],lower,[],[],options,1-[u,v]);
 AIC = -2*(-LL) + 2;
 AIC    % -110.45
-par_rotclayton
+par_rc180
 
 %% Gumbel copula
 lower = 1.001;
@@ -51,10 +51,10 @@ par_gumbel
 %% rotated Gumbel copula (180-degrees)
 lower = 1.001;
 par_0 = 2;
-[par_rotgumbel LL] = fmincon('gumbelCL',par_0,[],[],[],[],lower,[],[],options,1-[u,v]);
+[par_rg180 LL] = fmincon('gumbelCL',par_0,[],[],[],[],lower,[],[],options,1-[u,v]);
 AIC = -2*(-LL) + 2;
 AIC    % -101.02
-par_rotgumbel
+par_rg180
 
 %% MixGC copula : Gumbel copula + Clayton copula
 lower = [0.001 1.001 0.001];    % lower bound 
@@ -69,28 +69,28 @@ pars_gc
 lower = [0.001 1.001 0.001];
 upper = [0.999 +Inf +Inf];
 par_0 = [0.5 2 1];
-[pars_rgrc LL] = fmincon('mixrG180rC180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
+[pars_rg180rc180 LL] = fmincon('mixrG180rC180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*3;
 AIC   % -131.49
-pars_rgrc
+pars_rg180rc180
 
 %% MixGrG180 copula : Gumbel copula + rotated Gumbel copula (180-degrees)
 lower = [0.001 1.001 1.001];
 upper = [0.999 +Inf +Inf];
 par_0 = [0.3 3 3];
-[pars_grg LL] = fmincon('mixGrG180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
+[pars_grg180 LL] = fmincon('mixGrG180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*3;
 AIC   % -130.57
-pars_grg
+pars_grg180
 
 %% MixCrC180 copula : Clayton copula + rotated Clayton copula (180-degrees)
 lower = [0.001 1.001 1.001];
 upper = [0.999 +Inf +Inf];
 par_0 = [0.3 2 2];
-[pars_crc LL] = fmincon('mixCrC180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
+[pars_crc180 LL] = fmincon('mixCrC180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*3;
 AIC   % -129.88
-pars_crc
+pars_crc180
 
 %% MixFC copula : Frank copula + Clayton copula
 lower = [0.001 -Inf 0.001];
@@ -105,10 +105,10 @@ pars_fc
 lower = [0.001 -Inf 0.001];
 upper = [0.999 +Inf +Inf];
 par_0 = [0.5 3 2];
-[pars_frc LL] = fmincon('mixFrCCL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
+[pars_frc180 LL] = fmincon('mixFrC180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*3;
 AIC   % -145.84, the smallest AIC
-pars_frc
+pars_frc180
 
 %% MixFG copula : Frank copula + Gumbel copula
 lower = [0.001 -Inf 1.001];
@@ -123,10 +123,10 @@ pars_fg
 lower = [0.001 -Inf 1.01];
 upper = [0.999 +Inf +Inf];
 par_0 = [0.2 3 3];
-[pars_frg LL] = fmincon('mixFrGCL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
+[pars_frg180 LL] = fmincon('mixFrG180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*3;
 AIC   % -141.79
-pars_frg
+pars_frg180
 
 
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Other Copula Models  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -134,19 +134,19 @@ pars_frg
 lower = [0.01 0.01 -Inf 1.01 1.01];
 upper = [0.99 0.99 +Inf +Inf +Inf];
 par_0 = [0.3 0.3 3 3 3];
-[pars_fgrg LL] = fmincon('mixFGrG180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
+[pars_fgrg180 LL] = fmincon('mixFGrG180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*5;
 AIC  % -143.9
-pars_fgrg
+pars_fgrg180
 
 % MixFCrC180 copula : Frank copula + Clayton copula + rotated Clayton copula (180-degrees)
 lower = [0.01 0.01 -Inf 0.01 0.01];
 upper = [0.99 0.99 +Inf +Inf +Inf];
 par_0 = [0.3 0.3 3 3 3];
-[pars_fcrc LL] = fmincon('mixFCrC180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
+[pars_fcrc180 LL] = fmincon('mixFCrC180CL',par_0,[],[],[],[],lower,upper,[],options,[u,v]);
 AIC = -2*(-LL) + 2*5;
 AIC  % -141.99
-pars_fcrc
+pars_fcrc180
 
 % Patton's SJC copula
 lower = 1e-44*ones(2,1);	

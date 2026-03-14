@@ -6,7 +6,7 @@
 %
 % Andrew Patton
 
-% INPUTS: theta ;
+% INPUTS: theta;
 % data = [U V];
 
 function CL = NormalCopula_CL(theta,Zdata)
