@@ -1,5 +1,5 @@
 function [ldM] = fun_copulaldsurf_general(copulatype,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measuretype,quantile_interval)
-% Description: Type I local Kendall's tau surface of a copula model
+% Description: Type I local Kendall's tau surface of a copula model.
 % Inputs: 
 %      1. copulatype: see functions/fun_copulald_general.m
 %      2. weight1: the weight of the first copula function in the mixture copula model
@@ -14,13 +14,14 @@ function [ldM] = fun_copulaldsurf_general(copulatype,weight1,weight2,copulaparam
 % Outputs: ldM
 %      1. ldM: Type I local Kendall's tau matrix
 %
-% Written for paper "Generalized local Kendall¡¯s ¦Ó: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall's ¦Ó: a novel framework for
+% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 %
 % Author: Zaixin Huang
-% Date: finished at 2023.01.01; current version: 2025.03.16
+% Date: completed on 2023-01-01; current version: 2025-03-16
 % Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%          I will update them on GitHub and acknowledge your contribution. Thank you!
-% The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
+%          I will update them on GitHub and acknowledge your contribution. 
+% Repository: https://github.com/huangzaixin/local-dependence-toolbox
 %%
 % the square region interval
 switch quantile_interval
@@ -34,6 +35,8 @@ switch quantile_interval
         quantile_upper = 0.75;
     case 0.5
         quantile_upper = 0.5;
+    otherwise    
+        
 end
 
 quantile_X = 0:quantile_interval:quantile_upper;
@@ -44,8 +47,8 @@ for i=1:length(quantile_X)
     for j=1:length(quantile_Y)
         if quantile_X(i) < 1 || quantile_Y(j) < 1
              temp_ld = fun_copulald_general(copulatype,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measuretype,...,
-                                           quantile_X(i),quantile_X(i) + quantile_interval,...,
-                                           quantile_Y(j),quantile_Y(j) + quantile_interval);
+                                               quantile_X(i),quantile_X(i) + quantile_interval,...,
+                                               quantile_Y(j),quantile_Y(j) + quantile_interval);
              localdependence(i,j) = temp_ld;
         else
              localdependence(i,j) = NaN;

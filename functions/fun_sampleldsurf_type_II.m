@@ -1,8 +1,9 @@
 function [ldM] = fun_sampleldsurf_type_II(X,Y,measuretype,region)
-% Description: Type II local Kendall's tau surface for sample data
+% Description: Type II local Kendall's tau surface for sample data.
 % Inputs:  
 %       1. X and Y: sample data vectors
-%       2. measuretype:  'Kendall' - local Kendall's tau
+%       2. measuretype:  
+%          'Kendall': local Kendall's tau
 %       3. region:
 %          'UU': upper-upper region; 'UL': upper-lower region
 %          'LU': lower-upper region; 'LL': lower-lower region
@@ -10,13 +11,14 @@ function [ldM] = fun_sampleldsurf_type_II(X,Y,measuretype,region)
 % Outputs: ldM
 %       1. ldM: Type II local Kendall's tau matrix
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall’s τ: a novel framework for
+% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 %
 % Author: Zaixin Huang
-% Date: finished at 2015.06.07; updated at 2018.01.04; current version: 2025.03.16
+% Date: completed on 2015-06-07; updated on 2018-01-04; current version: 2025-03-16
 % Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%          I will update them on GitHub and acknowledge your contribution. Thank you!
-% The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
+%          I will update them on GitHub and acknowledge your contribution. 
+% Repository: https://github.com/huangzaixin/local-dependence-toolbox
 %% Sample data vectors
 Xtemp = X;
 Ytemp = Y;
@@ -36,7 +38,7 @@ for i=1:length(quantile_X)
 end
 
 %% Local Kendall's tau surface 
-surf(ldM, 'FaceColor',[0, 0.4471, 0.7412]); % [0.33,0.65,0.68]
+surf(ldM, 'FaceColor',[0, 0.4471, 0.7412]);  % [0.33,0.65,0.68]
 
 xlabel('u','FontSize',13);
 ylabel('v','FontSize',13);

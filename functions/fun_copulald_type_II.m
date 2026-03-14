@@ -1,6 +1,6 @@
 function [ld] = fun_copulald_type_II(copulatype,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measuretype,region,Xquantile,Yquantile)
-% Description: Type II local Kendall's tau of a copula model
-% Note: Formulas (10)-(13) demonstrate higher accuracy compared to formula (5), primarily due to their reduced number of double integrals.
+% Description: Type II local Kendall's tau of a copula model.
+% Note: Formulas (10)-(13) (in the paper) demonstrate higher accuracy compared to formula (5), primarily due to their reduced number of double integrals.
 %
 % Inputs:
 %      1. copulatype
@@ -18,11 +18,11 @@ function [ld] = fun_copulald_type_II(copulatype,weight1,weight2,copulaparameter1
 %         'mixfg'          : Frank copula + Gumbel copula
 %         'mixfrg180'      : Frank copula + rotated Gumbel copula£¨180-degrees£©
 %         'mixfgrg180'     : Frank copula + Gumbel copula + rotated Gumbel copula£¨180-degrees£©
-%      2. weight1          : the first copula weight of the mixture copula
-%         weight2          : the second copula weight of the mixture copula 
-%      3. copulaparameter1 : parameter of the first copula
-%         copulaparameter2 : parameter of the second copula
-%         copulaparameter3 : parameter of the third copula
+%      2. weight1          : The first copula weight of the mixture copula
+%         weight2          : The second copula weight of the mixture copula 
+%      3. copulaparameter1 : Parameter of the first copula
+%         copulaparameter2 : Parameter of the second copula
+%         copulaparameter3 : Parameter of the third copula
 %      4. measuretype
 %         'Kendall' : local Kendall's tau
 %      5. region:
@@ -36,13 +36,14 @@ function [ld] = fun_copulald_type_II(copulatype,weight1,weight2,copulaparameter1
 % Outputs: ld
 %      1. ld: Type II local Kendall's tau of the selected copula model
 %
-% Written for paper "Generalized local Kendall¡¯s ¦Ó: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall¡¯s ¦Ó: a novel framework for
+% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 %
 % Author: Zaixin Huang
-% Date: finished at 2015.06.07; updated at 2018.01.04, 2023.01.01; current version: 2025.03.16
+% Date: completed on 2015-06-07; updated on 2018-01-04 and 2023-01-01; current version: 2025-03-16
 % Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%          I will update them on GitHub and acknowledge your contribution. Thank you!
-% The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
+%          I will update them on GitHub and acknowledge your contribution. 
+% Repository: https://github.com/huangzaixin/local-dependence-toolbox
 %%
 format long;
 

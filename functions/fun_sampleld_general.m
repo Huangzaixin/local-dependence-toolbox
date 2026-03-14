@@ -1,5 +1,5 @@
 function [ld] = fun_sampleld_general(X,Y,type,pl,pu,ql,qu)
-% Description: Type I local Kendall's tau for sample data
+% Description: Type I local Kendall's tau for sample data.
 % Inputs:  
 %       1. X and Y: sample data
 %       2. type:
@@ -10,15 +10,16 @@ function [ld] = fun_sampleld_general(X,Y,type,pl,pu,ql,qu)
 %          qu: the upper bound quantile of variable Y
 %
 % Outputs: ld
-%       1. ld: Type I local Kendall's tau of sample in the selected region
+%       1. ld: Type I local Kendall's tau of sample in the selected region.
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall's τ: a novel framework for
+% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 %
 % Author: Zaixin Huang
-% Date: finished at 2023.01.01; current version: 2025.03.16
+% Date: completed on 2023-01-01; current version: 2025-03-16
 % Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%          I will update them on GitHub and acknowledge your contribution. Thank you!
-% The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
+%          I will update them on GitHub and acknowledge your contribution. 
+% Repository: https://github.com/huangzaixin/local-dependence-toolbox
 %%
 Z(:,1) = X;
 Z(:,2) = Y;

@@ -1,5 +1,5 @@
 function ld = fun_u_statistic_based_ld_general(data,Xl,Xu,Yl,Yu)
-% Description: Type I local Kendall's tau based on U-statistic
+% Description: Type I local Kendall's tau based on U-statistic.
 % Inputs:  
 %       1. data: sample data
 %       2. Xl: lower bound of variable X
@@ -7,13 +7,14 @@ function ld = fun_u_statistic_based_ld_general(data,Xl,Xu,Yl,Yu)
 %          Yl: lower bound of variable Y
 %          Yu: upper bound of variable Y
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall’s τ: a novel framework for
+% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 %
 % Author: Zaixin Huang
-% Date: finished at 2023.01.01; current version: 2025.03.16
+% Date: completed on 2023-01-01; current version: 2025-03-16
 % Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%          I will update them on GitHub and acknowledge your contribution. Thank you!
-% The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
+%          I will update them on GitHub and acknowledge your contribution. 
+% Repository: https://github.com/huangzaixin/local-dependence-toolbox
 %%
 if Xu <= Xl || Yu <= Yl
     error('Upper bounds must be greater than lower bounds.');
@@ -34,7 +35,7 @@ end
 if M == 0
     ld = NaN;
 else
-    ld = total_sum / M;   
+    ld = total_sum / M;
 end   
 
 end

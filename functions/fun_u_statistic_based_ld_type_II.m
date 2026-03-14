@@ -1,22 +1,23 @@
 function ld = fun_u_statistic_based_ld_type_II(data,ld_type,X,Y)
-% Description: Type II local Kendall's tau based on U-statistic
+% Description: Type II local Kendall's tau based on U-statistic.
 %
 % Inputs: 
 %       1. data: sample data
-%       2. ld_type: 
+%       2. ld_type:
 %          'll': lower-lower local Kendall's tau; 'uu': upper-upper local Kendall's tau
 %       3. X: for 'll', upper bound of variable X
 %             for 'uu', lower bound of variable X
 %       4. Y: for 'll', upper bound of variable Y
 %             for 'uu', lower bound of variable Y
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall’s τ: a novel framework for
+% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 %
 % Author: Zaixin Huang
-% Date: finished at 2015.06.07; updated at 2018.01.04; current version: 2025.03.16
-% Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%          I will update them on GitHub and acknowledge your contribution. Thank you!
-% The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
+% Date: completed on 2015-06-07; updated on 2018-01-04; current version: 2025-03-16
+% Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com.
+%          I will update them on GitHub and acknowledge your contribution.
+% Repository: https://github.com/huangzaixin/local-dependence-toolbox
 %%
 if isempty(data)
     ld = NaN;

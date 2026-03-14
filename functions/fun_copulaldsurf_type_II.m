@@ -1,5 +1,5 @@
 function [ldM] = fun_copulaldsurf_type_II(copulatype,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measuretype,region)
-% Description: Type II local Kendall's tau surface of a copula model
+% Description: Type II local Kendall's tau surface of a copula model.
 % Inputs: 
 %      1. copulatype: see functions/fun_copulald_type_II.m
 %      2. weight1: the weight of the first copula function in the mixture copula model
@@ -14,15 +14,16 @@ function [ldM] = fun_copulaldsurf_type_II(copulatype,weight1,weight2,copulaparam
 %         'LU': lower-upper region; 'LL': lower-lower region;
 %
 % Outputs: ldM
-%      1. ldM: local Kendall's tau matrix in the selected region
+%      1. ldM: local Kendall's tau matrix in the selected region.
 %
-% Written for paper "Generalized local Kendall＊s 而: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% Written for paper "Generalized local Kendall's 而: a novel framework for
+% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 %
 % Author: Zaixin Huang
-% Date: finished at 2015.06.07; updated at 2018.01.04; current version: 2025.03.16
+% Date: completed on 2015-06-07; updated on 2018-01-04; current version: 2025-03-16
 % Contact: For bug reports and suggestions, please contact me at eric.huangzaixin@gmail.com. 
-%          I will update them on GitHub and acknowledge your contribution. Thank you!
-% The latest version can be downloaded from https://github.com/huangzaixin/local-dependence-toolbox
+%          I will update them on GitHub and acknowledge your contribution. 
+% Repository: https://github.com/huangzaixin/local-dependence-toolbox
 %%
 quantile_X = 0.05:0.05:0.95;
 quantile_Y = 0.05:0.05:0.95;
@@ -55,7 +56,7 @@ switch lower(region)
                  zlabel('upper-upper local Kendall''s 而 surface','FontSize',13);        
         otherwise
            error(message('unknown measure type.'));
-        end 
+        end
         
     case 'ul'     
         set(gca,'XTick',[1 4 7 10 13 16 19]);
@@ -70,7 +71,7 @@ switch lower(region)
            error(message('unknown measure type.'));
         end 
         
-    case 'lu'      
+    case 'lu'
         set(gca,'XTick',[1 4 7 10 13 16 19]);
         set(gca,'YTick',[1 4 7 10 13 16 19]);
         set(gca,'XTickLabel',{'0.95',' ','0.65',' ','0.35',' ','0.05'});
@@ -83,7 +84,7 @@ switch lower(region)
            error(message('unknown measure type.'));
         end 
     
-    case 'll'    
+    case 'll'
         set(gca,'XTick',[1 4 7 10 13 16 19]);
         set(gca,'YTick',[1 4 7 10 13 16 19]);
         set(gca,'XTickLabel',{'0.05',' ','0.35',' ','0.65',' ','0.95'});
@@ -94,7 +95,7 @@ switch lower(region)
                  zlabel('lower-lower local Kendall''s 而 surface','FontSize',13);        
             otherwise
                error('unknown measure type.');
-        end 
+        end
     
     otherwise
        error('unknown selected region.');
