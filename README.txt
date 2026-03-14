@@ -21,7 +21,7 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
    MATLAB + R (tested under Matlab R2020a and R 4.4.1).
 
 5. Update History
-   Current version: 2025-12-08
+   Current version: 2026-03-15
    History versions: 2018-01-04, 2023-01-01, 2025-03-16, 2025-12-08
 
 6. License
