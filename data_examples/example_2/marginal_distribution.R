@@ -2,7 +2,7 @@
 # Example 2: COVID-19 data
 ###################################################################################################
 # Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear 
-#                    local dependence" (Huang & Zhang,2026)
+#                    local dependence", published in Biometrics (Huang & Zhang, 2026)
 # Author: Zaixin Huang
 # Email: eric.huangzaixin@gmail.com
 # Version 2024-11-05 
@@ -13,11 +13,11 @@ install.packages("distributionsrd")
 install.packages("ggExtra")
 
 library(ggplot2)
-library(distributionsrd)    # rightparetolognormal.mle
+library(distributionsrd)   # rightparetolognormal.mle
 library(ggExtra)
 
 #######################  Read data  ######################## 
-all_deaths_counts <- read.csv("data/us-counties_20210501.csv",header = T)
+all_deaths_counts <- read.csv("data/us-counties_20210501.csv",header = TRUE)
 cases_data <- all_deaths_counts$cases
 deaths_data <- all_deaths_counts$deaths
 cases_deaths_data <- data.frame(x = cases_data, y = deaths_data)

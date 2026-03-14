@@ -1,25 +1,26 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%  Example 2: Estimate Global and Local Kendall's Tau between COVID-19 Cumulative Cases and Number of Deaths  %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Example 2: Estimate Global and Local Kendall's Tau between COVID-19 Cumulative Cases and Cumulative Number of Deaths  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Basic Settings
 options = optimset('Display','off','TolCon',10^-8,'TolFun',10^-8,'TolX',10^-8);
 measure_type = 'Kendall';
 
 %% Read Data
-u = csvread('data_examples/example_2/data/u_cases.csv',1,0);    % cumulative cases
-v = csvread('data_examples/example_2/data/v_deaths.csv',1,0);   % number of deaths
+u = readmatrix('data_examples/example_2/data/u_cases.csv', 'NumHeaderLines', 1);    % cumulative cases
+v = readmatrix('data_examples/example_2/data/v_deaths.csv', 'NumHeaderLines', 1);   % cumulative number of deaths
 UV = [u v];
 
 %% Parameter(s) of the copula model
+% par_gumbel is estimated by main_example_2.m
 copula_type = 'gumbel';
-weight1 = 0;                        % the first copula's weight of the mixture copula model
-weight2 = 0;                        % the second copula's weight of the mixture copula model
-copula_parameter1 = par_gumbel(1);  % for mixture copula model, parameter of the first copula function; for sjc copula, the upper tail dependence coefficient   
-copula_parameter2 = 0;              % for mixture copula model, parameter of the second copula function; for sjc copula, the lower tail dependence coefficient 
+weight1 = 0;                        % the weight of the first copula in the mixture model
+weight2 = 0;                        % the weight of the second copula in the mixture model
+copula_parameter1 = par_gumbel(1);  % for mixture copula model, parameter of the first copula function; for SJC copula, the upper tail dependence coefficient   
+copula_parameter2 = 0;              % for mixture copula model, parameter of the second copula function; for SJC copula, the lower tail dependence coefficient 
 copula_parameter3 = 0;              % for mixture copula model, parameter of the third copula function
 
 %% Four quantile bounds of the generalized local Kendall's tau
-% the following quantiles are calculated by the inverse of marginal distributions of cumulative cases and number of deaths
+% the following quantiles are calculated using the inverse of marginal distributions of cumulative cases and cumulative number of deaths
 pl = 0.9610925;    % lower bound of u
 pu = 1;            % upper bound of u
 ql = 0.9637547;    % lower bound of v
@@ -34,7 +35,7 @@ lower = [1.001];
 upper = [+Inf];
 par0 = [3];
 
-%% Estimate local Kendall's tau using two estimators, respectively
+%% Estimate local Kendall's tau using two estimators
 % copula model-based estimator
 % copula_based_local_tau = fun_copulald_type_II(copula_type,weight1,weight2,copula_parameter1,copula_parameter2,copula_parameter3,measure_type,ld_type,0.05,0.05);
 copula_based_local_tau = fun_copulald_general(copula_type,weight1,weight2,copula_parameter1,copula_parameter2,copula_parameter3,measure_type,pl,pu,ql,qu);
@@ -42,6 +43,7 @@ copula_based_local_tau = fun_copulald_general(copula_type,weight1,weight2,copula
 % U-statistic-based estimator
 % nonparametric_local_tau = fun_u_statistic_based_ld_type_II(UV,ld_type,u_quantile,v_quantile);
 nonparametric_local_tau = fun_u_statistic_based_ld_general(UV,pl,pu,ql,qu);
+
 
 %% Calculate bootstrap standard error and 95% confidence interval
 % start bootstrap: 1000 times
@@ -78,10 +80,10 @@ while b_success_number < B_times
     % b_copula_based_local_tau(b_index,1) = fun_copulald_type_II(copula_type,temp_weight1,temp_weight2,temp_copulaparameter1,temp_copulaparameter2,temp_copulaparameter3,measure_type,ld_type,u_quantile,v_quantile);
     b_temp = fun_copulald_general(copula_type,temp_weight1,temp_weight2,temp_copulaparameter1,temp_copulaparameter2,temp_copulaparameter3,measure_type,pl,pu,ql,qu);
     
-    % if b_temp is NaN，fail
+    % if b_temp is NaN, fail
     if isnan(b_temp)
         continue;
-    else  % success    
+    else  % success
         b_success_number = b_success_number + 1;
         b_copula_based_local_tau(b_success_number,1) = b_temp;
     end
@@ -90,9 +92,9 @@ while b_success_number < B_times
     disp("success number:" + b_success_number + "; left:" + left_number);
 end
     
-%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%        Bootstrap standard error and 95% confidence interval          %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%        Bootstrap standard error and 95% confidence interval         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%
 % for copula model-based estimator
 mean_b_copula_based = mean(b_copula_based_local_tau);
@@ -109,5 +111,4 @@ se_nonparametric = sqrt(sum((b_nonparametric_local_tau(:,1) - mean_b_nonparametr
 % 95% confidence interval
 b_conf_interval_95_nonparametric_lower = nonparametric_local_tau - 1.96 * se_nonparametric;
 b_conf_interval_95_nonparametric_upper = nonparametric_local_tau + 1.96 * se_nonparametric;
-
 
