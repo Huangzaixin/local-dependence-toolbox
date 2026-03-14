@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    Comparison of Global and Quantile Kendall’s Tau for Gumbel, Clayton, Frank and FGM Copula Models     %                     %                         
+%    Comparison of Global and Quantile Kendall's Tau for Gumbel, Clayton, Frank and FGM Copula Models     %                     %                         
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Basic Settings
 measure_type = 'kendall'; 
@@ -28,7 +28,7 @@ Ytemp = UV(:,2);
 if strcmpi(quantile_tau_type, 'uu')  
     quantile_parameter = 0:0.01:0.99;
     empirical_localKendallTau = zeros(length(quantile_parameter),1);
-    for i=1:1:length(quantile_parameter)
+    for i=1:length(quantile_parameter)
            temp = find((UV(:,1)>=quantile(UV(:,1),quantile_parameter(i))&(UV(:,2)>=quantile(UV(:,2),quantile_parameter(i))))); 
            X = Xtemp(temp);
            Y = Ytemp(temp); 
@@ -44,7 +44,7 @@ end
 if strcmpi(quantile_tau_type, 'll') 
     quantile_parameter = 0.01:0.01:1;
     empirical_localKendallTau = zeros(length(quantile_parameter),1);
-    for i=1:1:length(quantile_parameter)
+    for i=1:length(quantile_parameter)
            temp = find((UV(:,1)<=quantile(UV(:,1),quantile_parameter(i))&(UV(:,2)<=quantile(UV(:,2),quantile_parameter(i))))); 
            X = Xtemp(temp);
            Y = Ytemp(temp); 
@@ -77,17 +77,17 @@ set(ax.YAxis, 'FontSize', 10);
 set(gcf, 'Color', [1 1 1]);  
 
 %% Copula model-based quantile Kendall's tau along the main diagonal 
-weight1 = 0;                  % the first copula function's weight in the mixture copula model
-weight2 = 0;                  % the second copula function's weight in the mixture copula model
-copulaparameter1 = theta;     % for mixture copula model, parameter of the first copula function; for sjc copula, the upper tail dependence coefficient   
-copulaparameter2 = 0;         % for mixture copula model, parameter of the second copula function; for sjc copula, the lower tail dependence coefficient 
+weight1 = 0;                  % the weight of the first copula in the mixture model
+weight2 = 0;                  % the weight of the second copula in the mixture model
+copulaparameter1 = theta;     % for mixture copula model, parameter of the first copula function; for SJC copula, the upper tail dependence coefficient   
+copulaparameter2 = 0;         % for mixture copula model, parameter of the second copula function; for SJC copula, the lower tail dependence coefficient 
 copulaparameter3 = 0;         % for mixture copula model, parameter of the third copula function
  
 if strcmpi(quantile_tau_type, 'uu')
    quantile_parameter = 0:0.01:0.99;
    ld_number = length(quantile_parameter);
    mainlocalKendallTau_copula = zeros(ld_number,1);
-   for i=1:1:ld_number
+   for i=1:ld_number
    mainlocalKendallTau_copula(i) = fun_copulald_general(copula_type,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measure_type,quantile_parameter(i),1,quantile_parameter(i),1);
    % mainlocalKendallTau_copula(i) = fun_copulald_type_II(copula_type,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measure_type,quantile_tau_type,quantile_parameter(i),quantile_parameter(i));
    end
@@ -97,7 +97,7 @@ if strcmpi(quantile_tau_type, 'll')
    quantile_parameter = 0.01:0.01:1;  
    ld_number = length(quantile_parameter);
    mainlocalKendallTau_copula = zeros(ld_number,1);
-   for i=1:1:length(quantile_parameter)
+   for i=1:length(quantile_parameter)
    mainlocalKendallTau_copula(i) = fun_copulald_general(copula_type,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measure_type,0,quantile_parameter(i),0,quantile_parameter(i));
    % mainlocalKendallTau_copula(i) = fun_copulald_type_II(copula_type,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measure_type,quantile_tau_type,quantile_parameter(i),quantile_parameter(i));
    end

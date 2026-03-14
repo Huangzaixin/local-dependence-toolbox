@@ -1,5 +1,5 @@
 ##################################################################
-###       Generate random data using the FGM copula model      ###
+###        Generate random data using FGM copula model         ###
 ##################################################################
 require(copula)
 
