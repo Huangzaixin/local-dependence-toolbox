@@ -5,16 +5,16 @@
 %              Type I local Kendall's tau surfaces for copula models         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Basic Settings
-measure_type = 'kendall';
+measure_type = 'Kendall';
 quantile_interval = 0.05;    % width of the square region: 0.05, 0.1, 0.2
-copula_type = 'clayton';     % copula type: 'clayton', 'gumbel', 'frank', etc.  
-copula_parameter = 1.3;      % copula parameter 
+copula_type = 'clayton';     % copula type: 'clayton', 'gumbel', 'frank'
+copula_parameter = 1.3;      % copula parameter
 sample_size = 1000000;       % number of samples
 
 %% 1. Empirical Type I local Kendall's tau surface
 % sample data
-% X = csvread('data_examples/example_2/data/u_cases.csv',1,0);
-% Y = csvread('data_examples/example_2/data/v_deaths.csv',1,0);
+% X = readmatrix('data_examples/example_2/data/u_cases.csv', 'NumHeaderLines', 1);
+% Y = readmatrix('data_examples/example_2/data/v_deaths.csv', 'NumHeaderLines', 1);
 
 % Generate random data from the specified copula
 data = copularnd(copula_type,copula_parameter,sample_size);
@@ -28,13 +28,13 @@ ldMatrix1 = fun_sampleldsurf_general(X,Y,measure_type,quantile_interval); hold o
 %% 2. Copula model-based Type I local Kendall's tau surface
 % copula parameters
 copulatype = copula_type;      % copula type, see functions/fun_copulald_general.m
-weight1 = 0;                   % the first copula function's weight in the mixture copula model
-weight2 = 0;                   % the second copula function's weight in the mixture copula model
-copula_parameter1 = 1.3;       % for mixture copula model, parameter of the first copula function; for sjc copula, the upper tail dependence coefficient   
-copula_parameter2 = 0;         % for mixture copula model, parameter of the second copula function; for sjc copula, the lower tail dependence coefficient 
+weight1 = 0;                   % the weight of the first copula in the mixture model
+weight2 = 0;                   % the weight of the second copula in the mixture model
+copula_parameter1 = 1.3;       % for mixture copula model, parameter of the first copula function; for SJC copula, the upper tail dependence coefficient   
+copula_parameter2 = 0;         % for mixture copula model, parameter of the second copula function; for SJC copula, the lower tail dependence coefficient 
 copula_parameter3 = 0;         % for mixture copula model, parameter of the third copula function
 
-ldMatrix2 = fun_copulaldsurf_general(copulatype,weight1,weight2,copulaparameter1,copulaparameter2,copulaparameter3,measure_type,quantile_interval); hold on;  
+ldMatrix2 = fun_copulaldsurf_general(copulatype,weight1,weight2,copula_parameter1,copula_parameter2,copula_parameter3,measure_type,quantile_interval); hold on;  
 
 
 %% Add auxiliary lines
