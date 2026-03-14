@@ -22,7 +22,7 @@ This toolbox helps readers to reproduce all results in the paper "Generalized lo
 
 5. Update History
    Current version: 2026-03-15
-   History versions: 2018-01-04, 2023-01-01, 2025-03-16, 2025-12-08
+   History versions: 2018-01-04, 2023-01-01, 2025-03-16
 
 6. License
    This toolbox is free for academic and non-commercial research use by students, faculty, and researchers. For commercial use, please contact the author for licensing terms.
