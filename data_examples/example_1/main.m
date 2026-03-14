@@ -3,27 +3,28 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Basic Settings
 options = optimset('Display','off','TolCon',10^-8,'TolFun',10^-8,'TolX',10^-8);
-measuretype = 'Kendall';
+measure_type = 'Kendall';
 
 %% Read Data
-u = csvread('data_examples/example_1/data/inv_u_FAM171A2.csv',1,0);    % FAM171A2
-v = csvread('data_examples/example_1/data/v_alpha_syn.csv',1,0);       % α-syn
+u = readmatrix('data_examples/example_1/data/inv_u_FAM171A2.csv', 'NumHeaderLines', 1);  % FAM171A2
+v = readmatrix('data_examples/example_1/data/v_alpha_syn.csv', 'NumHeaderLines', 1);     % α-syn
 UV = [u v];
 
 %% Parameter(s) of the single and mixture copula model
+% pars_frc180 is estimated by main_example_1.m
 copula_type = 'mixfrc180';
-weight1 = pars_frc(1);             % the first copula function's weight in the mixture copula model
-weight2 = 0;                       % the second copula function's weight in the mixture copula model
-copula_parameter1 = pars_frc(2);   % for mixture copula model, parameter of the first copula function; for sjc copula, the upper tail dependence coefficient   
-copula_parameter2 = pars_frc(3);   % for mixture copula model, parameter of the second copula function; for sjc copula, the lower tail dependence coefficient 
-copulaparameter3 = 0;              % for mixture copula model, parameter of the third copula function
+weight1 = pars_frc180(1);             % the weight of the first copula in the mixture model
+weight2 = 0;                          % the weight of the second copula in the mixture model
+copula_parameter1 = pars_frc180(2);   % for mixture copula model, parameter of the first copula function; for SJC copula, the upper tail dependence coefficient   
+copula_parameter2 = pars_frc180(3);   % for mixture copula model, parameter of the second copula function; for SJC copula, the lower tail dependence coefficient 
+copula_parameter3 = 0;                % for mixture copula model, parameter of the third copula function
 
 %% Four quantile parameters of the generalized local Kendall's tau
 % the following four quantiles are calculated by the inverse marginal distributions of FAM171A2 and total α-syn
-pl = 0;        % lower bound of u
-pu = 1;        % upper bound of u
-ql = 0;        % lower bound of v
-qu = 1;        % upper bound of v
+pl = 0;      % lower bound of u
+pu = 1;      % upper bound of u
+ql = 0;      % lower bound of v
+qu = 1;      % upper bound of v
 
 % ld_type = 'll';    % "uu": upper-upper local Kendall's tau; "ll": lower-lower local Kendall's tau; "ul": upper-lower local Kendall's tau; "lu": lower-upper local Kendall's tau
 % u_quantile = 0.1;
@@ -34,12 +35,13 @@ lower = [0.001 -Inf 0.001];
 upper = [0.999 +Inf +Inf];
 par0 = [0.5 2 2];
 
-%% Estimate local Kendall's tau using two estimators, respectively
+%% Estimate local Kendall's tau using two estimators
 % copula model-based estimator
-copula_based_local_tau = fun_copulald_general(copula_type,weight1,weight2,copula_parameter1,copula_parameter2,copula_parameter3,measuretype,pl,pu,ql,qu);
+copula_based_local_tau = fun_copulald_general(copula_type,weight1,weight2,copula_parameter1,copula_parameter2,copula_parameter3,measure_type,pl,pu,ql,qu);
 
 % U-statistic-based estimator
 nonparametric_local_tau = fun_u_statistic_based_ld_general(UV,pl,pu,ql,qu);
+
 
 %% Calculate bootstrap standard error and 95% confidence interval
 % start bootstrap: 1000 times
@@ -64,7 +66,7 @@ while b_success_number < B_times
         
     %% copula model-based estimator
     % NOTE: if the 'copula_type' is other copula models, do not forget to change the objective function
-    [parameters LL] = fmincon('mixFrCCL',par0,[],[],[],[],lower,upper,[],options,[1-temp_bootsample_UV(:,1),1-temp_bootsample_UV(:,2)]);
+    [parameters LL] = fmincon('mixFrC180CL',par0,[],[],[],[],lower,upper,[],options,[1-temp_bootsample_UV(:,1),1-temp_bootsample_UV(:,2)]);
    
     % NOTE: if you use mixture copula models, do not forget to revise the following parameters
     temp_weight1 = parameters(1);              % for two-component mixture model, temp_weight1 should not be 0
@@ -73,8 +75,8 @@ while b_success_number < B_times
     temp_copula_parameter2 = parameters(3);    % for two-component mixture model, temp_copulaparameter2 should not be 0
     temp_copula_parameter3 = 0;                % for three-component mixture model, temp_copulaparameter3 should not be 0
  
-    % b_copula_based_local_tau(b_index,1) = fun_copulald_type_II(copula_type,temp_weight1,temp_weight2,temp_copula_parameter1,temp_copula_parameter2,temp_copula_parameter3,measuretype,ld_type,u_quantile,v_quantile);
-    b_temp = fun_copulald_general(copula_type,temp_weight1,temp_weight2,temp_copula_parameter1,temp_copula_parameter2,temp_copula_parameter3,measuretype,pl,pu,ql,qu);
+    % b_copula_based_local_tau(b_index,1) = fun_copulald_type_II(copula_type,temp_weight1,temp_weight2,temp_copula_parameter1,temp_copula_parameter2,temp_copula_parameter3,measure_type,ld_type,u_quantile,v_quantile);
+    b_temp = fun_copulald_general(copula_type,temp_weight1,temp_weight2,temp_copula_parameter1,temp_copula_parameter2,temp_copula_parameter3,measure_type,pl,pu,ql,qu);
     
     % if b_temp is NaN, fail
     if isnan(b_temp)

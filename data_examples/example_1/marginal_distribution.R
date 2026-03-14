@@ -2,7 +2,7 @@
 # Example 1: Parkinson's disease data
 ###################################################################################################
 # Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear 
-#                    local dependence" (Huang & Zhang,2026)
+#                    local dependence", published in Biometrics (Huang & Zhang, 2026)
 # Author: Zaixin Huang
 # Email: eric.huangzaixin@gmail.com
 # Version 2025-03-07 
@@ -32,7 +32,7 @@ alpha_syn_data <- pd_dataset$alpha.syn   # CSF measured total α-syn
 
 ####################### scatter plot ####################
 reg1_FAM171A2_min <- 7.15
-reg1_FAM171A2_max <- 7.6
+reg1_FAM171A2_max <- 7.60
 reg1_alpha_syn_min <- 1630
 reg1_alpha_syn_max <- 5500
 line_1_1 <- data.frame( x = c(reg1_FAM171A2_min, reg1_FAM171A2_min), y = c(reg1_alpha_syn_min, reg1_alpha_syn_max))
@@ -40,7 +40,7 @@ line_1_2 <- data.frame( x = c(reg1_FAM171A2_min, reg1_FAM171A2_max), y = c(reg1_
 line_1_3 <- data.frame( x = c(reg1_FAM171A2_max, reg1_FAM171A2_max), y = c(reg1_alpha_syn_min, reg1_alpha_syn_max))
 line_1_4 <- data.frame( x = c(reg1_FAM171A2_min, reg1_FAM171A2_max), y = c(reg1_alpha_syn_min, reg1_alpha_syn_min))
 
-reg2_FAM171A2_min <- 7.3
+reg2_FAM171A2_min <- 7.30
 reg2_FAM171A2_max <- 7.65
 reg2_alpha_syn_min <- 1380
 reg2_alpha_syn_max <- 3100
