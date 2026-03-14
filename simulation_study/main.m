@@ -2,7 +2,7 @@
 %                                      SIMULATION STUDIES                                       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Description: Evaluate and compare the performance of U-statistic-based and copula model-based 
-%              estimators under different copula model specifications
+%              estimators under different copula model specifications.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Procedure:
 % Step 1. Generate random datasets of sizes mc_sample_size = [100,200,500,1000,2000] from the specified copula model.
@@ -12,21 +12,22 @@
 %         Then, compute the bootstrap standard error and 95% confidence interval for each estimator.
 % Step 5. Repeat steps 1-4 for mc_rep_times iterations.
 % Step 6. Calculate the following performance metrics for each estimator:
-%         1) Average Bias(Bias); 
-%         2) Empirical Standard Error(SE_e);
-%         3) Average Bootstrap Standard Error(ASE_b); 
-%         4) Empirical 95% Coverage Probability(CP%)
+%         1) Average Bias (Bias);
+%         2) Empirical Standard Error (SE_e);
+%         3) Average Bootstrap Standard Error (ASE_b); 
+%         4) Empirical 95% Coverage Probability (CP%).
 % Step 7. Compare performance metrics between two estimators.
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear local dependence" (Huang & Zhang,2026)
+% % Written for paper "Generalized local Kendall’s τ: a novel framework for
+% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 %
-% Output: All results are stored in 'simulation_results.xlsx'
+% Output: All results are stored in 'simulation_results.xlsx'.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Basic Settings
 % Copula configuration
 copula_type = 'clayton';    % copula type: clayton, gumbel, frank 
 copula_par = 1;             % copula parameter
-measure_type = 'kendall';   % dependence measure type
+measure_type = 'Kendall';   % dependence measure type
 
 % Monte Carlo simulation parameters
 mc_sample_size = 100;       % sample size: 100, 200, 500, 1000, and 2000
@@ -85,6 +86,7 @@ b_conf_interval_95_copula_based = zeros(mc_rep_times,2);    % copula model-based
 mc_nonparametric_local_tau = zeros(mc_rep_times,1);   % estimated by the U-statistic-based estimator
 mc_copula_based_local_tau = zeros(mc_rep_times,1);    % estimated by the copula model-based estimator
 
+
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                          Monte Carlo Simulation                          %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -97,7 +99,7 @@ for mc_index = 1:1:mc_rep_times
     % generate random data from the specified copula model
     UV = copularnd(copula_type,copula_par,mc_sample_size);
     
-    % convert U, V into X，Y，X~t(5), Y~t(7)
+    % convert U, V into X,Y, X~t(5), Y~t(7)
     XY(:,1) = tinv(UV(:,1),x_t_dof);
     XY(:,2) = tinv(UV(:,2),y_t_dof);
     
@@ -116,7 +118,7 @@ for mc_index = 1:1:mc_rep_times
     while (length(selected_dataset) < 10)
         % re-simulate
         UV = copularnd(copula_type,copula_par,mc_sample_size);
-        % convert U, V into X，Y, X~t(5), Y~t(7)
+        % convert U, V into X, Y, X~t(5), Y~t(7)
         XY(:,1) = tinv(UV(:,1),x_t_dof);
         XY(:,2) = tinv(UV(:,2),y_t_dof);
         
@@ -175,7 +177,7 @@ for mc_index = 1:1:mc_rep_times
            otherwise 
         end
         
-        % if number of data points in the local region is less than 10, re-boostrap
+        % if number of data points in the local region is less than 10, re-bootstrap
         while (length(b_selected_dataset) < 10)
            % re-bootstrap
            temp_bootsample_UV = UV(bootstrp(1,@(x)x,[1:1:mc_sample_size]),:);
@@ -195,7 +197,7 @@ for mc_index = 1:1:mc_rep_times
         
         % U-statistic-based estimator
         if strcmpi(ld_type, 'general')
-            b_nonparametric_local_tau(b_index,1) = u_statistic_based_ld_general(XY_temp,Xl,Xu,Yl,Yu);
+            b_nonparametric_local_tau(b_index,1) = fun_u_statistic_based_ld_general(XY_temp,Xl,Xu,Yl,Yu);
         else
             b_nonparametric_local_tau(b_index,1) = fun_u_statistic_based_ld_type_II(XY_temp,ld_type,X,Y);
         end
