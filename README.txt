@@ -1,4 +1,4 @@
-This toolbox helps readers to reproduce all results in the paper "Generalized local Kendall's τ: a novel framework for uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).1
+This toolbox helps readers to reproduce all results in the paper "Generalized local Kendall's τ: a novel framework for uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
 
 1. Operation Steps: Illustrated with Example 1
    Step 1: run configuration.m to add the necessary paths to MATLAB.
