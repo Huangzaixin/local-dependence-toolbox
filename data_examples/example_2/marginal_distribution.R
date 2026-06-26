@@ -1,8 +1,8 @@
 ###################################################################################################
 # Example 2: COVID-19 data
 ###################################################################################################
-# Written for paper "Generalized local Kendall’s τ: a novel framework for uncovering nonlinear 
-#                    local dependence", published in Biometrics (Huang & Zhang, 2026)
+# Written for paper: Huang, Z. and Zhang, Z. (2026). "Generalized local Kendall’s τ: a novel 
+#                    framework for uncovering nonlinear local dependence". Biometrics.
 # Author: Zaixin Huang
 # Email: eric.huangzaixin@gmail.com
 # Version 2024-11-05 
