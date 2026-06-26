@@ -34,8 +34,8 @@ function [ld] = fun_copulald_general(copulatype,weight1,weight2,copulaparameter1
 % Outputs: ld
 %      1. ld: Type I local Kendall's tau of the selected copula model
 %
-% Written for paper "Generalized local Kendall's ¦Ó: a novel framework for
-% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
+% Written for paper: Huang, Z. and Zhang, Z. (2026). "Generalized local Kendall¡¯s ¦Ó: a novel 
+%                    framework for uncovering nonlinear local dependence". Biometrics.
 %
 % Author: Zaixin Huang
 % Date: completed on 2015-06-07; updated on 2018-01-04 and 2023-01-01; current version: 2025-03-16

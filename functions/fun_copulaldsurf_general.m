@@ -14,8 +14,8 @@ function [ldM] = fun_copulaldsurf_general(copulatype,weight1,weight2,copulaparam
 % Outputs: ldM
 %      1. ldM: Type I local Kendall's tau matrix
 %
-% Written for paper "Generalized local Kendall's ¦Ó: a novel framework for
-% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
+% Written for paper: Huang, Z. and Zhang, Z. (2026). "Generalized local Kendall¡¯s ¦Ó: a novel 
+%                    framework for uncovering nonlinear local dependence". Biometrics.
 %
 % Author: Zaixin Huang
 % Date: completed on 2023-01-01; current version: 2025-03-16

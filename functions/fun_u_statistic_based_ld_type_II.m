@@ -10,8 +10,8 @@ function ld = fun_u_statistic_based_ld_type_II(data,ld_type,X,Y)
 %       4. Y: for 'll', upper bound of variable Y
 %             for 'uu', lower bound of variable Y
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for
-% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
+% Written for paper: Huang, Z. and Zhang, Z. (2026). "Generalized local Kendall’s τ: a novel 
+%                    framework for uncovering nonlinear local dependence". Biometrics.
 %
 % Author: Zaixin Huang
 % Date: completed on 2015-06-07; updated on 2018-01-04; current version: 2025-03-16

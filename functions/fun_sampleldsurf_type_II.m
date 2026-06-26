@@ -11,8 +11,8 @@ function [ldM] = fun_sampleldsurf_type_II(X,Y,measuretype,region)
 % Outputs: ldM
 %       1. ldM: Type II local Kendall's tau matrix
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for
-% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
+% Written for paper: Huang, Z. and Zhang, Z. (2026). "Generalized local Kendall’s τ: a novel 
+%                    framework for uncovering nonlinear local dependence". Biometrics.
 %
 % Author: Zaixin Huang
 % Date: completed on 2015-06-07; updated on 2018-01-04; current version: 2025-03-16
