@@ -7,8 +7,8 @@ function copula_par = fun_copula_estimation(copulatype,data)
 % Outputs:
 %     copula_par: The estimated copula parameter.
 %
-% Written for paper "Generalized local Kendall’s τ: a novel framework for
-% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
+% Written for paper: Huang, Z. and Zhang, Z. (2026). "Generalized local Kendall’s τ: a novel 
+%                    framework for uncovering nonlinear local dependence". Biometrics.
 %
 % Author: Zaixin Huang
 % Date: Completed on 2023-01-01
