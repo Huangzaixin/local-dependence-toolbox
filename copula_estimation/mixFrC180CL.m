@@ -1,8 +1,8 @@
 function CL = mixFrC180CL(theta,data)
 % Description: The negative log-likelihood of MixFrC180 copula model.
 %
-% Written for paper "Generalized local Kendall's τ: a novel framework for
-% uncovering nonlinear local dependence", published in Biometrics (Huang & Zhang, 2026).
+% Written for paper: Huang, Z. and Zhang, Z. (2026). "Generalized local Kendall’s τ: a novel 
+%                    framework for uncovering nonlinear local dependence". Biometrics.
 %
 % Author: Zaixin Huang
 % Date: completed on 2015-06-07; current version: 2025-03-16
